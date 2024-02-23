@@ -1,0 +1,5256 @@
+[
+  {
+    "class_levels": "/api/classes/barbarian/levels",
+    "hit_die": 12,
+    "index": "barbarian",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "str",
+            "name": "СИЛ",
+            "url": "/api/ability-scores/str"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "shields",
+          "name": "Щиты",
+          "url": "/api/proficiencies/shields"
+        },
+        {
+          "index": "simple-weapons",
+          "name": "Простое оружие",
+          "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+          "index": "martial-weapons",
+          "name": "Боевое оружие",
+          "url": "/api/proficiencies/martial-weapons"
+        }
+      ],
+      "proficiency_choices": null
+    },
+    "name": "Варвар",
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "Легкая броня",
+        "url": "/api/proficiencies/light-armor"
+      },
+      {
+        "index": "medium-armor",
+        "name": "Средняя броня",
+        "url": "/api/proficiencies/medium-armor"
+      },
+      {
+        "index": "shields",
+        "name": "Щиты",
+        "url": "/api/proficiencies/shields"
+      },
+      {
+        "index": "simple-weapons",
+        "name": "Простое оружие",
+        "url": "/api/proficiencies/simple-weapons"
+      },
+      {
+        "index": "martial-weapons",
+        "name": "Боевое оружие",
+        "url": "/api/proficiencies/martial-weapons"
+      },
+      {
+        "index": "saving-throw-str",
+        "name": "Спасительный бросок: СИЛ",
+        "url": "/api/proficiencies/saving-throw-str"
+      },
+      {
+        "index": "saving-throw-con",
+        "name": "Спасительный бросок: ВЫН",
+        "url": "/api/proficiencies/saving-throw-con"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 2,
+        "desc": "Выберите два из следующих пунктов: «Обращение с животными», «Атлетика», «Запугивание», «Природа», «Восприятие» и «Выживание».",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-animal-handling",
+                "name": "Навык: Обращение с животными",
+                "url": "/api/proficiencies/skill-animal-handling"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-athletics",
+                "name": "Навык: легкая атлетика",
+                "url": "/api/proficiencies/skill-athletics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-intimidation",
+                "name": "Навык: Запугивание",
+                "url": "/api/proficiencies/skill-intimidation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-nature",
+                "name": "Навык: Природа",
+                "url": "/api/proficiencies/skill-nature"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-perception",
+                "name": "Навык: Восприятие",
+                "url": "/api/proficiencies/skill-perception"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-survival",
+                "name": "Навык: Выживание",
+                "url": "/api/proficiencies/skill-survival"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "str",
+        "name": "СИЛ",
+        "url": "/api/ability-scores/str"
+      },
+      {
+        "index": "con",
+        "name": "ТЕЛ",
+        "url": "/api/ability-scores/con"
+      }
+    ],
+    "spellcasting": {
+      "info": null,
+      "level": 0,
+      "spellcasting_ability": {
+        "index": "",
+        "name": "",
+        "url": ""
+      }
+    },
+    "spells": "",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "explorers-pack",
+          "name": "Пакет исследователя",
+          "url": "/api/equipment/explorers-pack"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "javelin",
+          "name": "Копье",
+          "url": "/api/equipment/javelin"
+        },
+        "quantity": 4
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "(а) большой топор или (б) любое боевое оружие ближнего боя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "greataxe",
+                "name": "Большой топор",
+                "url": "/api/equipment/greataxe"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любое боевое оружие ближнего боя",
+                "from": {
+                  "equipment_category": {
+                    "index": "martial-melee-weapons",
+                    "name": "Боевое оружие ближнего боя",
+                    "url": "/api/equipment-categories/martial-melee-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) два ручных топора или (б) любое простое оружие",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 2,
+              "of": {
+                "index": "handaxe",
+                "name": "Ручной топор",
+                "url": "/api/equipment/handaxe"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любое простое оружие",
+                "from": {
+                  "equipment_category": {
+                    "index": "simple-weapons",
+                    "name": "Простое оружие",
+                    "url": "/api/equipment-categories/simple-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "berserker",
+        "name": "Берсеркер",
+        "url": "/api/subclasses/berserker"
+      }
+    ],
+    "url": "/api/classes/barbarian"
+  },
+  {
+    "class_levels": "/api/classes/bard/levels",
+    "hit_die": 8,
+    "index": "bard",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "cha",
+            "name": "ХАР",
+            "url": "/api/ability-scores/cha"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "light-armor",
+          "name": "Легкая броня",
+          "url": "/api/proficiencies/light-armor"
+        }
+      ],
+      "proficiency_choices": [
+        {
+          "choose": 1,
+          "desc": "навык",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "item": {
+                  "index": "skill-acrobatics",
+                  "name": "Навык: Акробатика",
+                  "url": "/api/proficiencies/skill-acrobatics"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-animal-handling",
+                  "name": "Навык: Обращение с животными",
+                  "url": "/api/proficiencies/skill-animal-handling"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-arcana",
+                  "name": "Навык: Аркана",
+                  "url": "/api/proficiencies/skill-arcana"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-athletics",
+                  "name": "Навык: легкая атлетика",
+                  "url": "/api/proficiencies/skill-athletics"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-deception",
+                  "name": "Навык: Обман",
+                  "url": "/api/proficiencies/skill-deception"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-history",
+                  "name": "Навык: История",
+                  "url": "/api/proficiencies/skill-history"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-insight",
+                  "name": "Навык: Проницательность",
+                  "url": "/api/proficiencies/skill-insight"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-intimidation",
+                  "name": "Навык: Запугивание",
+                  "url": "/api/proficiencies/skill-intimidation"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-investigation",
+                  "name": "Навык: Расследование",
+                  "url": "/api/proficiencies/skill-investigation"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-medicine",
+                  "name": "Навык: Медицина",
+                  "url": "/api/proficiencies/skill-medicine"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-nature",
+                  "name": "Навык: Природа",
+                  "url": "/api/proficiencies/skill-nature"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-perception",
+                  "name": "Навык: Восприятие",
+                  "url": "/api/proficiencies/skill-perception"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-performance",
+                  "name": "Навык: Производительность",
+                  "url": "/api/proficiencies/skill-performance"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-persuasion",
+                  "name": "Навык: Убеждение",
+                  "url": "/api/proficiencies/skill-persuasion"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-religion",
+                  "name": "Навык: Религия",
+                  "url": "/api/proficiencies/skill-religion"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-sleight-of-hand",
+                  "name": "Навык: Ловкость рук",
+                  "url": "/api/proficiencies/skill-sleight-of-hand"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-stealth",
+                  "name": "Навык: Скрытность",
+                  "url": "/api/proficiencies/skill-stealth"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-survival",
+                  "name": "Навык: Выживание",
+                  "url": "/api/proficiencies/skill-survival"
+                },
+                "option_type": "reference"
+              }
+            ]
+          },
+          "type": "proficiencies"
+        },
+        {
+          "choose": 1,
+          "desc": "музыкальный инструмент",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "item": {
+                  "index": "bagpipes",
+                  "name": "Волынки",
+                  "url": "/api/proficiencies/bagpipes"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "drum",
+                  "name": "Барабан",
+                  "url": "/api/proficiencies/drum"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "dulcimer",
+                  "name": "Цимбалы",
+                  "url": "/api/proficiencies/dulcimer"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "flute",
+                  "name": "Флейта",
+                  "url": "/api/proficiencies/flute"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "lute",
+                  "name": "Лютня",
+                  "url": "/api/proficiencies/lute"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "lyre",
+                  "name": "Лира",
+                  "url": "/api/proficiencies/lyre"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "horn",
+                  "name": "Рог",
+                  "url": "/api/proficiencies/horn"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "pan-flute",
+                  "name": "Флейта Пана",
+                  "url": "/api/proficiencies/pan-flute"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "shawm",
+                  "name": "Шаум",
+                  "url": "/api/proficiencies/shawm"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "viol",
+                  "name": "Виола",
+                  "url": "/api/proficiencies/viol"
+                },
+                "option_type": "reference"
+              }
+            ]
+          },
+          "type": "proficiencies"
+        }
+      ]
+    },
+    "name": "Бард",
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "Легкая броня",
+        "url": "/api/proficiencies/light-armor"
+      },
+      {
+        "index": "simple-weapons",
+        "name": "Простое оружие",
+        "url": "/api/proficiencies/simple-weapons"
+      },
+      {
+        "index": "longswords",
+        "name": "Длинные мечи",
+        "url": "/api/proficiencies/longswords"
+      },
+      {
+        "index": "rapiers",
+        "name": "Рапиры",
+        "url": "/api/proficiencies/rapiers"
+      },
+      {
+        "index": "shortswords",
+        "name": "Короткие мечи",
+        "url": "/api/proficiencies/shortswords"
+      },
+      {
+        "index": "hand-crossbows",
+        "name": "Ручные арбалеты",
+        "url": "/api/proficiencies/hand-crossbows"
+      },
+      {
+        "index": "saving-throw-dex",
+        "name": "Спасительный бросок: ЛОВ",
+        "url": "/api/proficiencies/saving-throw-dex"
+      },
+      {
+        "index": "saving-throw-cha",
+        "name": "Спасительный бросок: CHA",
+        "url": "/api/proficiencies/saving-throw-cha"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 3,
+        "desc": "Выберите любые три",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-acrobatics",
+                "name": "Навык: Акробатика",
+                "url": "/api/proficiencies/skill-acrobatics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-animal-handling",
+                "name": "Навык: Обращение с животными",
+                "url": "/api/proficiencies/skill-animal-handling"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-arcana",
+                "name": "Навык: Аркана",
+                "url": "/api/proficiencies/skill-arcana"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-athletics",
+                "name": "Навык: легкая атлетика",
+                "url": "/api/proficiencies/skill-athletics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-deception",
+                "name": "Навык: Обман",
+                "url": "/api/proficiencies/skill-deception"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-history",
+                "name": "Навык: История",
+                "url": "/api/proficiencies/skill-history"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-insight",
+                "name": "Навык: Проницательность",
+                "url": "/api/proficiencies/skill-insight"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-intimidation",
+                "name": "Навык: Запугивание",
+                "url": "/api/proficiencies/skill-intimidation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-investigation",
+                "name": "Навык: Расследование",
+                "url": "/api/proficiencies/skill-investigation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-medicine",
+                "name": "Навык: Медицина",
+                "url": "/api/proficiencies/skill-medicine"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-nature",
+                "name": "Навык: Природа",
+                "url": "/api/proficiencies/skill-nature"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-perception",
+                "name": "Навык: Восприятие",
+                "url": "/api/proficiencies/skill-perception"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-performance",
+                "name": "Навык: Производительность",
+                "url": "/api/proficiencies/skill-performance"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-persuasion",
+                "name": "Навык: Убеждение",
+                "url": "/api/proficiencies/skill-persuasion"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-religion",
+                "name": "Навык: Религия",
+                "url": "/api/proficiencies/skill-religion"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-sleight-of-hand",
+                "name": "Навык: Ловкость рук",
+                "url": "/api/proficiencies/skill-sleight-of-hand"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-stealth",
+                "name": "Навык: Скрытность",
+                "url": "/api/proficiencies/skill-stealth"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-survival",
+                "name": "Навык: Выживание",
+                "url": "/api/proficiencies/skill-survival"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      },
+      {
+        "choose": 3,
+        "desc": "Три музыкальных инструмента на ваш выбор",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "bagpipes",
+                "name": "Волынки",
+                "url": "/api/proficiencies/bagpipes"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "drum",
+                "name": "Барабан",
+                "url": "/api/proficiencies/drum"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "dulcimer",
+                "name": "Цимбалы",
+                "url": "/api/proficiencies/dulcimer"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "flute",
+                "name": "Флейта",
+                "url": "/api/proficiencies/flute"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "lute",
+                "name": "Лютня",
+                "url": "/api/proficiencies/lute"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "lyre",
+                "name": "Лира",
+                "url": "/api/proficiencies/lyre"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "horn",
+                "name": "Рог",
+                "url": "/api/proficiencies/horn"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "pan-flute",
+                "name": "Флейта Пана",
+                "url": "/api/proficiencies/pan-flute"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "shawm",
+                "name": "Шаум",
+                "url": "/api/proficiencies/shawm"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "viol",
+                "name": "Виола",
+                "url": "/api/proficiencies/viol"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "dex",
+        "name": "ЛОВ",
+        "url": "/api/ability-scores/dex"
+      },
+      {
+        "index": "cha",
+        "name": "ХАР",
+        "url": "/api/ability-scores/cha"
+      }
+    ],
+    "spellcasting": {
+      "info": [
+        {
+          "desc": [
+            "Вы знаете два заговора по вашему выбору из списка заклинаний барда. На более высоких уровнях вы изучаете дополнительные заговоры барда по вашему выбору, как показано в столбце «Известные заговоры» таблицы бардов."
+          ],
+          "name": "Заговоры"
+        },
+        {
+          "desc": [
+            "Таблица Барда показывает, сколько ячеек заклинаний у вас есть для произнесения заклинаний 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все израсходованные ячейки заклинаний, когда завершаете длительный отдых.",
+            "Например, если вы знаете заклинание 1-го уровня «Лечение ран» и у вас есть ячейка для заклинания 1-го и 2-го уровня, вы можете наложить «Лечение ран», используя любую ячейку."
+          ],
+          "name": "Слоты заклинаний"
+        },
+        {
+          "desc": [
+            "Вы знаете четыре заклинания 1-го уровня по вашему выбору из списка заклинаний барда.",
+            "Столбец «Известные заклинания» в таблице бардов показывает, когда вы выучите больше заклинаний барда по вашему выбору.",
+            "Каждое из этих заклинаний должно иметь уровень, для которого у вас есть ячейки заклинаний, как показано в таблице. Например, когда вы достигнете 3-го уровня в этом классе, вы сможете выучить одно новое заклинание 1-го или 2-го уровня.",
+            "Кроме того, когда вы получаете уровень в этом классе, вы можете выбрать одно из известных вам заклинаний барда и заменить его другим заклинанием из списка заклинаний барда, которое также должно иметь уровень, для которого у вас есть ячейки для заклинаний."
+          ],
+          "name": "Известные заклинания 1-го уровня и выше"
+        },
+        {
+          "desc": [
+            "Харизма — это ваша колдовская способность для заклинаний барда. Ваше волшебство исходит из сердца и души, которые вы вкладываете в исполнение своей музыки или речи. Вы используете свою Харизму всякий раз, когда заклинание относится к вашей способности колдовства. Кроме того, вы используете свой модификатор Харизмы при установке DC спасброска для заклинания барда, которое вы произносите, и при выполнении броска атаки с его помощью.",
+            "DC спасброска заклинаний = 8 + ваш бонус мастерства + ваш модификатор Харизмы.",
+            "Модификатор атаки заклинанием = ваш бонус мастерства + ваш модификатор Харизмы."
+          ],
+          "name": "Колдовская способность"
+        },
+        {
+          "desc": [
+            "Вы можете использовать любое заклинание барда, известное вам как ритуал, если у этого заклинания есть тег ритуала."
+          ],
+          "name": "Ритуальный кастинг"
+        },
+        {
+          "desc": [
+            "Вы можете использовать музыкальный инструмент (см. «Снаряжение») в качестве фокуса для своих заклинаний барда."
+          ],
+          "name": "Колдовская фокусировка"
+        }
+      ],
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "cha",
+        "name": "ХАР",
+        "url": "/api/ability-scores/cha"
+      }
+    },
+    "spells": "/api/classes/bard/spells",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "leather-armor",
+          "name": "Кожаная броня",
+          "url": "/api/equipment/leather-armor"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "dagger",
+          "name": "Кинжал",
+          "url": "/api/equipment/dagger"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "(а) рапира, (б) длинный меч или (в) любое простое оружие",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "rapier",
+                "name": "Рапира",
+                "url": "/api/equipment/rapier"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "longsword",
+                "name": "Длинный меч",
+                "url": "/api/equipment/longsword"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любое простое оружие",
+                "from": {
+                  "equipment_category": {
+                    "index": "simple-weapons",
+                    "name": "Простое оружие",
+                    "url": "/api/equipment-categories/simple-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) рюкзак дипломата или (б) рюкзак артиста",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "diplomats-pack",
+                "name": "Пакет дипломата",
+                "url": "/api/equipment/diplomats-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "entertainers-pack",
+                "name": "Пакет артиста",
+                "url": "/api/equipment/entertainers-pack"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) лютня или (б) любой другой музыкальный инструмент",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "lute",
+                "name": "Лютня",
+                "url": "/api/equipment/lute"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любой другой музыкальный инструмент",
+                "from": {
+                  "equipment_category": {
+                    "index": "musical-instruments",
+                    "name": "Музыкальные инструменты",
+                    "url": "/api/equipment-categories/musical-instruments"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "lore",
+        "name": "Лор",
+        "url": "/api/subclasses/lore"
+      }
+    ],
+    "url": "/api/classes/bard"
+  },
+  {
+    "class_levels": "/api/classes/cleric/levels",
+    "hit_die": 8,
+    "index": "cleric",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "wis",
+            "name": "МУД",
+            "url": "/api/ability-scores/wis"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "light-armor",
+          "name": "Легкая броня",
+          "url": "/api/proficiencies/light-armor"
+        },
+        {
+          "index": "medium-armor",
+          "name": "Средняя броня",
+          "url": "/api/proficiencies/medium-armor"
+        },
+        {
+          "index": "shields",
+          "name": "Щиты",
+          "url": "/api/proficiencies/shields"
+        }
+      ],
+      "proficiency_choices": null
+    },
+    "name": "Священник",
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "Легкая броня",
+        "url": "/api/proficiencies/light-armor"
+      },
+      {
+        "index": "medium-armor",
+        "name": "Средняя броня",
+        "url": "/api/proficiencies/medium-armor"
+      },
+      {
+        "index": "shields",
+        "name": "Щиты",
+        "url": "/api/proficiencies/shields"
+      },
+      {
+        "index": "simple-weapons",
+        "name": "Простое оружие",
+        "url": "/api/proficiencies/simple-weapons"
+      },
+      {
+        "index": "saving-throw-wis",
+        "name": "Спасительный бросок: WIS",
+        "url": "/api/proficiencies/saving-throw-wis"
+      },
+      {
+        "index": "saving-throw-cha",
+        "name": "Спасительный бросок: CHA",
+        "url": "/api/proficiencies/saving-throw-cha"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 2,
+        "desc": "Выберите два из «История», «Проницательность», «Медицина», «Убеждение» и «Религия».",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-history",
+                "name": "Навык: История",
+                "url": "/api/proficiencies/skill-history"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-insight",
+                "name": "Навык: Проницательность",
+                "url": "/api/proficiencies/skill-insight"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-medicine",
+                "name": "Навык: Медицина",
+                "url": "/api/proficiencies/skill-medicine"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-persuasion",
+                "name": "Навык: Убеждение",
+                "url": "/api/proficiencies/skill-persuasion"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-religion",
+                "name": "Навык: Религия",
+                "url": "/api/proficiencies/skill-religion"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "wis",
+        "name": "МУД",
+        "url": "/api/ability-scores/wis"
+      },
+      {
+        "index": "cha",
+        "name": "ХАР",
+        "url": "/api/ability-scores/cha"
+      }
+    ],
+    "spellcasting": {
+      "info": [
+        {
+          "desc": [
+            "На 1-м уровне вы знаете три заговора по вашему выбору из списка заклинаний жреца. На более высоких уровнях вы изучаете дополнительные заговоры жреца по вашему выбору, как показано в столбце «Известные заговоры» таблицы «Клирик»."
+          ],
+          "name": "Заговоры"
+        },
+        {
+          "desc": [
+            "Таблица Клирика показывает, сколько ячеек заклинаний у вас есть для произнесения заклинаний 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все израсходованные ячейки заклинаний, когда завершаете длительный отдых.",
+            "Вы готовите список заклинаний жреца, доступных для произнесения, выбирая из списка заклинаний жреца. При этом выберите количество заклинаний жреца, равное вашему модификатору Мудрости + вашему уровню жреца (минимум одно заклинание). Заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний.",
+            "Например, если вы священнослужитель 3-го уровня, у вас есть четыре ячейки заклинаний 1-го уровня и две ячейки 2-го уровня. При Мудрости 16 ваш список подготовленных заклинаний может включать шесть заклинаний 1-го или 2-го уровня в любой комбинации. Если вы подготовили заклинание 1-го уровня «лечение ран», вы можете сотворить его, используя ячейку 1-го или 2-го уровня. Применение заклинания не удаляет его из списка подготовленных заклинаний.",
+            "Вы можете изменить список подготовленных заклинаний, когда закончите длительный отдых. Подготовка нового списка заклинаний жреца требует времени, потраченного на молитву и медитацию: не менее 1 минуты на уровень заклинания для каждого заклинания в вашем списке."
+          ],
+          "name": "Подготовка и произнесение заклинаний"
+        },
+        {
+          "desc": [
+            "Мудрость — это ваша способность использовать заклинания жреца. Сила ваших заклинаний исходит из вашей преданности своему божеству. Вы используете свою Мудрость всякий раз, когда заклинание жреца относится к вашей способности колдовства. Кроме того, вы используете свой модификатор Мудрости при установке DC спасброска для наложенного вами заклинания жреца и при выполнении броска атаки с его помощью.",
+            "DC спасброска заклинаний = 8 + ваш бонус мастерства + ваш модификатор Мудрости.",
+            "Модификатор атаки заклинанием = ваш бонус мастерства + ваш модификатор Мудрости."
+          ],
+          "name": "Колдовская способность"
+        },
+        {
+          "desc": [
+            "Вы можете использовать заклинание жреца как ритуал, если это заклинание имеет тег ритуала и вы подготовили заклинание."
+          ],
+          "name": "Ритуальный кастинг"
+        },
+        {
+          "desc": [
+            "Вы можете использовать священный символ (см. «Снаряжение») в качестве фокуса для своих заклинаний жреца."
+          ],
+          "name": "Колдовская фокусировка"
+        }
+      ],
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "wis",
+        "name": "МУД",
+        "url": "/api/ability-scores/wis"
+      }
+    },
+    "spells": "/api/classes/cleric/spells",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "shield",
+          "name": "Щит",
+          "url": "/api/equipment/shield"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "(а) булава или (б) боевой молот (если владеете)",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "mace",
+                "name": "Мейс",
+                "url": "/api/equipment/mace"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "warhammer",
+                "name": "Вархаммер",
+                "url": "/api/equipment/warhammer"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(a) чешуйчатая кольчуга, (b) кожаные доспехи или (c) кольчуга (если владеете)",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "scale-mail",
+                "name": "Масштабная кольчуга",
+                "url": "/api/equipment/scale-mail"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "leather-armor",
+                "name": "Кожаная броня",
+                "url": "/api/equipment/leather-armor"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "chain-mail",
+                "name": "Кольчуга",
+                "url": "/api/equipment/chain-mail"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) легкий арбалет и 20 болтов или (б) любое простое оружие",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "multiple"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любое простое оружие",
+                "from": {
+                  "equipment_category": {
+                    "index": "simple-weapons",
+                    "name": "Простое оружие",
+                    "url": "/api/equipment-categories/simple-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) рюкзак священника или (б) рюкзак исследователя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "priests-pack",
+                "name": "Набор священника",
+                "url": "/api/equipment/priests-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "explorers-pack",
+                "name": "Пакет исследователя",
+                "url": "/api/equipment/explorers-pack"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "священный символ",
+        "from": {
+          "option_set_type": "equipment_category",
+          "options": null
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "life",
+        "name": "Жизнь",
+        "url": "/api/subclasses/life"
+      }
+    ],
+    "url": "/api/classes/cleric"
+  },
+  {
+    "class_levels": "/api/classes/druid/levels",
+    "hit_die": 8,
+    "index": "druid",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "wis",
+            "name": "МУД",
+            "url": "/api/ability-scores/wis"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "light-armor",
+          "name": "Легкая броня",
+          "url": "/api/proficiencies/light-armor"
+        },
+        {
+          "index": "medium-armor",
+          "name": "Средняя броня",
+          "url": "/api/proficiencies/medium-armor"
+        },
+        {
+          "index": "shields",
+          "name": "Щиты",
+          "url": "/api/proficiencies/shields"
+        }
+      ],
+      "proficiency_choices": null
+    },
+    "name": "Друид",
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "Легкая броня",
+        "url": "/api/proficiencies/light-armor"
+      },
+      {
+        "index": "medium-armor",
+        "name": "Средняя броня",
+        "url": "/api/proficiencies/medium-armor"
+      },
+      {
+        "index": "shields",
+        "name": "Щиты",
+        "url": "/api/proficiencies/shields"
+      },
+      {
+        "index": "clubs",
+        "name": "Клубы",
+        "url": "/api/proficiencies/clubs"
+      },
+      {
+        "index": "daggers",
+        "name": "Кинжалы",
+        "url": "/api/proficiencies/daggers"
+      },
+      {
+        "index": "javelins",
+        "name": "Джавелины",
+        "url": "/api/proficiencies/javelins"
+      },
+      {
+        "index": "maces",
+        "name": "Булавы",
+        "url": "/api/proficiencies/maces"
+      },
+      {
+        "index": "quarterstaffs",
+        "name": "Посохи",
+        "url": "/api/proficiencies/quarterstaffs"
+      },
+      {
+        "index": "sickles",
+        "name": "Серпы",
+        "url": "/api/proficiencies/sickles"
+      },
+      {
+        "index": "spears",
+        "name": "Спирс",
+        "url": "/api/proficiencies/spears"
+      },
+      {
+        "index": "darts",
+        "name": "Дартс",
+        "url": "/api/proficiencies/darts"
+      },
+      {
+        "index": "slings",
+        "name": "Стропы",
+        "url": "/api/proficiencies/slings"
+      },
+      {
+        "index": "scimitars",
+        "name": "Ятаганы",
+        "url": "/api/proficiencies/scimitars"
+      },
+      {
+        "index": "herbalism-kit",
+        "name": "Набор для траволечения",
+        "url": "/api/proficiencies/herbalism-kit"
+      },
+      {
+        "index": "saving-throw-int",
+        "name": "Спасительный бросок: INT",
+        "url": "/api/proficiencies/saving-throw-int"
+      },
+      {
+        "index": "saving-throw-wis",
+        "name": "Спасительный бросок: WIS",
+        "url": "/api/proficiencies/saving-throw-wis"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 2,
+        "desc": "Выберите два из Тайн, Обращение с животными, Проницательность, Медицина, Природа, Восприятие, Религия и Выживание.",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-arcana",
+                "name": "Навык: Аркана",
+                "url": "/api/proficiencies/skill-arcana"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-animal-handling",
+                "name": "Навык: Обращение с животными",
+                "url": "/api/proficiencies/skill-animal-handling"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-insight",
+                "name": "Навык: Проницательность",
+                "url": "/api/proficiencies/skill-insight"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-medicine",
+                "name": "Навык: Медицина",
+                "url": "/api/proficiencies/skill-medicine"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-nature",
+                "name": "Навык: Природа",
+                "url": "/api/proficiencies/skill-nature"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-perception",
+                "name": "Навык: Восприятие",
+                "url": "/api/proficiencies/skill-perception"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-religion",
+                "name": "Навык: Религия",
+                "url": "/api/proficiencies/skill-religion"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-survival",
+                "name": "Навык: Выживание",
+                "url": "/api/proficiencies/skill-survival"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "int",
+        "name": "ИНТ",
+        "url": "/api/ability-scores/int"
+      },
+      {
+        "index": "wis",
+        "name": "МУД",
+        "url": "/api/ability-scores/wis"
+      }
+    ],
+    "spellcasting": {
+      "info": [
+        {
+          "desc": [
+            "На 1-м уровне вы знаете два заговора по вашему выбору из списка заклинаний друида. На более высоких уровнях вы изучаете дополнительные заговоры друида по вашему выбору, как показано в столбце «Известные заговоры» таблицы друидов."
+          ],
+          "name": "Заговоры"
+        },
+        {
+          "desc": [
+            "Таблица Друидов показывает, сколько ячеек заклинаний у вас есть для использования заклинаний 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний друида, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все израсходованные ячейки заклинаний, когда завершаете длительный отдых.",
+            "Вы готовите список заклинаний друида, которые вы можете использовать, выбирая из списка заклинаний друида. При этом выберите количество заклинаний друида, равное вашему модификатору Мудрости + вашему уровню друида (минимум одно заклинание). Заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний.",
+            "Например, если вы друид 3-го уровня, у вас есть четыре ячейки заклинаний 1-го уровня и две ячейки 2-го уровня. При Мудрости 16 ваш список подготовленных заклинаний может включать шесть заклинаний 1-го или 2-го уровня в любой комбинации. Если вы подготовили заклинание 1-го уровня «лечение ран», вы можете сотворить его, используя ячейку 1-го или 2-го уровня. Применение заклинания не удаляет его из списка подготовленных заклинаний.",
+            "Вы также можете изменить список подготовленных заклинаний, когда закончите длительный отдых. Подготовка нового списка заклинаний друида требует времени, потраченного на молитву и медитацию: не менее 1 минуты на уровень заклинания для каждого заклинания в вашем списке."
+          ],
+          "name": "Подготовка и произнесение заклинаний"
+        },
+        {
+          "desc": [
+            "Мудрость — это ваша способность произносить заклинания друида, поскольку ваша магия опирается на вашу преданность и сонастройку с природой. Вы используете свою Мудрость всякий раз, когда заклинание относится к вашей способности творить заклинания. Кроме того, вы используете свой модификатор Мудрости при установке DC спасброска для заклинания друида, которое вы произносите, и при выполнении броска атаки с его помощью.",
+            "DC спасброска заклинаний = 8 + ваш бонус мастерства + ваш модификатор Мудрости.",
+            "Модификатор атаки заклинанием = ваш бонус мастерства + ваш модификатор Мудрости."
+          ],
+          "name": "Колдовская способность"
+        },
+        {
+          "desc": [
+            "Вы можете использовать заклинание друида как ритуал, если это заклинание имеет тег ритуала и вы подготовили заклинание."
+          ],
+          "name": "Ритуальный кастинг"
+        },
+        {
+          "desc": [
+            "Вы можете использовать фокус друида (см. главу 5, «Снаряжение») в качестве фокуса для ваших заклинаний друида."
+          ],
+          "name": "Колдовская фокусировка"
+        }
+      ],
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "wis",
+        "name": "МУД",
+        "url": "/api/ability-scores/wis"
+      }
+    },
+    "spells": "/api/classes/druid/spells",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "leather-armor",
+          "name": "Кожаная броня",
+          "url": "/api/equipment/leather-armor"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "explorers-pack",
+          "name": "Пакет исследователя",
+          "url": "/api/equipment/explorers-pack"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "(а) деревянный щит или (б) любое простое оружие",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "shield",
+                "name": "Щит",
+                "url": "/api/equipment/shield"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любое простое оружие",
+                "from": {
+                  "equipment_category": {
+                    "index": "simple-weapons",
+                    "name": "Простое оружие",
+                    "url": "/api/equipment-categories/simple-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) ятаган или (б) любое простое оружие ближнего боя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "scimitar",
+                "name": "Ятаган",
+                "url": "/api/equipment/scimitar"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любое простое оружие ближнего боя",
+                "from": {
+                  "equipment_category": {
+                    "index": "simple-melee-weapons",
+                    "name": "Простое оружие ближнего боя",
+                    "url": "/api/equipment-categories/simple-melee-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "друидический фокус",
+        "from": {
+          "option_set_type": "equipment_category",
+          "options": null
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "land",
+        "name": "Земля",
+        "url": "/api/subclasses/land"
+      }
+    ],
+    "url": "/api/classes/druid"
+  },
+  {
+    "class_levels": "/api/classes/fighter/levels",
+    "hit_die": 10,
+    "index": "fighter",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 1,
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "ability_score": {
+                "index": "str",
+                "name": "СИЛ",
+                "url": "/api/ability-scores/str"
+              },
+              "minimum_score": 13,
+              "option_type": "score_prerequisite"
+            },
+            {
+              "ability_score": {
+                "index": "dex",
+                "name": "ЛОВ",
+                "url": "/api/ability-scores/dex"
+              },
+              "minimum_score": 13,
+              "option_type": "score_prerequisite"
+            }
+          ]
+        },
+        "type": "ability-scores"
+      },
+      "prerequisites": null,
+      "proficiencies": [
+        {
+          "index": "light-armor",
+          "name": "Легкая броня",
+          "url": "/api/proficiencies/light-armor"
+        },
+        {
+          "index": "medium-armor",
+          "name": "Средняя броня",
+          "url": "/api/proficiencies/medium-armor"
+        },
+        {
+          "index": "shields",
+          "name": "Щиты",
+          "url": "/api/proficiencies/shields"
+        },
+        {
+          "index": "simple-weapons",
+          "name": "Простое оружие",
+          "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+          "index": "martial-weapons",
+          "name": "Боевое оружие",
+          "url": "/api/proficiencies/martial-weapons"
+        }
+      ],
+      "proficiency_choices": null
+    },
+    "name": "боец",
+    "proficiencies": [
+      {
+        "index": "all-armor",
+        "name": "Вся броня",
+        "url": "/api/proficiencies/all-armor"
+      },
+      {
+        "index": "shields",
+        "name": "Щиты",
+        "url": "/api/proficiencies/shields"
+      },
+      {
+        "index": "simple-weapons",
+        "name": "Простое оружие",
+        "url": "/api/proficiencies/simple-weapons"
+      },
+      {
+        "index": "martial-weapons",
+        "name": "Боевое оружие",
+        "url": "/api/proficiencies/martial-weapons"
+      },
+      {
+        "index": "saving-throw-str",
+        "name": "Спасительный бросок: СИЛ",
+        "url": "/api/proficiencies/saving-throw-str"
+      },
+      {
+        "index": "saving-throw-con",
+        "name": "Спасительный бросок: ВЫН",
+        "url": "/api/proficiencies/saving-throw-con"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 2,
+        "desc": "Выберите два навыка: акробатика, обращение с животными, легкая атлетика, история, проницательность, запугивание, восприятие и выживание.",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-acrobatics",
+                "name": "Навык: Акробатика",
+                "url": "/api/proficiencies/skill-acrobatics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-animal-handling",
+                "name": "Навык: Обращение с животными",
+                "url": "/api/proficiencies/skill-animal-handling"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-athletics",
+                "name": "Навык: легкая атлетика",
+                "url": "/api/proficiencies/skill-athletics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-history",
+                "name": "Навык: История",
+                "url": "/api/proficiencies/skill-history"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-insight",
+                "name": "Навык: Проницательность",
+                "url": "/api/proficiencies/skill-insight"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-intimidation",
+                "name": "Навык: Запугивание",
+                "url": "/api/proficiencies/skill-intimidation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-perception",
+                "name": "Навык: Восприятие",
+                "url": "/api/proficiencies/skill-perception"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-survival",
+                "name": "Навык: Выживание",
+                "url": "/api/proficiencies/skill-survival"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "str",
+        "name": "СИЛ",
+        "url": "/api/ability-scores/str"
+      },
+      {
+        "index": "con",
+        "name": "ТЕЛ",
+        "url": "/api/ability-scores/con"
+      }
+    ],
+    "spellcasting": {
+      "info": null,
+      "level": 0,
+      "spellcasting_ability": {
+        "index": "",
+        "name": "",
+        "url": ""
+      }
+    },
+    "spells": "",
+    "starting_equipment": [],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "(а) кольчуга или (б) кожаные доспехи, длинный лук и 20 стрел.",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "chain-mail",
+                "name": "Кольчуга",
+                "url": "/api/equipment/chain-mail"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "multiple"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) боевое оружие и щит или (б) два боевых оружия",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "multiple"
+            },
+            {
+              "choice": {
+                "choose": 2,
+                "desc": "два боевых оружия",
+                "from": {
+                  "equipment_category": {
+                    "index": "martial-weapons",
+                    "name": "Боевое оружие",
+                    "url": "/api/equipment-categories/martial-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) легкий арбалет и 20 болтов или (б) два ручных топора",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "multiple"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 2,
+              "of": {
+                "index": "handaxe",
+                "name": "Ручной топор",
+                "url": "/api/equipment/handaxe"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(a) пакет исследователя подземелий или (b) пакет исследователя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "dungeoneers-pack",
+                "name": "Набор охотника за подземельями",
+                "url": "/api/equipment/dungeoneers-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "explorers-pack",
+                "name": "Пакет исследователя",
+                "url": "/api/equipment/explorers-pack"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "champion",
+        "name": "Чемпион",
+        "url": "/api/subclasses/champion"
+      }
+    ],
+    "url": "/api/classes/fighter"
+  },
+  {
+    "class_levels": "/api/classes/monk/levels",
+    "hit_die": 8,
+    "index": "monk",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "dex",
+            "name": "ЛОВ",
+            "url": "/api/ability-scores/dex"
+          },
+          "minimum_score": 13
+        },
+        {
+          "ability_score": {
+            "index": "wis",
+            "name": "МУД",
+            "url": "/api/ability-scores/wis"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "simple-weapons",
+          "name": "Простое оружие",
+          "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+          "index": "shortswords",
+          "name": "Короткие мечи",
+          "url": "/api/proficiencies/shortswords"
+        }
+      ],
+      "proficiency_choices": null
+    },
+    "name": "Монах",
+    "proficiencies": [
+      {
+        "index": "simple-weapons",
+        "name": "Простое оружие",
+        "url": "/api/proficiencies/simple-weapons"
+      },
+      {
+        "index": "shortswords",
+        "name": "Короткие мечи",
+        "url": "/api/proficiencies/shortswords"
+      },
+      {
+        "index": "saving-throw-dex",
+        "name": "Спасительный бросок: ЛОВ",
+        "url": "/api/proficiencies/saving-throw-dex"
+      },
+      {
+        "index": "saving-throw-str",
+        "name": "Спасительный бросок: СИЛ",
+        "url": "/api/proficiencies/saving-throw-str"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 2,
+        "desc": "Выберите два из акробатики, легкой атлетики, истории, проницательности, религии и скрытности.",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-acrobatics",
+                "name": "Навык: Акробатика",
+                "url": "/api/proficiencies/skill-acrobatics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-athletics",
+                "name": "Навык: легкая атлетика",
+                "url": "/api/proficiencies/skill-athletics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-history",
+                "name": "Навык: История",
+                "url": "/api/proficiencies/skill-history"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-insight",
+                "name": "Навык: Проницательность",
+                "url": "/api/proficiencies/skill-insight"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-religion",
+                "name": "Навык: Религия",
+                "url": "/api/proficiencies/skill-religion"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-stealth",
+                "name": "Навык: Скрытность",
+                "url": "/api/proficiencies/skill-stealth"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      },
+      {
+        "choose": 1,
+        "desc": "Выберите один тип ремесленных инструментов или один музыкальный инструмент.",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            },
+            {
+              "item": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "str",
+        "name": "СИЛ",
+        "url": "/api/ability-scores/str"
+      },
+      {
+        "index": "dex",
+        "name": "ЛОВ",
+        "url": "/api/ability-scores/dex"
+      }
+    ],
+    "spellcasting": {
+      "info": null,
+      "level": 0,
+      "spellcasting_ability": {
+        "index": "",
+        "name": "",
+        "url": ""
+      }
+    },
+    "spells": "",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "dart",
+          "name": "Дарт",
+          "url": "/api/equipment/dart"
+        },
+        "quantity": 10
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "(а) короткий меч или (б) любое простое оружие",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "shortsword",
+                "name": "Короткий меч",
+                "url": "/api/equipment/shortsword"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любое простое оружие",
+                "from": {
+                  "equipment_category": {
+                    "index": "simple-weapons",
+                    "name": "Простое оружие",
+                    "url": "/api/equipment-categories/simple-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(a) пакет исследователя подземелий или (b) пакет исследователя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "dungeoneers-pack",
+                "name": "Набор охотника за подземельями",
+                "url": "/api/equipment/dungeoneers-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "explorers-pack",
+                "name": "Пакет исследователя",
+                "url": "/api/equipment/explorers-pack"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "open-hand",
+        "name": "Открытая рука",
+        "url": "/api/subclasses/open-hand"
+      }
+    ],
+    "url": "/api/classes/monk"
+  },
+  {
+    "class_levels": "/api/classes/paladin/levels",
+    "hit_die": 10,
+    "index": "paladin",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "str",
+            "name": "СИЛ",
+            "url": "/api/ability-scores/str"
+          },
+          "minimum_score": 13
+        },
+        {
+          "ability_score": {
+            "index": "cha",
+            "name": "ХАР",
+            "url": "/api/ability-scores/cha"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "light-armor",
+          "name": "Легкая броня",
+          "url": "/api/proficiencies/light-armor"
+        },
+        {
+          "index": "medium-armor",
+          "name": "Средняя броня",
+          "url": "/api/proficiencies/medium-armor"
+        },
+        {
+          "index": "shields",
+          "name": "Щиты",
+          "url": "/api/proficiencies/shields"
+        },
+        {
+          "index": "simple-weapons",
+          "name": "Простое оружие",
+          "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+          "index": "martial-weapons",
+          "name": "Боевое оружие",
+          "url": "/api/proficiencies/martial-weapons"
+        }
+      ],
+      "proficiency_choices": null
+    },
+    "name": "Паладин",
+    "proficiencies": [
+      {
+        "index": "all-armor",
+        "name": "Вся броня",
+        "url": "/api/proficiencies/all-armor"
+      },
+      {
+        "index": "shields",
+        "name": "Щиты",
+        "url": "/api/proficiencies/shields"
+      },
+      {
+        "index": "simple-weapons",
+        "name": "Простое оружие",
+        "url": "/api/proficiencies/simple-weapons"
+      },
+      {
+        "index": "martial-weapons",
+        "name": "Боевое оружие",
+        "url": "/api/proficiencies/martial-weapons"
+      },
+      {
+        "index": "saving-throw-wis",
+        "name": "Спасительный бросок: WIS",
+        "url": "/api/proficiencies/saving-throw-wis"
+      },
+      {
+        "index": "saving-throw-cha",
+        "name": "Спасительный бросок: CHA",
+        "url": "/api/proficiencies/saving-throw-cha"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 2,
+        "desc": "Выберите два из «Атлетика», «Проницательность», «Запугивание», «Медицина», «Убеждение» и «Религия».",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-athletics",
+                "name": "Навык: легкая атлетика",
+                "url": "/api/proficiencies/skill-athletics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-insight",
+                "name": "Навык: Проницательность",
+                "url": "/api/proficiencies/skill-insight"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-intimidation",
+                "name": "Навык: Запугивание",
+                "url": "/api/proficiencies/skill-intimidation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-medicine",
+                "name": "Навык: Медицина",
+                "url": "/api/proficiencies/skill-medicine"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-persuasion",
+                "name": "Навык: Убеждение",
+                "url": "/api/proficiencies/skill-persuasion"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-religion",
+                "name": "Навык: Религия",
+                "url": "/api/proficiencies/skill-religion"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "wis",
+        "name": "МУД",
+        "url": "/api/ability-scores/wis"
+      },
+      {
+        "index": "cha",
+        "name": "ХАР",
+        "url": "/api/ability-scores/cha"
+      }
+    ],
+    "spellcasting": {
+      "info": [
+        {
+          "desc": [
+            "Таблица Паладина показывает, сколько ячеек для заклинаний у вас есть для произнесения заклинаний. Чтобы сотворить одно из ваших заклинаний паладина 1-го уровня или выше, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все израсходованные ячейки заклинаний, когда завершаете длительный отдых.",
+            "Вы готовите список заклинаний паладина, которые вы можете использовать, выбирая из списка заклинаний паладина. При этом выберите количество заклинаний паладина, равное вашему модификатору Харизмы + половине вашего уровня паладина, округленному вниз (минимум одно заклинание). Заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний.",
+            "Например, если вы паладин 5-го уровня, у вас есть четыре ячейки заклинаний 1-го уровня и две ячейки 2-го уровня. При Харизме 14 ваш список подготовленных заклинаний может включать четыре заклинания 1-го или 2-го уровня в любой комбинации. Если вы подготовили заклинание 1-го уровня «лечение ран», вы можете наложить его, используя ячейку 1-го или 2-го уровня. Применение заклинания не удаляет его из списка подготовленных заклинаний.",
+            "Вы можете изменить список подготовленных заклинаний, когда закончите длительный отдых. Подготовка нового списка заклинаний паладина требует времени, потраченного на молитву и медитацию: не менее 1 минуты на уровень заклинания для каждого заклинания в вашем списке."
+          ],
+          "name": "Подготовка и произнесение заклинаний"
+        },
+        {
+          "desc": [
+            "Харизма — это ваша способность использовать заклинания паладина, поскольку их сила проистекает из силы ваших убеждений. Вы используете свою Харизму всякий раз, когда заклинание относится к вашей способности колдовства. Кроме того, вы используете свой модификатор Харизмы при установке DC спасброска для наложенного вами заклинания паладина и при выполнении броска атаки с его помощью.",
+            "DC спасброска заклинаний = 8 + ваш бонус мастерства + ваш модификатор Харизмы.",
+            "Модификатор атаки заклинанием = ваш бонус мастерства + ваш модификатор Харизмы."
+          ],
+          "name": "Колдовская способность"
+        },
+        {
+          "desc": [
+            "Вы можете использовать святой символ в качестве фокуса для своих заклинаний паладина."
+          ],
+          "name": "Колдовская фокусировка"
+        }
+      ],
+      "level": 2,
+      "spellcasting_ability": {
+        "index": "cha",
+        "name": "ХАР",
+        "url": "/api/ability-scores/cha"
+      }
+    },
+    "spells": "/api/classes/paladin/spells",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "chain-mail",
+          "name": "Кольчуга",
+          "url": "/api/equipment/chain-mail"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "(а) боевое оружие и щит или (б) два боевых оружия",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "multiple"
+            },
+            {
+              "choice": {
+                "choose": 2,
+                "desc": "два боевых оружия",
+                "from": {
+                  "equipment_category": {
+                    "index": "martial-weapons",
+                    "name": "Боевое оружие",
+                    "url": "/api/equipment-categories/martial-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) пять копий или (б) любое простое оружие ближнего боя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 5,
+              "of": {
+                "index": "javelin",
+                "name": "Копье",
+                "url": "/api/equipment/javelin"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любое простое оружие",
+                "from": {
+                  "equipment_category": {
+                    "index": "simple-weapons",
+                    "name": "Простое оружие",
+                    "url": "/api/equipment-categories/simple-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) рюкзак священника или (б) рюкзак исследователя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "priests-pack",
+                "name": "Набор священника",
+                "url": "/api/equipment/priests-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "explorers-pack",
+                "name": "Пакет исследователя",
+                "url": "/api/equipment/explorers-pack"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "священный символ",
+        "from": {
+          "option_set_type": "equipment_category",
+          "options": null
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "devotion",
+        "name": "Преданность",
+        "url": "/api/subclasses/devotion"
+      }
+    ],
+    "url": "/api/classes/paladin"
+  },
+  {
+    "class_levels": "/api/classes/ranger/levels",
+    "hit_die": 10,
+    "index": "ranger",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "dex",
+            "name": "ЛОВ",
+            "url": "/api/ability-scores/dex"
+          },
+          "minimum_score": 13
+        },
+        {
+          "ability_score": {
+            "index": "wis",
+            "name": "МУД",
+            "url": "/api/ability-scores/wis"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "light-armor",
+          "name": "Легкая броня",
+          "url": "/api/proficiencies/light-armor"
+        },
+        {
+          "index": "medium-armor",
+          "name": "Средняя броня",
+          "url": "/api/proficiencies/medium-armor"
+        },
+        {
+          "index": "shields",
+          "name": "Щиты",
+          "url": "/api/proficiencies/shields"
+        },
+        {
+          "index": "simple-weapons",
+          "name": "Простое оружие",
+          "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+          "index": "martial-weapons",
+          "name": "Боевое оружие",
+          "url": "/api/proficiencies/martial-weapons"
+        }
+      ],
+      "proficiency_choices": [
+        {
+          "choose": 1,
+          "desc": "",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "item": {
+                  "index": "skill-animal-handling",
+                  "name": "Навык: Обращение с животными",
+                  "url": "/api/proficiencies/skill-animal-handling"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-athletics",
+                  "name": "Навык: легкая атлетика",
+                  "url": "/api/proficiencies/skill-athletics"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-insight",
+                  "name": "Навык: Проницательность",
+                  "url": "/api/proficiencies/skill-insight"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-investigation",
+                  "name": "Навык: Расследование",
+                  "url": "/api/proficiencies/skill-investigation"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-nature",
+                  "name": "Навык: Природа",
+                  "url": "/api/proficiencies/skill-nature"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-perception",
+                  "name": "Навык: Восприятие",
+                  "url": "/api/proficiencies/skill-perception"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-stealth",
+                  "name": "Навык: Скрытность",
+                  "url": "/api/proficiencies/skill-stealth"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-survival",
+                  "name": "Навык: Выживание",
+                  "url": "/api/proficiencies/skill-survival"
+                },
+                "option_type": "reference"
+              }
+            ]
+          },
+          "type": "proficiencies"
+        }
+      ]
+    },
+    "name": "Рейнджер",
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "Легкая броня",
+        "url": "/api/proficiencies/light-armor"
+      },
+      {
+        "index": "medium-armor",
+        "name": "Средняя броня",
+        "url": "/api/proficiencies/medium-armor"
+      },
+      {
+        "index": "shields",
+        "name": "Щиты",
+        "url": "/api/proficiencies/shields"
+      },
+      {
+        "index": "simple-weapons",
+        "name": "Простое оружие",
+        "url": "/api/proficiencies/simple-weapons"
+      },
+      {
+        "index": "martial-weapons",
+        "name": "Боевое оружие",
+        "url": "/api/proficiencies/martial-weapons"
+      },
+      {
+        "index": "saving-throw-dex",
+        "name": "Спасительный бросок: ЛОВ",
+        "url": "/api/proficiencies/saving-throw-dex"
+      },
+      {
+        "index": "saving-throw-str",
+        "name": "Спасительный бросок: СИЛ",
+        "url": "/api/proficiencies/saving-throw-str"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 3,
+        "desc": "Выберите три из следующих элементов: «Обращение с животными», «Атлетика», «Проницательность», «Расследование», «Природа», «Восприятие», «Скрытность» и «Выживание».",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-animal-handling",
+                "name": "Навык: Обращение с животными",
+                "url": "/api/proficiencies/skill-animal-handling"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-athletics",
+                "name": "Навык: легкая атлетика",
+                "url": "/api/proficiencies/skill-athletics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-insight",
+                "name": "Навык: Проницательность",
+                "url": "/api/proficiencies/skill-insight"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-investigation",
+                "name": "Навык: Расследование",
+                "url": "/api/proficiencies/skill-investigation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-nature",
+                "name": "Навык: Природа",
+                "url": "/api/proficiencies/skill-nature"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-perception",
+                "name": "Навык: Восприятие",
+                "url": "/api/proficiencies/skill-perception"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-stealth",
+                "name": "Навык: Скрытность",
+                "url": "/api/proficiencies/skill-stealth"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-survival",
+                "name": "Навык: Выживание",
+                "url": "/api/proficiencies/skill-survival"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "str",
+        "name": "СИЛ",
+        "url": "/api/ability-scores/str"
+      },
+      {
+        "index": "dex",
+        "name": "ЛОВ",
+        "url": "/api/ability-scores/dex"
+      }
+    ],
+    "spellcasting": {
+      "info": [
+        {
+          "desc": [
+            "Таблица Рейнджера показывает, сколько ячеек заклинаний у вас есть для использования заклинаний 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все израсходованные ячейки заклинаний, когда завершаете длительный отдых.",
+            "Например, если вы знаете заклинание «Дружба с животными» 1-го уровня и у вас есть доступная ячейка для заклинания 1-го и 2-го уровня, вы можете наложить «Дружба с животными», используя любую ячейку."
+          ],
+          "name": "Слоты заклинаний"
+        },
+        {
+          "desc": [
+            "Вы знаете два заклинания 1-го уровня по вашему выбору из списка заклинаний рейнджера.",
+            "Столбец «Известные заклинания» таблицы рейнджера показывает, когда вы выучите больше заклинаний рейнджера по вашему выбору. Каждое из этих заклинаний должно иметь уровень, для которого у вас есть ячейки заклинаний. Например, когда вы достигнете 5-го уровня в этом классе, вы сможете выучить одно новое заклинание 1-го или 2-го уровня.",
+            "Кроме того, когда вы получаете уровень в этом классе, вы можете выбрать одно из известных вам заклинаний рейнджера и заменить его другим заклинанием из списка заклинаний рейнджера, которое также должно соответствовать уровню, для которого у вас есть ячейки заклинаний."
+          ],
+          "name": "Известные заклинания 1-го уровня и выше"
+        },
+        {
+          "desc": [
+            "Мудрость — это ваша способность использовать заклинания рейнджера, поскольку ваша магия опирается на вашу настройку на природу. Вы используете свою Мудрость всякий раз, когда заклинание относится к вашей способности творить заклинания. Кроме того, вы используете свой модификатор Мудрости при установке DC спасброска для наложенного вами заклинания рейнджера и при выполнении броска атаки с его помощью.",
+            "DC спасброска заклинаний = 8 + ваш бонус мастерства + ваш модификатор Мудрости.",
+            "Модификатор атаки заклинанием = ваш бонус мастерства + ваш модификатор Мудрости."
+          ],
+          "name": "Колдовская способность"
+        }
+      ],
+      "level": 2,
+      "spellcasting_ability": {
+        "index": "wis",
+        "name": "МУД",
+        "url": "/api/ability-scores/wis"
+      }
+    },
+    "spells": "/api/classes/ranger/spells",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "longbow",
+          "name": "Длинный лук",
+          "url": "/api/equipment/longbow"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "arrow",
+          "name": "Стрелка",
+          "url": "/api/equipment/arrow"
+        },
+        "quantity": 20
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "(а) чешуйчатая кольчуга или (б) кожаный доспех",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "scale-mail",
+                "name": "Масштабная кольчуга",
+                "url": "/api/equipment/scale-mail"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "leather-armor",
+                "name": "Кожаная броня",
+                "url": "/api/equipment/leather-armor"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) два коротких меча или (б) два простых оружия ближнего боя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 2,
+              "of": {
+                "index": "shortsword",
+                "name": "Короткий меч",
+                "url": "/api/equipment/shortsword"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 2,
+                "desc": "два простых оружия ближнего боя",
+                "from": {
+                  "equipment_category": {
+                    "index": "simple-melee-weapons",
+                    "name": "Простое оружие ближнего боя",
+                    "url": "/api/equipment-categories/simple-melee-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(a) пакет исследователя подземелий или (b) пакет исследователя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "dungeoneers-pack",
+                "name": "Набор охотника за подземельями",
+                "url": "/api/equipment/dungeoneers-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "explorers-pack",
+                "name": "Пакет исследователя",
+                "url": "/api/equipment/explorers-pack"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "hunter",
+        "name": "Охотник",
+        "url": "/api/subclasses/hunter"
+      }
+    ],
+    "url": "/api/classes/ranger"
+  },
+  {
+    "class_levels": "/api/classes/rogue/levels",
+    "hit_die": 8,
+    "index": "rogue",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "dex",
+            "name": "ЛОВ",
+            "url": "/api/ability-scores/dex"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "light-armor",
+          "name": "Легкая броня",
+          "url": "/api/proficiencies/light-armor"
+        },
+        {
+          "index": "thieves-tools",
+          "name": "Воровские инструменты",
+          "url": "/api/proficiencies/thieves-tools"
+        }
+      ],
+      "proficiency_choices": [
+        {
+          "choose": 1,
+          "desc": "",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "item": {
+                  "index": "skill-acrobatics",
+                  "name": "Навык: Акробатика",
+                  "url": "/api/proficiencies/skill-acrobatics"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-athletics",
+                  "name": "Навык: легкая атлетика",
+                  "url": "/api/proficiencies/skill-athletics"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-deception",
+                  "name": "Навык: Обман",
+                  "url": "/api/proficiencies/skill-deception"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-insight",
+                  "name": "Навык: Проницательность",
+                  "url": "/api/proficiencies/skill-insight"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-intimidation",
+                  "name": "Навык: Запугивание",
+                  "url": "/api/proficiencies/skill-intimidation"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-investigation",
+                  "name": "Навык: Расследование",
+                  "url": "/api/proficiencies/skill-investigation"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-perception",
+                  "name": "Навык: Восприятие",
+                  "url": "/api/proficiencies/skill-perception"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-performance",
+                  "name": "Навык: Производительность",
+                  "url": "/api/proficiencies/skill-performance"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-persuasion",
+                  "name": "Навык: Убеждение",
+                  "url": "/api/proficiencies/skill-persuasion"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-sleight-of-hand",
+                  "name": "Навык: Ловкость рук",
+                  "url": "/api/proficiencies/skill-sleight-of-hand"
+                },
+                "option_type": "reference"
+              },
+              {
+                "item": {
+                  "index": "skill-stealth",
+                  "name": "Навык: Скрытность",
+                  "url": "/api/proficiencies/skill-stealth"
+                },
+                "option_type": "reference"
+              }
+            ]
+          },
+          "type": "proficiencies"
+        }
+      ]
+    },
+    "name": "Негодяй",
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "Легкая броня",
+        "url": "/api/proficiencies/light-armor"
+      },
+      {
+        "index": "simple-weapons",
+        "name": "Простое оружие",
+        "url": "/api/proficiencies/simple-weapons"
+      },
+      {
+        "index": "longswords",
+        "name": "Длинные мечи",
+        "url": "/api/proficiencies/longswords"
+      },
+      {
+        "index": "rapiers",
+        "name": "Рапиры",
+        "url": "/api/proficiencies/rapiers"
+      },
+      {
+        "index": "shortswords",
+        "name": "Короткие мечи",
+        "url": "/api/proficiencies/shortswords"
+      },
+      {
+        "index": "hand-crossbows",
+        "name": "Ручные арбалеты",
+        "url": "/api/proficiencies/hand-crossbows"
+      },
+      {
+        "index": "thieves-tools",
+        "name": "Воровские инструменты",
+        "url": "/api/proficiencies/thieves-tools"
+      },
+      {
+        "index": "saving-throw-dex",
+        "name": "Спасительный бросок: ЛОВ",
+        "url": "/api/proficiencies/saving-throw-dex"
+      },
+      {
+        "index": "saving-throw-int",
+        "name": "Спасительный бросок: INT",
+        "url": "/api/proficiencies/saving-throw-int"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 4,
+        "desc": "Выберите четыре из акробатики, легкой атлетики, обмана, проницательности, запугивания, расследования, восприятия, выступления, убеждения, ловкости рук и скрытности.",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-acrobatics",
+                "name": "Навык: Акробатика",
+                "url": "/api/proficiencies/skill-acrobatics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-athletics",
+                "name": "Навык: легкая атлетика",
+                "url": "/api/proficiencies/skill-athletics"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-deception",
+                "name": "Навык: Обман",
+                "url": "/api/proficiencies/skill-deception"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-insight",
+                "name": "Навык: Проницательность",
+                "url": "/api/proficiencies/skill-insight"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-intimidation",
+                "name": "Навык: Запугивание",
+                "url": "/api/proficiencies/skill-intimidation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-investigation",
+                "name": "Навык: Расследование",
+                "url": "/api/proficiencies/skill-investigation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-perception",
+                "name": "Навык: Восприятие",
+                "url": "/api/proficiencies/skill-perception"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-performance",
+                "name": "Навык: Производительность",
+                "url": "/api/proficiencies/skill-performance"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-persuasion",
+                "name": "Навык: Убеждение",
+                "url": "/api/proficiencies/skill-persuasion"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-sleight-of-hand",
+                "name": "Навык: Ловкость рук",
+                "url": "/api/proficiencies/skill-sleight-of-hand"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-stealth",
+                "name": "Навык: Скрытность",
+                "url": "/api/proficiencies/skill-stealth"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "dex",
+        "name": "ЛОВ",
+        "url": "/api/ability-scores/dex"
+      },
+      {
+        "index": "int",
+        "name": "ИНТ",
+        "url": "/api/ability-scores/int"
+      }
+    ],
+    "spellcasting": {
+      "info": null,
+      "level": 0,
+      "spellcasting_ability": {
+        "index": "",
+        "name": "",
+        "url": ""
+      }
+    },
+    "spells": "",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "leather-armor",
+          "name": "Кожаная броня",
+          "url": "/api/equipment/leather-armor"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "dagger",
+          "name": "Кинжал",
+          "url": "/api/equipment/dagger"
+        },
+        "quantity": 2
+      },
+      {
+        "equipment": {
+          "index": "thieves-tools",
+          "name": "Воровские инструменты",
+          "url": "/api/equipment/thieves-tools"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "а) рапира или б) короткий меч",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "rapier",
+                "name": "Рапира",
+                "url": "/api/equipment/rapier"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "shortsword",
+                "name": "Короткий меч",
+                "url": "/api/equipment/shortsword"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) короткий лук и колчан на 20 стрел или (б) короткий меч",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "multiple"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "shortsword",
+                "name": "Короткий меч",
+                "url": "/api/equipment/shortsword"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(a) рюкзак грабителя, (b) рюкзак подземелья или (c) рюкзак исследователя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "burglars-pack",
+                "name": "Пакет грабителя",
+                "url": "/api/equipment/burglars-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "dungeoneers-pack",
+                "name": "Набор охотника за подземельями",
+                "url": "/api/equipment/dungeoneers-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "explorers-pack",
+                "name": "Пакет исследователя",
+                "url": "/api/equipment/explorers-pack"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "thief",
+        "name": "Вор",
+        "url": "/api/subclasses/thief"
+      }
+    ],
+    "url": "/api/classes/rogue"
+  },
+  {
+    "class_levels": "/api/classes/sorcerer/levels",
+    "hit_die": 6,
+    "index": "sorcerer",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "cha",
+            "name": "ХАР",
+            "url": "/api/ability-scores/cha"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [],
+      "proficiency_choices": null
+    },
+    "name": "Колдун",
+    "proficiencies": [
+      {
+        "index": "daggers",
+        "name": "Кинжалы",
+        "url": "/api/proficiencies/daggers"
+      },
+      {
+        "index": "darts",
+        "name": "Дартс",
+        "url": "/api/proficiencies/darts"
+      },
+      {
+        "index": "slings",
+        "name": "Стропы",
+        "url": "/api/proficiencies/slings"
+      },
+      {
+        "index": "quarterstaffs",
+        "name": "Посохи",
+        "url": "/api/proficiencies/quarterstaffs"
+      },
+      {
+        "index": "crossbows-light",
+        "name": "Арбалеты легкие",
+        "url": "/api/proficiencies/crossbows-light"
+      },
+      {
+        "index": "saving-throw-con",
+        "name": "Спасительный бросок: ВЫН",
+        "url": "/api/proficiencies/saving-throw-con"
+      },
+      {
+        "index": "saving-throw-cha",
+        "name": "Спасительный бросок: CHA",
+        "url": "/api/proficiencies/saving-throw-cha"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 2,
+        "desc": "Выберите два из Арканов, Обмана, Проницательности, Запугивания, Убеждения и Религии.",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-arcana",
+                "name": "Навык: Аркана",
+                "url": "/api/proficiencies/skill-arcana"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-deception",
+                "name": "Навык: Обман",
+                "url": "/api/proficiencies/skill-deception"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-insight",
+                "name": "Навык: Проницательность",
+                "url": "/api/proficiencies/skill-insight"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-intimidation",
+                "name": "Навык: Запугивание",
+                "url": "/api/proficiencies/skill-intimidation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-persuasion",
+                "name": "Навык: Убеждение",
+                "url": "/api/proficiencies/skill-persuasion"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-religion",
+                "name": "Навык: Религия",
+                "url": "/api/proficiencies/skill-religion"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "con",
+        "name": "ТЕЛ",
+        "url": "/api/ability-scores/con"
+      },
+      {
+        "index": "cha",
+        "name": "ХАР",
+        "url": "/api/ability-scores/cha"
+      }
+    ],
+    "spellcasting": {
+      "info": [
+        {
+          "desc": [
+            "На 1 уровне вы знаете четыре заговора по вашему выбору из списка заклинаний чародея. На более высоких уровнях вы изучаете дополнительные заговоры волшебника по вашему выбору, как показано в столбце «Известные заговоры» таблицы «Колдун»."
+          ],
+          "name": "Заговоры"
+        },
+        {
+          "desc": [
+            "Таблица Волшебника показывает, сколько ячеек заклинаний у вас есть для использования заклинаний 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний волшебника, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все израсходованные ячейки заклинаний, когда завершаете длительный отдых.",
+            "Например, если вы знаете заклинание 1-го уровня «Горящие руки» и у вас есть ячейка для заклинания 1-го и 2-го уровня, вы можете сотворить «Горящие руки», используя любую ячейку."
+          ],
+          "name": "Слоты заклинаний"
+        },
+        {
+          "desc": [
+            "Вы знаете два заклинания 1-го уровня по вашему выбору из списка заклинаний чародея.",
+            "Столбец «Известные заклинания» таблицы «Колдун» показывает, когда вы выучите больше заклинаний чародея по вашему выбору. Каждое из этих заклинаний должно иметь уровень, для которого у вас есть ячейки заклинаний. Например, когда вы достигнете 3-го уровня в этом классе, вы сможете выучить одно новое заклинание 1-го или 2-го уровня. ",
+            "Кроме того, когда вы получаете уровень в этом классе, вы можете выбрать одно из известных вам заклинаний чародея и заменить его другим заклинанием из списка заклинаний чародея, которое также должно иметь уровень, для которого у вас есть ячейки заклинаний."
+          ],
+          "name": "Известные заклинания 1-го уровня и выше"
+        },
+        {
+          "desc": [
+            "Харизма — это ваша способность творить заклинания колдуна, поскольку сила вашей магии зависит от вашей способности проецировать свою волю в мир. Вы используете свою Харизму всякий раз, когда заклинание относится к вашей способности колдовства. Кроме того, вы используете свой модификатор Харизмы при установке DC спасброска для наложенного вами заклинания волшебника и при выполнении броска атаки с его помощью.",
+            "DC спасброска заклинаний = 8 + ваш бонус мастерства + ваш модификатор Харизмы.",
+            "Модификатор атаки заклинанием = ваш бонус мастерства + ваш модификатор Харизмы."
+          ],
+          "name": "Колдовская способность"
+        },
+        {
+          "desc": [
+            "Вы можете использовать тайный фокус в качестве фокуса для своих колдовских заклинаний."
+          ],
+          "name": "Колдовская фокусировка"
+        }
+      ],
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "cha",
+        "name": "ХАР",
+        "url": "/api/ability-scores/cha"
+      }
+    },
+    "spells": "/api/classes/sorcerer/spells",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "dagger",
+          "name": "Кинжал",
+          "url": "/api/equipment/dagger"
+        },
+        "quantity": 2
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "(а) легкий арбалет и 20 болтов или (б) любое простое оружие",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "multiple"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любое простое оружие",
+                "from": {
+                  "equipment_category": {
+                    "index": "simple-weapons",
+                    "name": "Простое оружие",
+                    "url": "/api/equipment-categories/simple-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) мешочек с компонентами или (б) тайный фокус",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "component-pouch",
+                "name": "Сумка для компонентов",
+                "url": "/api/equipment/component-pouch"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "тайный фокус",
+                "from": {
+                  "equipment_category": {
+                    "index": "arcane-foci",
+                    "name": "Чародейские фокусы",
+                    "url": "/api/equipment-categories/arcane-foci"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(a) пакет исследователя подземелий или (b) пакет исследователя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "dungeoneers-pack",
+                "name": "Набор охотника за подземельями",
+                "url": "/api/equipment/dungeoneers-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "explorers-pack",
+                "name": "Пакет исследователя",
+                "url": "/api/equipment/explorers-pack"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "draconic",
+        "name": "Драконий",
+        "url": "/api/subclasses/draconic"
+      }
+    ],
+    "url": "/api/classes/sorcerer"
+  },
+  {
+    "class_levels": "/api/classes/warlock/levels",
+    "hit_die": 8,
+    "index": "warlock",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "cha",
+            "name": "ХАР",
+            "url": "/api/ability-scores/cha"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "light-armor",
+          "name": "Легкая броня",
+          "url": "/api/proficiencies/light-armor"
+        },
+        {
+          "index": "simple-weapons",
+          "name": "Простое оружие",
+          "url": "/api/proficiencies/simple-weapons"
+        }
+      ],
+      "proficiency_choices": null
+    },
+    "name": "Чернокнижник",
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "Легкая броня",
+        "url": "/api/proficiencies/light-armor"
+      },
+      {
+        "index": "simple-weapons",
+        "name": "Простое оружие",
+        "url": "/api/proficiencies/simple-weapons"
+      },
+      {
+        "index": "saving-throw-wis",
+        "name": "Спасительный бросок: WIS",
+        "url": "/api/proficiencies/saving-throw-wis"
+      },
+      {
+        "index": "saving-throw-cha",
+        "name": "Спасительный бросок: CHA",
+        "url": "/api/proficiencies/saving-throw-cha"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 2,
+        "desc": "Выберите два навыка: Тайны, Обман, История, Запугивание, Расследование, Природа и Религия.",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-arcana",
+                "name": "Навык: Аркана",
+                "url": "/api/proficiencies/skill-arcana"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-deception",
+                "name": "Навык: Обман",
+                "url": "/api/proficiencies/skill-deception"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-history",
+                "name": "Навык: История",
+                "url": "/api/proficiencies/skill-history"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-intimidation",
+                "name": "Навык: Запугивание",
+                "url": "/api/proficiencies/skill-intimidation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-investigation",
+                "name": "Навык: Расследование",
+                "url": "/api/proficiencies/skill-investigation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-nature",
+                "name": "Навык: Природа",
+                "url": "/api/proficiencies/skill-nature"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-religion",
+                "name": "Навык: Религия",
+                "url": "/api/proficiencies/skill-religion"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "wis",
+        "name": "МУД",
+        "url": "/api/ability-scores/wis"
+      },
+      {
+        "index": "cha",
+        "name": "ХАР",
+        "url": "/api/ability-scores/cha"
+      }
+    ],
+    "spellcasting": {
+      "info": [
+        {
+          "desc": [
+            "Вы знаете два заговора по вашему выбору из списка заклинаний чернокнижника. На более высоких уровнях вы изучаете дополнительные заговоры чернокнижника по вашему выбору, как показано в столбце «Известные заговоры» таблицы «Колдун»."
+          ],
+          "name": "Заговоры"
+        },
+        {
+          "desc": [
+            "Таблица чернокнижников показывает, сколько у вас ячеек для заклинаний. В таблице также показано, каков уровень этих слотов; все ваши ячейки заклинаний одного уровня. Чтобы сотворить одно из ваших заклинаний чернокнижника 1-го уровня или выше, вы должны потратить ячейку заклинания. Вы восстанавливаете все израсходованные ячейки заклинаний, когда заканчиваете короткий или длительный отдых.",
+            "Например, когда вы 5-го уровня, у вас есть две ячейки заклинаний 3-го уровня. Чтобы наложить заклинание Громовая волна 1-го уровня, вы должны потратить одну из этих ячеек и произнести его как заклинание 3-го уровня."
+          ],
+          "name": "Слоты заклинаний"
+        },
+        {
+          "desc": [
+            "На 1 уровне вы знаете два заклинания 1 уровня по вашему выбору из списка заклинаний чернокнижника.",
+            "Столбец «Известные заклинания» таблицы «Чернокнижник» показывает, когда вы изучите больше заклинаний чернокнижника по вашему выбору 1-го уровня и выше. ",
+            "Выбранное вами заклинание должно иметь уровень не выше, чем тот, который указан в столбце «Уровень слота» таблицы для вашего уровня. Например, когда вы достигаете 6-го уровня, вы изучаете новое заклинание чернокнижника, которое может быть 1-го, 2-го или 3-го уровня.",
+            "Кроме того, когда вы получаете уровень в этом классе, вы можете выбрать одно из известных вам заклинаний чернокнижника и заменить его другим заклинанием из списка заклинаний чернокнижника, которое также должно иметь уровень, для которого у вас есть ячейки для заклинаний."
+          ],
+          "name": "Известные заклинания 1-го уровня и выше"
+        },
+        {
+          "desc": [
+            "Харизма — это ваша колдовская способность для заклинаний чернокнижника, поэтому вы используете свою Харизму всякий раз, когда заклинание ссылается на вашу колдовскую способность. Кроме того, вы используете свой модификатор Харизмы при установке DC спасброска для наложенного вами заклинания чернокнижника и при выполнении броска атаки с его помощью.",
+            "DC спасброска заклинаний = 8 + ваш бонус мастерства + ваш модификатор Харизмы.",
+            "Модификатор атаки заклинанием = ваш бонус мастерства + ваш модификатор Харизмы."
+          ],
+          "name": "Колдовская способность"
+        },
+        {
+          "desc": [
+            "Вы можете использовать тайный фокус в качестве фокуса для заклинаний чернокнижника."
+          ],
+          "name": "Колдовская фокусировка"
+        }
+      ],
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "cha",
+        "name": "ХАР",
+        "url": "/api/ability-scores/cha"
+      }
+    },
+    "spells": "/api/classes/warlock/spells",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "dagger",
+          "name": "Кинжал",
+          "url": "/api/equipment/dagger"
+        },
+        "quantity": 2
+      },
+      {
+        "equipment": {
+          "index": "leather-armor",
+          "name": "Кожаная броня",
+          "url": "/api/equipment/leather-armor"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "(а) легкий арбалет и 20 болтов или (б) любое простое оружие",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "multiple"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "любое простое оружие",
+                "from": {
+                  "equipment_category": {
+                    "index": "simple-weapons",
+                    "name": "Простое оружие",
+                    "url": "/api/equipment-categories/simple-weapons"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) мешочек с компонентами или (б) тайный фокус",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "component-pouch",
+                "name": "Сумка для компонентов",
+                "url": "/api/equipment/component-pouch"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "тайный фокус",
+                "from": {
+                  "equipment_category": {
+                    "index": "arcane-foci",
+                    "name": "Чародейские фокусы",
+                    "url": "/api/equipment-categories/arcane-foci"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) рюкзак ученого или (б) рюкзак подземелья",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "scholars-pack",
+                "name": "Пакет ученого",
+                "url": "/api/equipment/scholars-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "dungeoneers-pack",
+                "name": "Набор охотника за подземельями",
+                "url": "/api/equipment/dungeoneers-pack"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "любое простое оружие",
+        "from": {
+          "option_set_type": "equipment_category",
+          "options": null
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "fiend",
+        "name": "Дьявол",
+        "url": "/api/subclasses/fiend"
+      }
+    ],
+    "url": "/api/classes/warlock"
+  },
+  {
+    "class_levels": "/api/classes/wizard/levels",
+    "hit_die": 6,
+    "index": "wizard",
+    "multi_classing": {
+      "prerequisite_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "int",
+            "name": "ИНТ",
+            "url": "/api/ability-scores/int"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [],
+      "proficiency_choices": null
+    },
+    "name": "Волшебник",
+    "proficiencies": [
+      {
+        "index": "daggers",
+        "name": "Кинжалы",
+        "url": "/api/proficiencies/daggers"
+      },
+      {
+        "index": "darts",
+        "name": "Дартс",
+        "url": "/api/proficiencies/darts"
+      },
+      {
+        "index": "slings",
+        "name": "Стропы",
+        "url": "/api/proficiencies/slings"
+      },
+      {
+        "index": "quarterstaffs",
+        "name": "Посохи",
+        "url": "/api/proficiencies/quarterstaffs"
+      },
+      {
+        "index": "crossbows-light",
+        "name": "Арбалеты легкие",
+        "url": "/api/proficiencies/crossbows-light"
+      },
+      {
+        "index": "saving-throw-int",
+        "name": "Спасительный бросок: INT",
+        "url": "/api/proficiencies/saving-throw-int"
+      },
+      {
+        "index": "saving-throw-wis",
+        "name": "Спасительный бросок: WIS",
+        "url": "/api/proficiencies/saving-throw-wis"
+      }
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 2,
+        "desc": "Выберите два из Арканов, Истории, Проницательности, Расследований, Медицины и Религии.",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "skill-arcana",
+                "name": "Навык: Аркана",
+                "url": "/api/proficiencies/skill-arcana"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-history",
+                "name": "Навык: История",
+                "url": "/api/proficiencies/skill-history"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-insight",
+                "name": "Навык: Проницательность",
+                "url": "/api/proficiencies/skill-insight"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-investigation",
+                "name": "Навык: Расследование",
+                "url": "/api/proficiencies/skill-investigation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-medicine",
+                "name": "Навык: Медицина",
+                "url": "/api/proficiencies/skill-medicine"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "skill-religion",
+                "name": "Навык: Религия",
+                "url": "/api/proficiencies/skill-religion"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "proficiencies"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "int",
+        "name": "ИНТ",
+        "url": "/api/ability-scores/int"
+      },
+      {
+        "index": "wis",
+        "name": "МУД",
+        "url": "/api/ability-scores/wis"
+      }
+    ],
+    "spellcasting": {
+      "info": [
+        {
+          "desc": [
+            "На 1 уровне вы знаете три заговора по вашему выбору из списка заклинаний волшебника. На более высоких уровнях вы изучаете дополнительные заговоры волшебника по вашему выбору, как показано в столбце «Известные заговоры» таблицы Волшебника."
+          ],
+          "name": "Заговоры"
+        },
+        {
+          "desc": [
+            "На 1-м уровне у вас есть книга заклинаний, содержащая шесть заклинаний волшебника 1-го уровня на ваш выбор. Ваша книга заклинаний — это хранилище известных вам заклинаний волшебника, за исключением ваших заговоров, которые зафиксированы в вашем уме."
+          ],
+          "name": "Книга заклинаний"
+        },
+        {
+          "desc": [
+            "Таблица Волшебников показывает, сколько ячеек заклинаний у вас есть для использования заклинаний 1-го уровня и выше. Чтобы сотворить одно из этих заклинаний, вы должны потратить ячейку уровня заклинания или выше. Вы восстанавливаете все израсходованные ячейки заклинаний, когда завершаете длительный отдых.",
+            "Вы готовите список заклинаний волшебника, которые вы можете использовать. Для этого выберите из своей книги заклинаний количество заклинаний волшебника, равное вашему модификатору Интеллекта + вашему уровню волшебника (минимум одно заклинание). Заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний.",
+            "Например, если вы волшебник 3-го уровня, у вас есть четыре ячейки заклинаний 1-го уровня и две ячейки 2-го уровня. При Интеллекте 16 ваш список подготовленных заклинаний может включать шесть заклинаний 1-го или 2-го уровня в любой комбинации, выбранной из вашей книги заклинаний. Если вы подготовите заклинание магическая ракета 1-го уровня, вы можете сотворить его, используя ячейку 1-го или 2-го уровня. Применение заклинания не удаляет его из списка подготовленных заклинаний.",
+            "Вы можете изменить список подготовленных заклинаний, когда закончите длительный отдых. Подготовка нового списка заклинаний волшебника требует времени, потраченного на изучение вашей книги заклинаний и запоминание заклинаний и жестов, которые вы должны сделать, чтобы произнести заклинание: по крайней мере, 1 минута на каждый уровень заклинания для каждого заклинания в вашем списке."
+          ],
+          "name": "Подготовка и произнесение заклинаний"
+        },
+        {
+          "desc": [
+            "Интеллект — это ваша способность произносить заклинания волшебника, поскольку вы изучаете свои заклинания посредством целенаправленного изучения и запоминания. Вы используете свой Интеллект всякий раз, когда заклинание относится к вашей способности творить заклинания. Кроме того, вы используете свой модификатор Интеллекта при установке DC спасброска для наложенного вами заклинания волшебника и при выполнении броска атаки с его помощью.",
+            "DC спасброска заклинаний = 8 + ваш бонус мастерства + ваш модификатор Интеллекта.",
+            "Модификатор атаки заклинанием = ваш бонус мастерства + ваш модификатор Интеллекта."
+          ],
+          "name": "Колдовская способность"
+        },
+        {
+          "desc": [
+            "Вы можете использовать заклинание волшебника как ритуал, если это заклинание имеет тег ритуала и оно есть в вашей книге заклинаний. Вам не нужно готовить заклинание."
+          ],
+          "name": "Ритуальный кастинг"
+        },
+        {
+          "desc": [
+            "Вы можете использовать тайный фокус в качестве фокуса для заклинаний волшебника."
+          ],
+          "name": "Колдовская фокусировка"
+        }
+      ],
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "int",
+        "name": "ИНТ",
+        "url": "/api/ability-scores/int"
+      }
+    },
+    "spells": "/api/classes/wizard/spells",
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "spellbook",
+          "name": "Книга заклинаний",
+          "url": "/api/equipment/spellbook"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "desc": "а) посох или б) кинжал",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "quarterstaff",
+                "name": "Посох",
+                "url": "/api/equipment/quarterstaff"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "dagger",
+                "name": "Кинжал",
+                "url": "/api/equipment/dagger"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) мешочек с компонентами или (б) тайный фокус",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "component-pouch",
+                "name": "Сумка для компонентов",
+                "url": "/api/equipment/component-pouch"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 1,
+                "desc": "тайный фокус",
+                "from": {
+                  "equipment_category": {
+                    "index": "arcane-foci",
+                    "name": "Чародейские фокусы",
+                    "url": "/api/equipment-categories/arcane-foci"
+                  },
+                  "option_set_type": "equipment_category"
+                },
+                "type": "equipment"
+              },
+              "count": 0,
+              "of": {
+                "index": "",
+                "name": "",
+                "url": ""
+              },
+              "option_type": "choice"
+            }
+          ]
+        },
+        "type": "equipment"
+      },
+      {
+        "choose": 1,
+        "desc": "(а) рюкзак ученого или (б) рюкзак исследователя",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "scholars-pack",
+                "name": "Пакет ученого",
+                "url": "/api/equipment/scholars-pack"
+              },
+              "option_type": "counted_reference"
+            },
+            {
+              "choice": {
+                "choose": 0,
+                "desc": "",
+                "from": {
+                  "equipment_category": {
+                    "index": "",
+                    "name": "",
+                    "url": ""
+                  },
+                  "option_set_type": ""
+                },
+                "type": ""
+              },
+              "count": 1,
+              "of": {
+                "index": "explorers-pack",
+                "name": "Пакет исследователя",
+                "url": "/api/equipment/explorers-pack"
+              },
+              "option_type": "counted_reference"
+            }
+          ]
+        },
+        "type": "equipment"
+      }
+    ],
+    "subclasses": [
+      {
+        "index": "evocation",
+        "name": "Вызывание",
+        "url": "/api/subclasses/evocation"
+      }
+    ],
+    "url": "/api/classes/wizard"
+  }
+]

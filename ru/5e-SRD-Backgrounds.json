@@ -1,0 +1,338 @@
+[
+  {
+    "bonds": {
+      "choose": 1,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "string",
+            "string": "Я бы умер, чтобы вернуть древнюю реликвию моей веры, которая была давно потеряна."
+          },
+          {
+            "option_type": "string",
+            "string": "Когда-нибудь я отомщу коррумпированной храмовой иерархии, которая заклеймила меня еретиком."
+          },
+          {
+            "option_type": "string",
+            "string": "Я обязан своей жизнью священнику, который взял меня к себе, когда умерли мои родители."
+          },
+          {
+            "option_type": "string",
+            "string": "Все, что я делаю, — для простых людей."
+          },
+          {
+            "option_type": "string",
+            "string": "Я сделаю все, чтобы защитить храм, в котором я служил."
+          },
+          {
+            "option_type": "string",
+            "string": "Я стремлюсь сохранить священный текст, который мои враги считают еретическим и стремятся уничтожить."
+          }
+        ]
+      },
+      "type": "bonds"
+    },
+    "feature": {
+      "desc": [
+        "Будучи послушником, вы пользуетесь уважением тех, кто разделяет вашу веру, и можете совершать религиозные церемонии своего божества. Вы и ваши спутники-путешественники можете рассчитывать на бесплатное лечение и уход в храме, святилище или другом установленном месте вашей веры, хотя вы должны предоставить любые материальные компоненты, необходимые для заклинаний. Те, кто разделяет вашу религию, поддержат вас (но только вас) в скромном образе жизни.",
+        "У вас также могут быть связи с конкретным храмом, посвященным выбранному вами божеству или пантеону, и у вас есть там место жительства. Это может быть храм, в котором вы служили раньше, если вы остаетесь с ним в хороших отношениях, или храм, в котором вы нашли новый дом. Находясь рядом с вашим храмом, вы можете обратиться за помощью к священникам при условии, что помощь, о которой вы просите, не опасна и вы сохраняете хорошую репутацию в своем храме."
+      ],
+      "name": "Приют правоверных"
+    },
+    "flaws": {
+      "choose": 1,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "string",
+            "string": "Я сужу других строго, а себя еще строже."
+          },
+          {
+            "option_type": "string",
+            "string": "Я слишком доверяю тем, кто обладает властью в иерархии моего храма."
+          },
+          {
+            "option_type": "string",
+            "string": "Моя набожность иногда заставляет меня слепо доверять тем, кто исповедует веру в моего бога."
+          },
+          {
+            "option_type": "string",
+            "string": "Я негибок в своем мышлении."
+          },
+          {
+            "option_type": "string",
+            "string": "Я подозрительно отношусь к незнакомцам и ожидаю от них худшего."
+          },
+          {
+            "option_type": "string",
+            "string": "Как только я выбираю цель, я становлюсь одержимым ею в ущерб всему остальному в моей жизни."
+          }
+        ]
+      },
+      "type": "flaws"
+    },
+    "ideals": {
+      "choose": 1,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "alignments": [
+              {
+                "index": "lawful-good",
+                "name": "Законное Добро",
+                "url": "/api/alignments/lawful-good"
+              },
+              {
+                "index": "lawful-neutral",
+                "name": "Законно-нейтральный",
+                "url": "/api/alignments/lawful-neutral"
+              },
+              {
+                "index": "lawful-evil",
+                "name": "Законное зло",
+                "url": "/api/alignments/lawful-evil"
+              }
+            ],
+            "desc": "Традиция. Древние традиции поклонения и жертвоприношения необходимо сохранять и поддерживать.",
+            "option_type": "ideal"
+          },
+          {
+            "alignments": [
+              {
+                "index": "lawful-good",
+                "name": "Законное Добро",
+                "url": "/api/alignments/lawful-good"
+              },
+              {
+                "index": "neutral-good",
+                "name": "Нейтрально-Хорошо",
+                "url": "/api/alignments/neutral-good"
+              },
+              {
+                "index": "chaotic-good",
+                "name": "Хаотичное Добро",
+                "url": "/api/alignments/chaotic-good"
+              }
+            ],
+            "desc": "Благотворительность. Я всегда стараюсь помочь нуждающимся, чего бы мне это ни стоило.",
+            "option_type": "ideal"
+          },
+          {
+            "alignments": [
+              {
+                "index": "chaotic-good",
+                "name": "Хаотичное Добро",
+                "url": "/api/alignments/chaotic-good"
+              },
+              {
+                "index": "chaotic-neutral",
+                "name": "Хаотично-нейтральный",
+                "url": "/api/alignments/chaotic-neutral"
+              },
+              {
+                "index": "chaotic-evil",
+                "name": "Хаотическое Зло",
+                "url": "/api/alignments/chaotic-evil"
+              }
+            ],
+            "desc": "Изменять. Мы должны помочь осуществить изменения, над которыми постоянно работают боги в мире.",
+            "option_type": "ideal"
+          },
+          {
+            "alignments": [
+              {
+                "index": "lawful-good",
+                "name": "Законное Добро",
+                "url": "/api/alignments/lawful-good"
+              },
+              {
+                "index": "lawful-neutral",
+                "name": "Законно-нейтральный",
+                "url": "/api/alignments/lawful-neutral"
+              },
+              {
+                "index": "lawful-evil",
+                "name": "Законное зло",
+                "url": "/api/alignments/lawful-evil"
+              }
+            ],
+            "desc": "Власть. Я надеюсь однажды подняться на вершину религиозной иерархии моей веры.",
+            "option_type": "ideal"
+          },
+          {
+            "alignments": [
+              {
+                "index": "lawful-good",
+                "name": "Законное Добро",
+                "url": "/api/alignments/lawful-good"
+              },
+              {
+                "index": "lawful-neutral",
+                "name": "Законно-нейтральный",
+                "url": "/api/alignments/lawful-neutral"
+              },
+              {
+                "index": "lawful-evil",
+                "name": "Законное зло",
+                "url": "/api/alignments/lawful-evil"
+              }
+            ],
+            "desc": "Вера. Я верю, что мое божество будет руководить моими действиями. Я верю, что если я буду усердно работать, все будет хорошо.",
+            "option_type": "ideal"
+          },
+          {
+            "alignments": [
+              {
+                "index": "lawful-good",
+                "name": "Законное Добро",
+                "url": "/api/alignments/lawful-good"
+              },
+              {
+                "index": "neutral-good",
+                "name": "Нейтрально-Хорошо",
+                "url": "/api/alignments/neutral-good"
+              },
+              {
+                "index": "chaotic-good",
+                "name": "Хаотичное Добро",
+                "url": "/api/alignments/chaotic-good"
+              },
+              {
+                "index": "lawful-neutral",
+                "name": "Законно-нейтральный",
+                "url": "/api/alignments/lawful-neutral"
+              },
+              {
+                "index": "neutral",
+                "name": "Нейтральный",
+                "url": "/api/alignments/neutral"
+              },
+              {
+                "index": "chaotic-neutral",
+                "name": "Хаотично-нейтральный",
+                "url": "/api/alignments/chaotic-neutral"
+              },
+              {
+                "index": "lawful-evil",
+                "name": "Законное зло",
+                "url": "/api/alignments/lawful-evil"
+              },
+              {
+                "index": "neutral-evil",
+                "name": "Нейтральное зло",
+                "url": "/api/alignments/neutral-evil"
+              },
+              {
+                "index": "chaotic-evil",
+                "name": "Хаотическое Зло",
+                "url": "/api/alignments/chaotic-evil"
+              }
+            ],
+            "desc": "Стремление. Я стремлюсь доказать, что достоин благосклонности моего бога, сопоставляя свои действия с его или ее учениями.",
+            "option_type": "ideal"
+          }
+        ]
+      },
+      "type": "ideals"
+    },
+    "index": "acolyte",
+    "language_options": {
+      "choose": 2,
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/languages"
+      },
+      "type": "languages"
+    },
+    "name": "Послушник",
+    "personality_traits": {
+      "choose": 2,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "string",
+            "string": "Я боготворю того или иного героя своей веры и постоянно ссылаюсь на его дела и пример."
+          },
+          {
+            "option_type": "string",
+            "string": "Я могу найти общий язык между самыми жестокими врагами, сопереживая им и всегда стремясь к миру."
+          },
+          {
+            "option_type": "string",
+            "string": "Я вижу предзнаменования в каждом событии и поступке. Боги пытаются говорить с нами, нам просто нужно слушать."
+          },
+          {
+            "option_type": "string",
+            "string": "Ничто не может поколебать мой оптимистичный настрой."
+          },
+          {
+            "option_type": "string",
+            "string": "Я цитирую (или неправильно цитирую) священные тексты и пословицы практически в каждой ситуации."
+          },
+          {
+            "option_type": "string",
+            "string": "Я терпим (или нетерпим) к другим религиям и уважаю (или осуждаю) поклонение другим богам."
+          },
+          {
+            "option_type": "string",
+            "string": "Я наслаждался прекрасной едой, напитками и светским обществом среди элиты моего храма. Меня раздражает суровая жизнь."
+          },
+          {
+            "option_type": "string",
+            "string": "Я провел в храме так много времени, что у меня мало практического опыта общения с людьми из внешнего мира."
+          }
+        ]
+      },
+      "type": "personality_traits"
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "clothes-common",
+          "name": "Одежда общая",
+          "url": "/api/equipment/clothes-common"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "Мешочек",
+          "url": "/api/equipment/pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "from": {
+          "equipment_category": {
+            "index": "holy-symbols",
+            "name": "Священные символы",
+            "url": "/api/equipment-categories/holy-symbols"
+          },
+          "option_set_type": "equipment_category"
+        },
+        "type": "equipment"
+      }
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "skill-insight",
+        "name": "Навык: Проницательность",
+        "url": "/api/proficiencies/skill-insight"
+      },
+      {
+        "index": "skill-religion",
+        "name": "Навык: Религия",
+        "url": "/api/proficiencies/skill-religion"
+      }
+    ],
+    "url": "/api/backgrounds/acolyte"
+  }
+]

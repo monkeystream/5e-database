@@ -1,0 +1,3831 @@
+[
+  {
+    "desc": [
+      "У вас превосходное зрение в темноте и при слабом освещении. Вы можете видеть в тусклом свете в пределах 60 футов от себя, как если бы это был яркий свет, и в темноте, как если бы это был тусклый свет. В темноте невозможно различить цвета, только оттенки серого."
+    ],
+    "index": "darkvision",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "темновидение",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Карлик",
+        "url": "/api/races/dwarf"
+      },
+      {
+        "index": "elf",
+        "name": "Эльф",
+        "url": "/api/races/elf"
+      },
+      {
+        "index": "gnome",
+        "name": "Гном",
+        "url": "/api/races/gnome"
+      },
+      {
+        "index": "half-elf",
+        "name": "Полуэльф",
+        "url": "/api/races/half-elf"
+      },
+      {
+        "index": "half-orc",
+        "name": "Полуорк",
+        "url": "/api/races/half-orc"
+      },
+      {
+        "index": "tiefling",
+        "name": "Тифлинг",
+        "url": "/api/races/tiefling"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/darkvision"
+  },
+  {
+    "desc": [
+      "Вы совершаете с преимуществом спасброски от яда и имеете сопротивление урону от яда."
+    ],
+    "index": "dwarven-resilience",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Устойчивость гномов",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Карлик",
+        "url": "/api/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/dwarven-resilience"
+  },
+  {
+    "desc": [
+      "Вы владеете боевым топором, ручным топором, легким молотом и боевым молотом."
+    ],
+    "index": "dwarven-combat-training",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Боевая подготовка гномов",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [
+      {
+        "index": "battleaxes",
+        "name": "Боевые топоры",
+        "url": "/api/proficiencies/battleaxes"
+      },
+      {
+        "index": "handaxes",
+        "name": "Ручные топоры",
+        "url": "/api/proficiencies/handaxes"
+      },
+      {
+        "index": "light-hammers",
+        "name": "Легкие молотки",
+        "url": "/api/proficiencies/light-hammers"
+      },
+      {
+        "index": "warhammers",
+        "name": "Боевые молоты",
+        "url": "/api/proficiencies/warhammers"
+      }
+    ],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Карлик",
+        "url": "/api/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/dwarven-combat-training"
+  },
+  {
+    "desc": [
+      "Вы получаете навыки обращения с инструментами ремесленника по вашему выбору: инструментами кузнеца, принадлежностями для пивоварения или инструментами каменщика."
+    ],
+    "index": "tool-proficiency",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Владение инструментом",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 1,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "item": {
+              "index": "smiths-tools",
+              "name": "Инструменты Смита",
+              "url": "/api/proficiencies/smiths-tools"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "brewers-supplies",
+              "name": "Принадлежности для пивовара",
+              "url": "/api/proficiencies/brewers-supplies"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "masons-tools",
+              "name": "Инструменты Мейсона",
+              "url": "/api/proficiencies/masons-tools"
+            },
+            "option_type": "reference"
+          }
+        ]
+      },
+      "type": "proficiencies"
+    },
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Карлик",
+        "url": "/api/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/tool-proficiency"
+  },
+  {
+    "desc": [
+      "Всякий раз, когда вы совершаете проверку Интеллекта (История), связанную с происхождением каменной кладки, вы считаетесь владеющим навыком «История» и добавляете к проверке двойной бонус мастерства вместо обычного бонуса мастерства."
+    ],
+    "index": "stonecunning",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "каменная хитрость",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Карлик",
+        "url": "/api/races/dwarf"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/stonecunning"
+  },
+  {
+    "desc": [
+      "Максимум вашего хита увеличивается на 1, и он увеличивается на 1 каждый раз, когда вы получаете уровень."
+    ],
+    "index": "dwarven-toughness",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Гномья стойкость",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [],
+    "subraces": [
+      {
+        "index": "hill-dwarf",
+        "name": "Холмовый гном",
+        "url": "/api/subraces/hill-dwarf"
+      }
+    ],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/dwarven-toughness"
+  },
+  {
+    "desc": [
+      "Вы владеете навыком «Восприятие»."
+    ],
+    "index": "keen-senses",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Острые чувства",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [
+      {
+        "index": "skill-perception",
+        "name": "Навык: Восприятие",
+        "url": "/api/proficiencies/skill-perception"
+      }
+    ],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "elf",
+        "name": "Эльф",
+        "url": "/api/races/elf"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/keen-senses"
+  },
+  {
+    "desc": [
+      "Вы совершаете с преимуществом спасброски против очарования, и магия не может усыпить вас."
+    ],
+    "index": "fey-ancestry",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Фейское происхождение",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "elf",
+        "name": "Эльф",
+        "url": "/api/races/elf"
+      },
+      {
+        "index": "half-elf",
+        "name": "Полуэльф",
+        "url": "/api/races/half-elf"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/fey-ancestry"
+  },
+  {
+    "desc": [
+      "Эльфам не нужно спать. Вместо этого они глубоко медитируют, оставаясь в полусознательном состоянии, по 4 часа в день. (Обычное слово для такой медитации — «транс».) Во время медитации вы можете определенным образом мечтать; такие сны на самом деле являются умственными упражнениями, которые за годы практики стали рефлексивными. Отдохнув таким образом, вы получаете ту же пользу, что и человек от 8-часового сна."
+    ],
+    "index": "trance",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Транс",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "elf",
+        "name": "Эльф",
+        "url": "/api/races/elf"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/trance"
+  },
+  {
+    "desc": [
+      "Вы владеете длинным мечом, коротким мечом, коротким и длинным луком."
+    ],
+    "index": "elf-weapon-training",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Обучение владению оружием эльфа",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [
+      {
+        "index": "longswords",
+        "name": "Длинные мечи",
+        "url": "/api/proficiencies/longswords"
+      },
+      {
+        "index": "shortswords",
+        "name": "Короткие мечи",
+        "url": "/api/proficiencies/shortswords"
+      },
+      {
+        "index": "shortbows",
+        "name": "Короткие луки",
+        "url": "/api/proficiencies/shortbows"
+      },
+      {
+        "index": "longbows",
+        "name": "Длинные луки",
+        "url": "/api/proficiencies/longbows"
+      }
+    ],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [],
+    "subraces": [
+      {
+        "index": "high-elf",
+        "name": "Высший Эльф",
+        "url": "/api/subraces/high-elf"
+      }
+    ],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/elf-weapon-training"
+  },
+  {
+    "desc": [
+      "Вы знаете один заговор по вашему выбору из списка заклинаний волшебника. Интеллект — это ваша способность к заклинаниям."
+    ],
+    "index": "high-elf-cantrip",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Заговор высших эльфов",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [],
+    "subraces": [
+      {
+        "index": "high-elf",
+        "name": "Высший Эльф",
+        "url": "/api/subraces/high-elf"
+      }
+    ],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 1,
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "light",
+                "name": "Свет",
+                "url": "/api/spells/light"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "mage-hand",
+                "name": "Магическая рука",
+                "url": "/api/spells/mage-hand"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "mending",
+                "name": "Починка",
+                "url": "/api/spells/mending"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "message",
+                "name": "Сообщение",
+                "url": "/api/spells/message"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "minor-illusion",
+                "name": "Незначительная иллюзия",
+                "url": "/api/spells/minor-illusion"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "acid-splash",
+                "name": "Кислотный всплеск",
+                "url": "/api/spells/acid-splash"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "prestidigitation",
+                "name": "Престидигитация",
+                "url": "/api/spells/prestidigitation"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "ray-of-frost",
+                "name": "Луч Мороза",
+                "url": "/api/spells/ray-of-frost"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "shocking-grasp",
+                "name": "Шокирующая хватка",
+                "url": "/api/spells/shocking-grasp"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "true-strike",
+                "name": "Настоящий удар",
+                "url": "/api/spells/true-strike"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "chill-touch",
+                "name": "Холодное прикосновение",
+                "url": "/api/spells/chill-touch"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "dancing-lights",
+                "name": "Танцующие огни",
+                "url": "/api/spells/dancing-lights"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "fire-bolt",
+                "name": "Огненный болт",
+                "url": "/api/spells/fire-bolt"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "poison-spray",
+                "name": "Ядовитый спрей",
+                "url": "/api/spells/poison-spray"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "spell"
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/high-elf-cantrip"
+  },
+  {
+    "desc": [
+      "Вы можете говорить, читать и писать на одном дополнительном языке по вашему выбору."
+    ],
+    "index": "extra-language",
+    "language_options": {
+      "choose": 1,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "item": {
+              "index": "dwarvish",
+              "name": "гномий",
+              "url": "/api/languages/dwarvish"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "giant",
+              "name": "Гигант",
+              "url": "/api/languages/giant"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "gnomish",
+              "name": "гномский",
+              "url": "/api/languages/gnomish"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "goblin",
+              "name": "Гоблин",
+              "url": "/api/languages/goblin"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "halfling",
+              "name": "Халфлинг",
+              "url": "/api/languages/halfling"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "orc",
+              "name": "орк",
+              "url": "/api/languages/orc"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "abyssal",
+              "name": "Бездна",
+              "url": "/api/languages/abyssal"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "celestial",
+              "name": "Небесный",
+              "url": "/api/languages/celestial"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "draconic",
+              "name": "Драконий",
+              "url": "/api/languages/draconic"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "deep-speech",
+              "name": "Глубокая речь",
+              "url": "/api/languages/deep-speech"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "infernal",
+              "name": "Адский",
+              "url": "/api/languages/infernal"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "primordial",
+              "name": "Первозданный",
+              "url": "/api/languages/primordial"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "sylvan",
+              "name": "Сильван",
+              "url": "/api/languages/sylvan"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "undercommon",
+              "name": "Необычный",
+              "url": "/api/languages/undercommon"
+            },
+            "option_type": "reference"
+          }
+        ]
+      },
+      "type": "languages"
+    },
+    "name": "Дополнительный язык",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [],
+    "subraces": [
+      {
+        "index": "high-elf",
+        "name": "Высший Эльф",
+        "url": "/api/subraces/high-elf"
+      }
+    ],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/extra-language"
+  },
+  {
+    "desc": [
+      "Когда вы выбрасываете 1 на d20 для броска атаки, проверки способности или спасброска, вы можете перебросить кубик и должны использовать новый бросок."
+    ],
+    "index": "lucky",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Удачливый",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "halfling",
+        "name": "Халфлинг",
+        "url": "/api/races/halfling"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/lucky"
+  },
+  {
+    "desc": [
+      "У вас есть преимущество в спасброске от испуга."
+    ],
+    "index": "brave",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Храбрый",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "halfling",
+        "name": "Халфлинг",
+        "url": "/api/races/halfling"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/brave"
+  },
+  {
+    "desc": [
+      "Вы можете перемещаться по пространству любого существа, размером больше вашего."
+    ],
+    "index": "halfling-nimbleness",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Проворство полурослика",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "halfling",
+        "name": "Халфлинг",
+        "url": "/api/races/halfling"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/halfling-nimbleness"
+  },
+  {
+    "desc": [
+      "Вы можете попытаться спрятаться, даже если вас закрывает только существо, которое как минимум на один размер больше вас."
+    ],
+    "index": "naturally-stealthy",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Естественно скрытный",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [],
+    "subraces": [
+      {
+        "index": "lightfoot-halfling",
+        "name": "Легконогий халфлинг",
+        "url": "/api/subraces/lightfoot-halfling"
+      }
+    ],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/naturally-stealthy"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 1,
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "item": {
+                "index": "draconic-ancestry-black",
+                "name": "Драконье происхождение (черный)",
+                "url": "/api/traits/draconic-ancestry-black"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "draconic-ancestry-blue",
+                "name": "Драконье происхождение (синий)",
+                "url": "/api/traits/draconic-ancestry-blue"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "draconic-ancestry-brass",
+                "name": "Драконье происхождение (латунь)",
+                "url": "/api/traits/draconic-ancestry-brass"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "draconic-ancestry-bronze",
+                "name": "Драконье происхождение (бронза)",
+                "url": "/api/traits/draconic-ancestry-bronze"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "draconic-ancestry-copper",
+                "name": "Драконье происхождение (медь)",
+                "url": "/api/traits/draconic-ancestry-copper"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "draconic-ancestry-gold",
+                "name": "Драконье происхождение (золото)",
+                "url": "/api/traits/draconic-ancestry-gold"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "draconic-ancestry-green",
+                "name": "Драконье происхождение (зеленый)",
+                "url": "/api/traits/draconic-ancestry-green"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "draconic-ancestry-red",
+                "name": "Драконье происхождение (красный)",
+                "url": "/api/traits/draconic-ancestry-red"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "draconic-ancestry-silver",
+                "name": "Драконье происхождение (серебро)",
+                "url": "/api/traits/draconic-ancestry-silver"
+              },
+              "option_type": "reference"
+            },
+            {
+              "item": {
+                "index": "draconic-ancestry-white",
+                "name": "Драконье происхождение (Белый)",
+                "url": "/api/traits/draconic-ancestry-white"
+              },
+              "option_type": "reference"
+            }
+          ]
+        },
+        "type": "trait"
+      }
+    },
+    "url": "/api/traits/draconic-ancestry"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry-black",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение (черный)",
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "Драконье происхождение",
+      "url": "/api/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
+        "damage": [
+          {
+            "damage_at_character_level": {
+              "1": "2d6",
+              "11": "4d6",
+              "16": "5d6",
+              "6": "3d6"
+            },
+            "damage_type": {
+              "index": "acid",
+              "name": "Кислота",
+              "url": "/api/damage-types/acid"
+            }
+          }
+        ],
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "DEX",
+            "url": "/api/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "desc": "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха. Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне. После использования дыхательного оружия вы не сможете использовать его снова, пока не завершите короткий или длительный отдых.",
+        "name": "Дыхательное оружие",
+        "usage": {
+          "times": 1,
+          "type": "за отдых"
+        }
+      },
+      "damage_type": {
+        "index": "acid",
+        "name": "Кислота",
+        "url": "/api/damage-types/acid"
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/draconic-ancestry-black"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry-blue",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение (синий)",
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "Драконье происхождение",
+      "url": "/api/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
+        "damage": [
+          {
+            "damage_at_character_level": {
+              "1": "2d6",
+              "11": "4d6",
+              "16": "5d6",
+              "6": "3d6"
+            },
+            "damage_type": {
+              "index": "lightning",
+              "name": "Молния",
+              "url": "/api/damage-types/lightning"
+            }
+          }
+        ],
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "DEX",
+            "url": "/api/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "desc": "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха. Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне. После использования дыхательного оружия вы не сможете использовать его снова, пока не завершите короткий или длительный отдых.",
+        "name": "Дыхательное оружие",
+        "usage": {
+          "times": 1,
+          "type": "за отдых"
+        }
+      },
+      "damage_type": {
+        "index": "lightning",
+        "name": "Молния",
+        "url": "/api/damage-types/lightning"
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/draconic-ancestry-blue"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry-brass",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение (латунь)",
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "Драконье происхождение",
+      "url": "/api/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
+        "damage": [
+          {
+            "damage_at_character_level": {
+              "1": "2d6",
+              "11": "4d6",
+              "16": "5d6",
+              "6": "3d6"
+            },
+            "damage_type": {
+              "index": "fire",
+              "name": "Огонь",
+              "url": "/api/damage-types/fire"
+            }
+          }
+        ],
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "DEX",
+            "url": "/api/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "desc": "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха. Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне. После использования дыхательного оружия вы не сможете использовать его снова, пока не завершите короткий или длительный отдых.",
+        "name": "Дыхательное оружие",
+        "usage": {
+          "times": 1,
+          "type": "за отдых"
+        }
+      },
+      "damage_type": {
+        "index": "fire",
+        "name": "Огонь",
+        "url": "/api/damage-types/fire"
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/draconic-ancestry-brass"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry-bronze",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение (бронза)",
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "Драконье происхождение",
+      "url": "/api/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
+        "damage": [
+          {
+            "damage_at_character_level": {
+              "1": "2d6",
+              "11": "4d6",
+              "16": "5d6",
+              "6": "3d6"
+            },
+            "damage_type": {
+              "index": "lightning",
+              "name": "Молния",
+              "url": "/api/damage-types/lightning"
+            }
+          }
+        ],
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "DEX",
+            "url": "/api/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "desc": "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха. Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне. После использования дыхательного оружия вы не сможете использовать его снова, пока не завершите короткий или длительный отдых.",
+        "name": "Дыхательное оружие",
+        "usage": {
+          "times": 1,
+          "type": "за отдых"
+        }
+      },
+      "damage_type": {
+        "index": "lightning",
+        "name": "Молния",
+        "url": "/api/damage-types/lightning"
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/draconic-ancestry-bronze"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry-copper",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение (медь)",
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "Драконье происхождение",
+      "url": "/api/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
+        "damage": [
+          {
+            "damage_at_character_level": {
+              "1": "2d6",
+              "11": "4d6",
+              "16": "5d6",
+              "6": "3d6"
+            },
+            "damage_type": {
+              "index": "acid",
+              "name": "Кислота",
+              "url": "/api/damage-types/acid"
+            }
+          }
+        ],
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "DEX",
+            "url": "/api/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "desc": "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха. Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне. После использования дыхательного оружия вы не сможете использовать его снова, пока не завершите короткий или длительный отдых.",
+        "name": "Дыхательное оружие",
+        "usage": {
+          "times": 1,
+          "type": "за отдых"
+        }
+      },
+      "damage_type": {
+        "index": "acid",
+        "name": "Кислота",
+        "url": "/api/damage-types/acid"
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/draconic-ancestry-copper"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry-gold",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение (золото)",
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "Драконье происхождение",
+      "url": "/api/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
+        "damage": [
+          {
+            "damage_at_character_level": {
+              "1": "2d6",
+              "11": "4d6",
+              "16": "5d6",
+              "6": "3d6"
+            },
+            "damage_type": {
+              "index": "fire",
+              "name": "Огонь",
+              "url": "/api/damage-types/fire"
+            }
+          }
+        ],
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "DEX",
+            "url": "/api/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "desc": "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха. Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне. После использования дыхательного оружия вы не сможете использовать его снова, пока не завершите короткий или длительный отдых.",
+        "name": "Дыхательное оружие",
+        "usage": {
+          "times": 1,
+          "type": "за отдых"
+        }
+      },
+      "damage_type": {
+        "index": "fire",
+        "name": "Огонь",
+        "url": "/api/damage-types/fire"
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/draconic-ancestry-gold"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry-green",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение (зеленый)",
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "Драконье происхождение",
+      "url": "/api/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
+        "damage": [
+          {
+            "damage_at_character_level": {
+              "1": "2d6",
+              "11": "4d6",
+              "16": "5d6",
+              "6": "3d6"
+            },
+            "damage_type": {
+              "index": "poison",
+              "name": "Яд",
+              "url": "/api/damage-types/poison"
+            }
+          }
+        ],
+        "dc": {
+          "dc_type": {
+            "index": "con",
+            "name": "ПРОТИВ",
+            "url": "/api/ability-scores/con"
+          },
+          "success_type": "half"
+        },
+        "desc": "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха. Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне. После использования дыхательного оружия вы не сможете использовать его снова, пока не завершите короткий или длительный отдых.",
+        "name": "Дыхательное оружие",
+        "usage": {
+          "times": 1,
+          "type": "за отдых"
+        }
+      },
+      "damage_type": {
+        "index": "poison",
+        "name": "Яд",
+        "url": "/api/damage-types/poison"
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/draconic-ancestry-green"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry-red",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение (красный)",
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "Драконье происхождение",
+      "url": "/api/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
+        "damage": [
+          {
+            "damage_at_character_level": {
+              "1": "2d6",
+              "11": "4d6",
+              "16": "5d6",
+              "6": "3d6"
+            },
+            "damage_type": {
+              "index": "fire",
+              "name": "Огонь",
+              "url": "/api/damage-types/fire"
+            }
+          }
+        ],
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "DEX",
+            "url": "/api/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "desc": "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха. Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне. После использования дыхательного оружия вы не сможете использовать его снова, пока не завершите короткий или длительный отдых.",
+        "name": "Дыхательное оружие",
+        "usage": {
+          "times": 1,
+          "type": "за отдых"
+        }
+      },
+      "damage_type": {
+        "index": "fire",
+        "name": "Огонь",
+        "url": "/api/damage-types/fire"
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/draconic-ancestry-red"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry-silver",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение (серебро)",
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "Драконье происхождение",
+      "url": "/api/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
+        "damage": [
+          {
+            "damage_at_character_level": {
+              "1": "2d6",
+              "11": "4d6",
+              "16": "5d6",
+              "6": "3d6"
+            },
+            "damage_type": {
+              "index": "cold",
+              "name": "Холодный",
+              "url": "/api/damage-types/cold"
+            }
+          }
+        ],
+        "dc": {
+          "dc_type": {
+            "index": "con",
+            "name": "ПРОТИВ",
+            "url": "/api/ability-scores/con"
+          },
+          "success_type": "half"
+        },
+        "desc": "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха. Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне. После использования дыхательного оружия вы не сможете использовать его снова, пока не завершите короткий или длительный отдых.",
+        "name": "Дыхательное оружие",
+        "usage": {
+          "times": 1,
+          "type": "за отдых"
+        }
+      },
+      "damage_type": {
+        "index": "cold",
+        "name": "Холодный",
+        "url": "/api/damage-types/cold"
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/draconic-ancestry-silver"
+  },
+  {
+    "desc": [
+      "У вас драконье происхождение. Выберите один тип дракона из таблицы Драконьего происхождения. Ваше оружие дыхания и сопротивление урону определяются типом дракона, как показано в таблице."
+    ],
+    "index": "draconic-ancestry-white",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Драконье происхождение (Белый)",
+    "parent": {
+      "index": "draconic-ancestry",
+      "name": "Драконье происхождение",
+      "url": "/api/traits/draconic-ancestry"
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
+        "damage": [
+          {
+            "damage_at_character_level": {
+              "1": "2d6",
+              "11": "4d6",
+              "16": "5d6",
+              "6": "3d6"
+            },
+            "damage_type": {
+              "index": "cold",
+              "name": "Холодный",
+              "url": "/api/damage-types/cold"
+            }
+          }
+        ],
+        "dc": {
+          "dc_type": {
+            "index": "con",
+            "name": "ПРОТИВ",
+            "url": "/api/ability-scores/con"
+          },
+          "success_type": "half"
+        },
+        "desc": "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха. Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне. После использования дыхательного оружия вы не сможете использовать его снова, пока не завершите короткий или длительный отдых.",
+        "name": "Дыхательное оружие",
+        "usage": {
+          "times": 1,
+          "type": "за отдых"
+        }
+      },
+      "damage_type": {
+        "index": "cold",
+        "name": "Холодный",
+        "url": "/api/damage-types/cold"
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/draconic-ancestry-white"
+  },
+  {
+    "desc": [
+      "Вы можете своим действием выдохнуть разрушительную энергию. Ваше драконье происхождение определяет размер, форму и тип урона выдоха.",
+      "Когда вы используете свое дыхательное оружие, каждое существо в области выдоха должно совершить спасбросок, тип которого определяется вашим драконьим происхождением. Сложность этого спасброска равна 8 + ваш модификатор Телосложения + ваш бонус мастерства. Существо получает 2d6 урона при провале и половину этого урона при успехе. Урон увеличивается до 3d6 на 6 уровне, 4d6 на 11 уровне и 5d6 на 16 уровне.",
+      "После того, как вы воспользуетесь своим дыхательным оружием, вы не сможете использовать его снова, пока не завершите короткий или длительный отдых."
+    ],
+    "index": "breath-weapon",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Дыхательное оружие",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/breath-weapon"
+  },
+  {
+    "desc": [
+      "У вас есть устойчивость к типу урона, связанному с вашим драконьим происхождением."
+    ],
+    "index": "damage-resistance",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Сопротивление урону",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Драконорожденный",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/damage-resistance"
+  },
+  {
+    "desc": [
+      "Вы совершаете с преимуществом все спасброски Интеллекта, Мудрости и Харизмы против магии."
+    ],
+    "index": "gnome-cunning",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Гном Хитрый",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "gnome",
+        "name": "Гном",
+        "url": "/api/races/gnome"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/gnome-cunning"
+  },
+  {
+    "desc": [
+      "Всякий раз, когда вы совершаете проверку Интеллекта (История), связанную с магическими предметами, алхимическими объектами или технологическими устройствами, вы можете добавить двойной бонус мастерства вместо любого бонуса мастерства, который вы обычно применяете."
+    ],
+    "index": "artificers-lore",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Знания ремесленника",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [],
+    "subraces": [
+      {
+        "index": "rock-gnome",
+        "name": "Каменный гном",
+        "url": "/api/subraces/rock-gnome"
+      }
+    ],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/artificers-lore"
+  },
+  {
+    "desc": [
+      "Вы владеете ремесленными инструментами (инструментами ремесленника). Используя эти инструменты, вы можете потратить 1 час и материалы стоимостью 10 зм, чтобы построить Крошечное часовое устройство (AC 5, 1 хп). Устройство перестает функционировать через 24 часа (если только вы не потратите 1 час на его ремонт, чтобы сохранить работоспособность устройства) или когда вы используете свое действие для его демонтажа; тогда вы сможете вернуть материалы, использованные для его создания. Одновременно можно иметь до трех таких устройств.",
+      "При создании устройства выберите один из следующих вариантов:",
+      "Заводная игрушка: Эта игрушка представляет собой заводное животное, монстра или человека, например лягушку, мышь, птицу, дракона или солдата. Положенная на землю игрушка перемещается по земле на 5 футов за каждый ваш ход в случайном направлении. Он издает звуки, соответствующие существу, которое представляет.",
+      "Разжигатель огня: устройство производит миниатюрное пламя, которым можно зажечь свечу, факел или костер. Использование устройства требует ваших действий.",
+      "Музыкальная шкатулка: при открытии эта музыкальная шкатулка воспроизводит одну песню на умеренной громкости. Коробка перестает играть, когда достигает конца песни или когда она закрывается."
+    ],
+    "index": "tinker",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Тинкер",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [
+      {
+        "index": "tinkers-tools",
+        "name": "Инструменты Тинкера",
+        "url": "/api/proficiencies/tinkers-tools"
+      }
+    ],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [],
+    "subraces": [
+      {
+        "index": "rock-gnome",
+        "name": "Каменный гном",
+        "url": "/api/subraces/rock-gnome"
+      }
+    ],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/tinker"
+  },
+  {
+    "desc": [
+      "Вы получаете владение двумя навыками по вашему выбору."
+    ],
+    "index": "skill-versatility",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Универсальность навыков",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 2,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "item": {
+              "index": "skill-acrobatics",
+              "name": "Навык: Акробатика",
+              "url": "/api/proficiencies/skill-acrobatics"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-animal-handling",
+              "name": "Навык: Обращение с животными",
+              "url": "/api/proficiencies/skill-animal-handling"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-arcana",
+              "name": "Навык: Аркана",
+              "url": "/api/proficiencies/skill-arcana"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-athletics",
+              "name": "Навык: легкая атлетика",
+              "url": "/api/proficiencies/skill-athletics"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-deception",
+              "name": "Навык: Обман",
+              "url": "/api/proficiencies/skill-deception"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-history",
+              "name": "Навык: История",
+              "url": "/api/proficiencies/skill-history"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-insight",
+              "name": "Навык: Проницательность",
+              "url": "/api/proficiencies/skill-insight"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-intimidation",
+              "name": "Навык: Запугивание",
+              "url": "/api/proficiencies/skill-intimidation"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-investigation",
+              "name": "Навык: Расследование",
+              "url": "/api/proficiencies/skill-investigation"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-medicine",
+              "name": "Навык: Медицина",
+              "url": "/api/proficiencies/skill-medicine"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-nature",
+              "name": "Навык: Природа",
+              "url": "/api/proficiencies/skill-nature"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-perception",
+              "name": "Навык: Восприятие",
+              "url": "/api/proficiencies/skill-perception"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-performance",
+              "name": "Навык: Производительность",
+              "url": "/api/proficiencies/skill-performance"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-persuasion",
+              "name": "Навык: Убеждение",
+              "url": "/api/proficiencies/skill-persuasion"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-religion",
+              "name": "Навык: Религия",
+              "url": "/api/proficiencies/skill-religion"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-sleight-of-hand",
+              "name": "Навык: Ловкость рук",
+              "url": "/api/proficiencies/skill-sleight-of-hand"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-stealth",
+              "name": "Навык: Скрытность",
+              "url": "/api/proficiencies/skill-stealth"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-survival",
+              "name": "Навык: Выживание",
+              "url": "/api/proficiencies/skill-survival"
+            },
+            "option_type": "reference"
+          }
+        ]
+      },
+      "type": "proficiencies"
+    },
+    "races": [
+      {
+        "index": "half-elf",
+        "name": "Полуэльф",
+        "url": "/api/races/half-elf"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/skill-versatility"
+  },
+  {
+    "desc": [
+      "Вы получаете мастерство в навыке запугивания."
+    ],
+    "index": "menacing",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Угрожающий",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [
+      {
+        "index": "skill-intimidation",
+        "name": "Навык: Запугивание",
+        "url": "/api/proficiencies/skill-intimidation"
+      }
+    ],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "half-orc",
+        "name": "Полуорк",
+        "url": "/api/races/half-orc"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/menacing"
+  },
+  {
+    "desc": [
+      "Когда ваши хиты опускаются до 0, но не убиты сразу, вместо этого ваши хиты могут упасть до 1. вы не сможете использовать эту способность снова, пока не закончите длительный отдых."
+    ],
+    "index": "relentless-endurance",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Неумолимая выносливость",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "half-orc",
+        "name": "Полуорк",
+        "url": "/api/races/half-orc"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/relentless-endurance"
+  },
+  {
+    "desc": [
+      "Когда вы наносите критическое попадание рукопашной атакой оружием, вы можете бросить один из кубиков урона оружия еще раз и добавить его к дополнительному урону от критического удара."
+    ],
+    "index": "savage-attacks",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Дикие атаки",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "half-orc",
+        "name": "Полуорк",
+        "url": "/api/races/half-orc"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/savage-attacks"
+  },
+  {
+    "desc": [
+      "У вас есть устойчивость к урону от огня."
+    ],
+    "index": "hellish-resistance",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Адское сопротивление",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "tiefling",
+        "name": "Тифлинг",
+        "url": "/api/races/tiefling"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/hellish-resistance"
+  },
+  {
+    "desc": [
+      "Вы знаете магический заговор. Достигнув 3-го уровня, вы можете один раз сотворить заклинание адского упрека как заклинание 2-го уровня с этой чертой и восстановить способность сделать это, когда закончите длительный отдых. Достигнув 5-го уровня, вы можете один раз наложить заклинание тьмы с этой чертой и восстановить эту способность, когда закончите длительный отдых. Харизма — это ваша способность использовать эти заклинания."
+    ],
+    "index": "infernal-legacy",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "name": "Адское наследие",
+    "parent": {
+      "index": "",
+      "name": "",
+      "url": ""
+    },
+    "proficiencies": [],
+    "proficiency_choices": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "races": [
+      {
+        "index": "tiefling",
+        "name": "Тифлинг",
+        "url": "/api/races/tiefling"
+      }
+    ],
+    "subraces": [],
+    "trait_specific": {
+      "breath_weapon": {
+        "area_of_effect": {
+          "size": 0,
+          "type": ""
+        },
+        "damage": null,
+        "dc": {
+          "dc_type": {
+            "index": "",
+            "name": "",
+            "url": ""
+          },
+          "success_type": ""
+        },
+        "desc": "",
+        "name": "",
+        "usage": {
+          "times": 0,
+          "type": ""
+        }
+      },
+      "damage_type": {
+        "index": "",
+        "name": "",
+        "url": ""
+      },
+      "spell_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      },
+      "subtrait_options": {
+        "choose": 0,
+        "from": {
+          "option_set_type": "",
+          "options": null
+        },
+        "type": ""
+      }
+    },
+    "url": "/api/traits/infernal-legacy"
+  }
+]

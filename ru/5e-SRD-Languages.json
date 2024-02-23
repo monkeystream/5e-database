@@ -1,0 +1,181 @@
+[
+  {
+    "desc": "",
+    "index": "common",
+    "name": "Общий",
+    "script": "Общий",
+    "type": "Стандартный",
+    "typical_speakers": [
+      "Люди"
+    ],
+    "url": "/api/languages/common"
+  },
+  {
+    "desc": "Гномий язык полон твердых согласных и гортанных звуков.",
+    "index": "dwarvish",
+    "name": "гномий",
+    "script": "гномий",
+    "type": "Стандартный",
+    "typical_speakers": [
+      "Гномы"
+    ],
+    "url": "/api/languages/dwarvish"
+  },
+  {
+    "desc": "Эльфийский язык подвижен, с тонкими интонациями и сложной грамматикой. Эльфийская литература богата и разнообразна, а их песни и стихи известны среди других рас. Многие барды изучают свой язык, чтобы добавить в свой репертуар эльфийские баллады.",
+    "index": "elvish",
+    "name": "эльфийский",
+    "script": "эльфийский",
+    "type": "Стандартный",
+    "typical_speakers": [
+      "Эльфы"
+    ],
+    "url": "/api/languages/elvish"
+  },
+  {
+    "desc": "",
+    "index": "giant",
+    "name": "Гигант",
+    "script": "гномий",
+    "type": "Стандартный",
+    "typical_speakers": [
+      "Огры",
+      "Гиганты"
+    ],
+    "url": "/api/languages/giant"
+  },
+  {
+    "desc": "Язык гномов, использующий гномью письменность, известен своими техническими трактатами и каталогами знаний о мире природы.",
+    "index": "gnomish",
+    "name": "гномский",
+    "script": "гномий",
+    "type": "Стандартный",
+    "typical_speakers": [
+      "Гномы"
+    ],
+    "url": "/api/languages/gnomish"
+  },
+  {
+    "desc": "",
+    "index": "goblin",
+    "name": "Гоблин",
+    "script": "гномий",
+    "type": "Стандартный",
+    "typical_speakers": [
+      "Гоблиноиды"
+    ],
+    "url": "/api/languages/goblin"
+  },
+  {
+    "desc": "Язык халфлингов не является секретом, но халфлинги не хотят делиться им с другими. Они пишут очень мало, поэтому у них нет богатой литературы. Однако их устная традиция очень сильна.",
+    "index": "halfling",
+    "name": "Халфлинг",
+    "script": "Общий",
+    "type": "Стандартный",
+    "typical_speakers": [
+      "Халфлинги"
+    ],
+    "url": "/api/languages/halfling"
+  },
+  {
+    "desc": "Оркский язык — резкий, скрипучий язык с твердыми согласными. У него нет собственного сценария, но он написан гномьим письмом.",
+    "index": "orc",
+    "name": "орк",
+    "script": "гномий",
+    "type": "Стандартный",
+    "typical_speakers": [
+      "Орки"
+    ],
+    "url": "/api/languages/orc"
+  },
+  {
+    "desc": "",
+    "index": "abyssal",
+    "name": "Бездна",
+    "script": "Адский",
+    "type": "Экзотический",
+    "typical_speakers": [
+      "Демоны"
+    ],
+    "url": "/api/languages/abyssal"
+  },
+  {
+    "desc": "",
+    "index": "celestial",
+    "name": "Небесный",
+    "script": "Небесный",
+    "type": "Экзотический",
+    "typical_speakers": [
+      "Небожители"
+    ],
+    "url": "/api/languages/celestial"
+  },
+  {
+    "desc": "Драконий язык считается одним из древнейших языков и часто используется при изучении магии. Язык звучит резко для большинства других существ и включает в себя множество твердых согласных и шипящих звуков.",
+    "index": "draconic",
+    "name": "Драконий",
+    "script": "Драконий",
+    "type": "Экзотический",
+    "typical_speakers": [
+      "Драконы",
+      "Драконорожденный"
+    ],
+    "url": "/api/languages/draconic"
+  },
+  {
+    "desc": "",
+    "index": "deep-speech",
+    "name": "Глубокая речь",
+    "script": "",
+    "type": "Экзотический",
+    "typical_speakers": [
+      "Аболеты",
+      "Плащи"
+    ],
+    "url": "/api/languages/deep-speech"
+  },
+  {
+    "desc": "",
+    "index": "infernal",
+    "name": "Адский",
+    "script": "Адский",
+    "type": "Экзотический",
+    "typical_speakers": [
+      "Дьяволы"
+    ],
+    "url": "/api/languages/infernal"
+  },
+  {
+    "desc": "",
+    "index": "primordial",
+    "name": "Первозданный",
+    "script": "гномий",
+    "type": "Экзотический",
+    "typical_speakers": [
+      "Элементали"
+    ],
+    "url": "/api/languages/primordial"
+  },
+  {
+    "desc": "",
+    "index": "sylvan",
+    "name": "Сильван",
+    "script": "эльфийский",
+    "type": "Экзотический",
+    "typical_speakers": [
+      "Фейские существа"
+    ],
+    "url": "/api/languages/sylvan"
+  },
+  {
+    "desc": "",
+    "index": "undercommon",
+    "name": "Необычный",
+    "script": "эльфийский",
+    "type": "Экзотический",
+    "typical_speakers": [
+      "Торговцы Подземья"
+    ],
+    "url": "/api/languages/undercommon"
+  }
+]

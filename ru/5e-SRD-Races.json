@@ -1,0 +1,1260 @@
+[
+  {
+    "ability_bonus_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "con",
+          "name": "ПРОТИВ",
+          "url": "/api/ability-scores/con"
+        },
+        "bonus": 2
+      }
+    ],
+    "age": "Гномы взрослеют с той же скоростью, что и люди, но считаются молодыми, пока не достигнут 50-летнего возраста. В среднем они живут около 350 лет.",
+    "alignment": "Большинство дварфов законопослушны и твердо верят в преимущества хорошо организованного общества. Они также склонны к добру, обладают сильным чувством честной игры и верой в то, что каждый заслуживает того, чтобы разделить блага справедливого порядка.",
+    "index": "dwarf",
+    "language_desc": "Вы можете говорить, читать и писать на всеобщем и гномьем языках. Гномий язык полон твердых согласных и гортанных звуков, и эти характеристики переходят на любой другой язык, на котором говорят дварфы.",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "languages": [
+      {
+        "index": "common",
+        "name": "Общий",
+        "url": "/api/languages/common"
+      },
+      {
+        "index": "dwarvish",
+        "name": "гномий",
+        "url": "/api/languages/dwarvish"
+      }
+    ],
+    "name": "Карлик",
+    "size": "Середина",
+    "size_description": "Рост гномов составляет от 4 до 5 футов, а вес в среднем составляет около 150 фунтов. Ваш размер средний.",
+    "speed": 25,
+    "starting_proficiencies": [
+      {
+        "index": "battleaxes",
+        "name": "Боевые топоры",
+        "url": "/api/proficiencies/battleaxes"
+      },
+      {
+        "index": "handaxes",
+        "name": "Ручные топоры",
+        "url": "/api/proficiencies/handaxes"
+      },
+      {
+        "index": "light-hammers",
+        "name": "Легкие молотки",
+        "url": "/api/proficiencies/light-hammers"
+      },
+      {
+        "index": "warhammers",
+        "name": "Боевые молоты",
+        "url": "/api/proficiencies/warhammers"
+      }
+    ],
+    "starting_proficiency_options": {
+      "choose": 1,
+      "desc": "Вы получаете навыки обращения с инструментами ремесленника по вашему выбору: инструментами кузнеца, принадлежностями для пивоварения или инструментами каменщика.",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "item": {
+              "index": "smiths-tools",
+              "name": "Инструменты Смита",
+              "url": "/api/proficiencies/smiths-tools"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "brewers-supplies",
+              "name": "Принадлежности для пивовара",
+              "url": "/api/proficiencies/brewers-supplies"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "masons-tools",
+              "name": "Инструменты Мейсона",
+              "url": "/api/proficiencies/masons-tools"
+            },
+            "option_type": "reference"
+          }
+        ]
+      },
+      "type": "proficiencies"
+    },
+    "subraces": [
+      {
+        "index": "hill-dwarf",
+        "name": "Холмовый гном",
+        "url": "/api/subraces/hill-dwarf"
+      }
+    ],
+    "traits": [
+      {
+        "index": "darkvision",
+        "name": "темновидение",
+        "url": "/api/traits/darkvision"
+      },
+      {
+        "index": "dwarven-resilience",
+        "name": "Устойчивость гномов",
+        "url": "/api/traits/dwarven-resilience"
+      },
+      {
+        "index": "stonecunning",
+        "name": "каменная хитрость",
+        "url": "/api/traits/stonecunning"
+      },
+      {
+        "index": "dwarven-combat-training",
+        "name": "Боевая подготовка гномов",
+        "url": "/api/traits/dwarven-combat-training"
+      },
+      {
+        "index": "tool-proficiency",
+        "name": "Владение инструментом",
+        "url": "/api/traits/tool-proficiency"
+      }
+    ],
+    "url": "/api/races/dwarf"
+  },
+  {
+    "ability_bonus_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/ability-scores/dex"
+        },
+        "bonus": 2
+      }
+    ],
+    "age": "Хотя эльфы достигают физической зрелости примерно в том же возрасте, что и люди, эльфийское понимание взрослой жизни выходит за рамки физического роста и охватывает мирской опыт. Эльф обычно заявляет о взрослости и взрослом имени примерно в возрасте 100 лет и может дожить до 750 лет.",
+    "alignment": "Эльфы любят свободу, разнообразие и самовыражение, поэтому они сильно склоняются к более мягким аспектам хаоса. Они ценят и защищают свободу других так же, как и свою, и чаще всего они хорошие, чем плохие.",
+    "index": "elf",
+    "language_desc": "Вы можете говорить, читать и писать на Общем и Эльфийском языках. Эльфийский язык подвижен, с тонкими интонациями и сложной грамматикой. Эльфийская литература богата и разнообразна, а их песни и стихи известны среди других рас. Многие барды изучают свой язык, чтобы добавить в свой репертуар эльфийские баллады.",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "languages": [
+      {
+        "index": "common",
+        "name": "Общий",
+        "url": "/api/languages/common"
+      },
+      {
+        "index": "elvish",
+        "name": "эльфийский",
+        "url": "/api/languages/elvish"
+      }
+    ],
+    "name": "Эльф",
+    "size": "Середина",
+    "size_description": "Эльфы имеют рост от 5 до 6 футов и стройное телосложение. Ваш размер средний.",
+    "speed": 30,
+    "starting_proficiencies": [
+      {
+        "index": "skill-perception",
+        "name": "Навык: Восприятие",
+        "url": "/api/proficiencies/skill-perception"
+      }
+    ],
+    "starting_proficiency_options": {
+      "choose": 0,
+      "desc": "",
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "subraces": [
+      {
+        "index": "high-elf",
+        "name": "Высший Эльф",
+        "url": "/api/subraces/high-elf"
+      }
+    ],
+    "traits": [
+      {
+        "index": "darkvision",
+        "name": "темновидение",
+        "url": "/api/traits/darkvision"
+      },
+      {
+        "index": "fey-ancestry",
+        "name": "Фейское происхождение",
+        "url": "/api/traits/fey-ancestry"
+      },
+      {
+        "index": "trance",
+        "name": "Транс",
+        "url": "/api/traits/trance"
+      },
+      {
+        "index": "keen-senses",
+        "name": "Острые чувства",
+        "url": "/api/traits/keen-senses"
+      }
+    ],
+    "url": "/api/races/elf"
+  },
+  {
+    "ability_bonus_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/ability-scores/dex"
+        },
+        "bonus": 2
+      }
+    ],
+    "age": "Хафлинг достигает совершеннолетия в возрасте 20 лет и обычно доживает до середины своего второго столетия.",
+    "alignment": "Большинство халфлингов законно добры. Как правило, они добросердечны и добры, ненавидят видеть, как другие страдают, и не терпят угнетения. Они также очень упорядочены и традиционны, во многом опираясь на поддержку своего сообщества и комфорт своих старых обычаев.",
+    "index": "halfling",
+    "language_desc": "Вы можете говорить, читать и писать на Общем и Халфлинге. Язык халфлингов не является секретом, но халфлинги не хотят делиться им с другими. Они пишут очень мало, поэтому у них нет богатой литературы. Однако их устная традиция очень сильна. Почти все халфлинги говорят на Общем, чтобы общаться с людьми, в чьих землях они живут или через которые путешествуют.",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "languages": [
+      {
+        "index": "common",
+        "name": "Общий",
+        "url": "/api/languages/common"
+      },
+      {
+        "index": "halfling",
+        "name": "Халфлинг",
+        "url": "/api/languages/halfling"
+      }
+    ],
+    "name": "Халфлинг",
+    "size": "Маленький",
+    "size_description": "Халфлинги в среднем имеют рост около 3 футов и весят около 40 фунтов. Ваш размер маленький.",
+    "speed": 25,
+    "starting_proficiencies": [],
+    "starting_proficiency_options": {
+      "choose": 0,
+      "desc": "",
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "subraces": [
+      {
+        "index": "lightfoot-halfling",
+        "name": "Легконогий халфлинг",
+        "url": "/api/subraces/lightfoot-halfling"
+      }
+    ],
+    "traits": [
+      {
+        "index": "brave",
+        "name": "Храбрый",
+        "url": "/api/traits/brave"
+      },
+      {
+        "index": "halfling-nimbleness",
+        "name": "Проворство полурослика",
+        "url": "/api/traits/halfling-nimbleness"
+      },
+      {
+        "index": "lucky",
+        "name": "Удачливый",
+        "url": "/api/traits/lucky"
+      }
+    ],
+    "url": "/api/races/halfling"
+  },
+  {
+    "ability_bonus_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "str",
+          "name": "СТР",
+          "url": "/api/ability-scores/str"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/ability-scores/dex"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "con",
+          "name": "ПРОТИВ",
+          "url": "/api/ability-scores/con"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "int",
+          "name": "ИНТ.",
+          "url": "/api/ability-scores/int"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "wis",
+          "name": "ИСВ",
+          "url": "/api/ability-scores/wis"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "cha",
+          "name": "ЦДХ",
+          "url": "/api/ability-scores/cha"
+        },
+        "bonus": 1
+      }
+    ],
+    "age": "Люди достигают взрослой жизни в подростковом возрасте и живут менее столетия.",
+    "alignment": "Люди склонны к отсутствию определенного мировоззрения. Среди них встречаются лучшие и худшие.",
+    "index": "human",
+    "language_desc": "Вы можете говорить, читать и писать на общем и одном дополнительном языке по вашему выбору. Люди обычно изучают языки других народов, с которыми они имеют дело, включая малоизвестные диалекты. Они любят присыпать свою речь словами, заимствованными из других языков: орочьими проклятиями, эльфийскими музыкальными выражениями, гномьими военными фразами и так далее.",
+    "language_options": {
+      "choose": 1,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "item": {
+              "index": "dwarvish",
+              "name": "гномий",
+              "url": "/api/languages/dwarvish"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "elvish",
+              "name": "эльфийский",
+              "url": "/api/languages/elvish"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "giant",
+              "name": "Гигант",
+              "url": "/api/languages/giant"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "gnomish",
+              "name": "гномский",
+              "url": "/api/languages/gnomish"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "goblin",
+              "name": "Гоблин",
+              "url": "/api/languages/goblin"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "halfling",
+              "name": "Халфлинг",
+              "url": "/api/languages/halfling"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "orc",
+              "name": "орк",
+              "url": "/api/languages/orc"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "abyssal",
+              "name": "Бездна",
+              "url": "/api/languages/abyssal"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "celestial",
+              "name": "Небесный",
+              "url": "/api/languages/celestial"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "draconic",
+              "name": "Драконий",
+              "url": "/api/languages/draconic"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "deep-speech",
+              "name": "Глубокая речь",
+              "url": "/api/languages/deep-speech"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "infernal",
+              "name": "Адский",
+              "url": "/api/languages/infernal"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "primordial",
+              "name": "Первозданный",
+              "url": "/api/languages/primordial"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "sylvan",
+              "name": "Сильван",
+              "url": "/api/languages/sylvan"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "undercommon",
+              "name": "Необычный",
+              "url": "/api/languages/undercommon"
+            },
+            "option_type": "reference"
+          }
+        ]
+      },
+      "type": "languages"
+    },
+    "languages": [
+      {
+        "index": "common",
+        "name": "Общий",
+        "url": "/api/languages/common"
+      }
+    ],
+    "name": "Человек",
+    "size": "Середина",
+    "size_description": "Люди сильно различаются по росту и телосложению: от едва пяти футов до более шести футов. Независимо от вашего положения в этом диапазоне, ваш размер средний.",
+    "speed": 30,
+    "starting_proficiencies": [],
+    "starting_proficiency_options": {
+      "choose": 0,
+      "desc": "",
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "subraces": [],
+    "traits": [],
+    "url": "/api/races/human"
+  },
+  {
+    "ability_bonus_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "str",
+          "name": "СТР",
+          "url": "/api/ability-scores/str"
+        },
+        "bonus": 2
+      },
+      {
+        "ability_score": {
+          "index": "cha",
+          "name": "ЦДХ",
+          "url": "/api/ability-scores/cha"
+        },
+        "bonus": 1
+      }
+    ],
+    "age": "Молодые драконорожденные быстро растут. Они ходят через несколько часов после вылупления, к 3 годам достигают размеров и развития 10-летнего человеческого ребенка и достигают взрослой жизни к 15 годам. Они живут около 80 лет.",
+    "alignment": "Драконорожденные склонны к крайностям, делая осознанный выбор в пользу той или иной стороны в космической войне между добром и злом. Большинство драконорожденных добрые, но те, кто на стороне зла, могут оказаться ужасными злодеями.",
+    "index": "dragonborn",
+    "language_desc": "Вы можете говорить, читать и писать на Общем и Драконьем языках. Драконий язык считается одним из древнейших языков и часто используется при изучении магии. Язык звучит резко для большинства других существ и включает в себя множество твердых согласных и шипящих звуков.",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "languages": [
+      {
+        "index": "common",
+        "name": "Общий",
+        "url": "/api/languages/common"
+      },
+      {
+        "index": "draconic",
+        "name": "Драконий",
+        "url": "/api/languages/draconic"
+      }
+    ],
+    "name": "Драконорожденный",
+    "size": "Середина",
+    "size_description": "Драконорожденные выше и тяжелее людей, их рост превышает 6 футов, а средний вес составляет почти 250 фунтов. Ваш размер средний.",
+    "speed": 30,
+    "starting_proficiencies": [],
+    "starting_proficiency_options": {
+      "choose": 0,
+      "desc": "",
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "subraces": [],
+    "traits": [
+      {
+        "index": "draconic-ancestry",
+        "name": "Драконье происхождение",
+        "url": "/api/traits/draconic-ancestry"
+      },
+      {
+        "index": "breath-weapon",
+        "name": "Дыхательное оружие",
+        "url": "/api/traits/breath-weapon"
+      },
+      {
+        "index": "damage-resistance",
+        "name": "Сопротивление урону",
+        "url": "/api/traits/damage-resistance"
+      }
+    ],
+    "url": "/api/races/dragonborn"
+  },
+  {
+    "ability_bonus_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "int",
+          "name": "ИНТ.",
+          "url": "/api/ability-scores/int"
+        },
+        "bonus": 2
+      }
+    ],
+    "age": "Гномы взрослеют с той же скоростью, что и люди, и ожидается, что большинство из них вступят во взрослую жизнь примерно к 40 годам. Они могут жить от 350 до почти 500 лет.",
+    "alignment": "Гномы чаще всего добрые. Те, кто склонен к закону, — это мудрецы, инженеры, исследователи, учёные, следователи или изобретатели. Те, кто склонен к хаосу, — это менестрели, обманщики, странники или причудливые ювелиры. Гномы добросердечны, и даже обманщики среди них скорее игривы, чем злобны.",
+    "index": "gnome",
+    "language_desc": "Вы можете говорить, читать и писать на всеобщем и гномском языках. Язык гномов, использующий гномью письменность, известен своими техническими трактатами и каталогами знаний о мире природы.",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "languages": [
+      {
+        "index": "common",
+        "name": "Общий",
+        "url": "/api/languages/common"
+      },
+      {
+        "index": "gnomish",
+        "name": "гномский",
+        "url": "/api/languages/gnomish"
+      }
+    ],
+    "name": "Гном",
+    "size": "Маленький",
+    "size_description": "Гномы имеют рост от 3 до 4 футов и средний вес около 40 фунтов. Ваш размер маленький.",
+    "speed": 25,
+    "starting_proficiencies": [],
+    "starting_proficiency_options": {
+      "choose": 0,
+      "desc": "",
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "subraces": [
+      {
+        "index": "rock-gnome",
+        "name": "Каменный гном",
+        "url": "/api/subraces/rock-gnome"
+      }
+    ],
+    "traits": [
+      {
+        "index": "darkvision",
+        "name": "темновидение",
+        "url": "/api/traits/darkvision"
+      },
+      {
+        "index": "gnome-cunning",
+        "name": "Гном Хитрый",
+        "url": "/api/traits/gnome-cunning"
+      }
+    ],
+    "url": "/api/races/gnome"
+  },
+  {
+    "ability_bonus_options": {
+      "choose": 2,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "ability_score": {
+              "index": "str",
+              "name": "СТР",
+              "url": "/api/ability-scores/str"
+            },
+            "bonus": 1,
+            "option_type": "ability_bonus"
+          },
+          {
+            "ability_score": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/ability-scores/dex"
+            },
+            "bonus": 1,
+            "option_type": "ability_bonus"
+          },
+          {
+            "ability_score": {
+              "index": "con",
+              "name": "ПРОТИВ",
+              "url": "/api/ability-scores/con"
+            },
+            "bonus": 1,
+            "option_type": "ability_bonus"
+          },
+          {
+            "ability_score": {
+              "index": "int",
+              "name": "ИНТ.",
+              "url": "/api/ability-scores/int"
+            },
+            "bonus": 1,
+            "option_type": "ability_bonus"
+          },
+          {
+            "ability_score": {
+              "index": "wis",
+              "name": "ИСВ",
+              "url": "/api/ability-scores/wis"
+            },
+            "bonus": 1,
+            "option_type": "ability_bonus"
+          }
+        ]
+      },
+      "type": "ability_bonuses"
+    },
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "cha",
+          "name": "ЦДХ",
+          "url": "/api/ability-scores/cha"
+        },
+        "bonus": 2
+      }
+    ],
+    "age": "Полуэльфы взрослеют с той же скоростью, что и люди, и достигают взрослой жизни примерно в 20 лет. Однако они живут намного дольше, чем люди, часто превышая 180 лет.",
+    "alignment": "Полуэльфы разделяют хаотичные наклонности своего эльфийского наследия. Они ценят как личную свободу, так и творческое самовыражение, не демонстрируя ни любви к лидерам, ни стремления к последователям. Они раздражаются правилами, возмущаются требованиями других и иногда оказываются ненадежными или, по крайней мере, непредсказуемыми.",
+    "index": "half-elf",
+    "language_desc": "Вы можете говорить, читать и писать на общем, эльфийском и еще одном языке по вашему выбору.",
+    "language_options": {
+      "choose": 1,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "item": {
+              "index": "dwarvish",
+              "name": "гномий",
+              "url": "/api/languages/dwarvish"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "giant",
+              "name": "Гигант",
+              "url": "/api/languages/giant"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "gnomish",
+              "name": "гномский",
+              "url": "/api/languages/gnomish"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "goblin",
+              "name": "Гоблин",
+              "url": "/api/languages/goblin"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "halfling",
+              "name": "Халфлинг",
+              "url": "/api/languages/halfling"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "orc",
+              "name": "орк",
+              "url": "/api/languages/orc"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "abyssal",
+              "name": "Бездна",
+              "url": "/api/languages/abyssal"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "celestial",
+              "name": "Небесный",
+              "url": "/api/languages/celestial"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "draconic",
+              "name": "Драконий",
+              "url": "/api/languages/draconic"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "deep-speech",
+              "name": "Глубокая речь",
+              "url": "/api/languages/deep-speech"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "infernal",
+              "name": "Адский",
+              "url": "/api/languages/infernal"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "primordial",
+              "name": "Первозданный",
+              "url": "/api/languages/primordial"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "sylvan",
+              "name": "Сильван",
+              "url": "/api/languages/sylvan"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "undercommon",
+              "name": "Необычный",
+              "url": "/api/languages/undercommon"
+            },
+            "option_type": "reference"
+          }
+        ]
+      },
+      "type": "languages"
+    },
+    "languages": [
+      {
+        "index": "common",
+        "name": "Общий",
+        "url": "/api/languages/common"
+      },
+      {
+        "index": "elvish",
+        "name": "эльфийский",
+        "url": "/api/languages/elvish"
+      }
+    ],
+    "name": "Полуэльф",
+    "size": "Середина",
+    "size_description": "Полуэльфы примерно такого же размера, как люди, от 5 до 6 футов в высоту. Ваш размер средний.",
+    "speed": 30,
+    "starting_proficiencies": [],
+    "starting_proficiency_options": {
+      "choose": 2,
+      "desc": "",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "item": {
+              "index": "skill-acrobatics",
+              "name": "Навык: Акробатика",
+              "url": "/api/proficiencies/skill-acrobatics"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-animal-handling",
+              "name": "Навык: Обращение с животными",
+              "url": "/api/proficiencies/skill-animal-handling"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-arcana",
+              "name": "Навык: Аркана",
+              "url": "/api/proficiencies/skill-arcana"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-athletics",
+              "name": "Навык: легкая атлетика",
+              "url": "/api/proficiencies/skill-athletics"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-deception",
+              "name": "Навык: Обман",
+              "url": "/api/proficiencies/skill-deception"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-history",
+              "name": "Навык: История",
+              "url": "/api/proficiencies/skill-history"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-insight",
+              "name": "Навык: Проницательность",
+              "url": "/api/proficiencies/skill-insight"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-intimidation",
+              "name": "Навык: Запугивание",
+              "url": "/api/proficiencies/skill-intimidation"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-investigation",
+              "name": "Навык: Расследование",
+              "url": "/api/proficiencies/skill-investigation"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-medicine",
+              "name": "Навык: Медицина",
+              "url": "/api/proficiencies/skill-medicine"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-nature",
+              "name": "Навык: Природа",
+              "url": "/api/proficiencies/skill-nature"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-perception",
+              "name": "Навык: Восприятие",
+              "url": "/api/proficiencies/skill-perception"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-performance",
+              "name": "Навык: Производительность",
+              "url": "/api/proficiencies/skill-performance"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-persuasion",
+              "name": "Навык: Убеждение",
+              "url": "/api/proficiencies/skill-persuasion"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-religion",
+              "name": "Навык: Религия",
+              "url": "/api/proficiencies/skill-religion"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-sleight-of-hand",
+              "name": "Навык: Ловкость рук",
+              "url": "/api/proficiencies/skill-sleight-of-hand"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-stealth",
+              "name": "Навык: Скрытность",
+              "url": "/api/proficiencies/skill-stealth"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "skill-survival",
+              "name": "Навык: Выживание",
+              "url": "/api/proficiencies/skill-survival"
+            },
+            "option_type": "reference"
+          }
+        ]
+      },
+      "type": "proficiencies"
+    },
+    "subraces": [],
+    "traits": [
+      {
+        "index": "darkvision",
+        "name": "темновидение",
+        "url": "/api/traits/darkvision"
+      },
+      {
+        "index": "fey-ancestry",
+        "name": "Фейское происхождение",
+        "url": "/api/traits/fey-ancestry"
+      },
+      {
+        "index": "skill-versatility",
+        "name": "Универсальность навыков",
+        "url": "/api/traits/skill-versatility"
+      }
+    ],
+    "url": "/api/races/half-elf"
+  },
+  {
+    "ability_bonus_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "str",
+          "name": "СТР",
+          "url": "/api/ability-scores/str"
+        },
+        "bonus": 2
+      },
+      {
+        "ability_score": {
+          "index": "con",
+          "name": "ПРОТИВ",
+          "url": "/api/ability-scores/con"
+        },
+        "bonus": 1
+      }
+    ],
+    "age": "Полуорки взрослеют немного быстрее, чем люди, достигая совершеннолетия примерно в 14 лет. Они стареют заметно быстрее и редко живут дольше 75 лет.",
+    "alignment": "Полуорки унаследовали склонность к хаосу от своих родителей-орков и не сильно склонны к добру. Полуорки, выросшие среди орков и желающие прожить свою жизнь среди них, обычно злы.",
+    "index": "half-orc",
+    "language_desc": "Вы можете говорить, читать и писать на Общем и Оркском языках. Оркский язык — резкий, скрипучий язык с твердыми согласными. У него нет собственного сценария, но он написан гномьим письмом.",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "languages": [
+      {
+        "index": "common",
+        "name": "Общий",
+        "url": "/api/languages/common"
+      },
+      {
+        "index": "orc",
+        "name": "орк",
+        "url": "/api/languages/orc"
+      }
+    ],
+    "name": "Полуорк",
+    "size": "Середина",
+    "size_description": "Полуорки несколько крупнее и массивнее людей, их рост варьируется от 5 до более 6 футов. Ваш размер средний.",
+    "speed": 30,
+    "starting_proficiencies": [
+      {
+        "index": "skill-intimidation",
+        "name": "Навык: Запугивание",
+        "url": "/api/proficiencies/skill-intimidation"
+      }
+    ],
+    "starting_proficiency_options": {
+      "choose": 0,
+      "desc": "",
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "subraces": [],
+    "traits": [
+      {
+        "index": "darkvision",
+        "name": "темновидение",
+        "url": "/api/traits/darkvision"
+      },
+      {
+        "index": "savage-attacks",
+        "name": "Дикие атаки",
+        "url": "/api/traits/savage-attacks"
+      },
+      {
+        "index": "relentless-endurance",
+        "name": "Неумолимая выносливость",
+        "url": "/api/traits/relentless-endurance"
+      },
+      {
+        "index": "menacing",
+        "name": "Угрожающий",
+        "url": "/api/traits/menacing"
+      }
+    ],
+    "url": "/api/races/half-orc"
+  },
+  {
+    "ability_bonus_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "int",
+          "name": "ИНТ.",
+          "url": "/api/ability-scores/int"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "cha",
+          "name": "ЦДХ",
+          "url": "/api/ability-scores/cha"
+        },
+        "bonus": 2
+      }
+    ],
+    "age": "Тифлинги взрослеют с той же скоростью, что и люди, но живут на несколько лет дольше.",
+    "alignment": "Возможно, у тифлингов нет врожденной склонности ко злу, но многие из них оказываются там. Зло это или нет, но независимая натура склоняет многих тифлингов к хаотическому мировоззрению.",
+    "index": "tiefling",
+    "language_desc": "Вы можете говорить, читать и писать на Общем и Адском языках.",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "languages": [
+      {
+        "index": "common",
+        "name": "Общий",
+        "url": "/api/languages/common"
+      },
+      {
+        "index": "infernal",
+        "name": "Адский",
+        "url": "/api/languages/infernal"
+      }
+    ],
+    "name": "Тифлинг",
+    "size": "Середина",
+    "size_description": "Тифлинги примерно такого же размера и телосложения, как люди. Ваш размер средний.",
+    "speed": 30,
+    "starting_proficiencies": [],
+    "starting_proficiency_options": {
+      "choose": 0,
+      "desc": "",
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "subraces": [],
+    "traits": [
+      {
+        "index": "darkvision",
+        "name": "темновидение",
+        "url": "/api/traits/darkvision"
+      },
+      {
+        "index": "hellish-resistance",
+        "name": "Адское сопротивление",
+        "url": "/api/traits/hellish-resistance"
+      },
+      {
+        "index": "infernal-legacy",
+        "name": "Адское наследие",
+        "url": "/api/traits/infernal-legacy"
+      }
+    ],
+    "url": "/api/races/tiefling"
+  }
+]

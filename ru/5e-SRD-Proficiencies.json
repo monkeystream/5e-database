@@ -1,0 +1,2041 @@
+[
+  {
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Варвар",
+        "url": "/api/classes/barbarian"
+      },
+      {
+        "index": "bard",
+        "name": "Бард",
+        "url": "/api/classes/bard"
+      },
+      {
+        "index": "cleric",
+        "name": "Священник",
+        "url": "/api/classes/cleric"
+      },
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      },
+      {
+        "index": "ranger",
+        "name": "Рейнджер",
+        "url": "/api/classes/ranger"
+      },
+      {
+        "index": "rogue",
+        "name": "Негодяй",
+        "url": "/api/classes/rogue"
+      },
+      {
+        "index": "warlock",
+        "name": "Чернокнижник",
+        "url": "/api/classes/warlock"
+      }
+    ],
+    "index": "light-armor",
+    "name": "Легкая броня",
+    "races": [],
+    "reference": {
+      "index": "light-armor",
+      "name": "Легкая броня",
+      "url": "/api/equipment-categories/light-armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/light-armor"
+  },
+  {
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Варвар",
+        "url": "/api/classes/barbarian"
+      },
+      {
+        "index": "cleric",
+        "name": "Священник",
+        "url": "/api/classes/cleric"
+      },
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      },
+      {
+        "index": "ranger",
+        "name": "Рейнджер",
+        "url": "/api/classes/ranger"
+      }
+    ],
+    "index": "medium-armor",
+    "name": "Средняя броня",
+    "races": [],
+    "reference": {
+      "index": "medium-armor",
+      "name": "Средняя броня",
+      "url": "/api/equipment-categories/medium-armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/medium-armor"
+  },
+  {
+    "classes": [],
+    "index": "heavy-armor",
+    "name": "Тяжелая броня",
+    "races": [],
+    "reference": {
+      "index": "heavy-armor",
+      "name": "Тяжелая броня",
+      "url": "/api/equipment-categories/heavy-armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/heavy-armor"
+  },
+  {
+    "classes": [
+      {
+        "index": "fighter",
+        "name": "боец",
+        "url": "/api/classes/fighter"
+      },
+      {
+        "index": "paladin",
+        "name": "Паладин",
+        "url": "/api/classes/paladin"
+      }
+    ],
+    "index": "all-armor",
+    "name": "Вся броня",
+    "races": [],
+    "reference": {
+      "index": "armor",
+      "name": "Броня",
+      "url": "/api/equipment-categories/armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/all-armor"
+  },
+  {
+    "classes": [],
+    "index": "padded-armor",
+    "name": "Мягкая броня",
+    "races": [],
+    "reference": {
+      "index": "padded-armor",
+      "name": "Мягкая броня",
+      "url": "/api/equipment/padded-armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/padded-armor"
+  },
+  {
+    "classes": [],
+    "index": "leather-armor",
+    "name": "Кожаная броня",
+    "races": [],
+    "reference": {
+      "index": "leather-armor",
+      "name": "Кожаная броня",
+      "url": "/api/equipment/leather-armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/leather-armor"
+  },
+  {
+    "classes": [],
+    "index": "studded-leather-armor",
+    "name": "Шипованный кожаный доспех",
+    "races": [],
+    "reference": {
+      "index": "studded-leather-armor",
+      "name": "Шипованный кожаный доспех",
+      "url": "/api/equipment/studded-leather-armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/studded-leather-armor"
+  },
+  {
+    "classes": [],
+    "index": "hide-armor",
+    "name": "Скрыть броню",
+    "races": [],
+    "reference": {
+      "index": "hide-armor",
+      "name": "Скрыть броню",
+      "url": "/api/equipment/hide-armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/hide-armor"
+  },
+  {
+    "classes": [],
+    "index": "chain-shirt",
+    "name": "Кольчужная рубашка",
+    "races": [],
+    "reference": {
+      "index": "chain-shirt",
+      "name": "Кольчужная рубашка",
+      "url": "/api/equipment/chain-shirt"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/chain-shirt"
+  },
+  {
+    "classes": [],
+    "index": "scale-mail",
+    "name": "Масштабная кольчуга",
+    "races": [],
+    "reference": {
+      "index": "scale-mail",
+      "name": "Масштабная кольчуга",
+      "url": "/api/equipment/scale-mail"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/scale-mail"
+  },
+  {
+    "classes": [],
+    "index": "breastplate",
+    "name": "Кираса",
+    "races": [],
+    "reference": {
+      "index": "breastplate",
+      "name": "Кираса",
+      "url": "/api/equipment/breastplate"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/breastplate"
+  },
+  {
+    "classes": [],
+    "index": "half-plate-armor",
+    "name": "Полулатный доспех",
+    "races": [],
+    "reference": {
+      "index": "half-plate-armor",
+      "name": "Полулатный доспех",
+      "url": "/api/equipment/half-plate-armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/half-plate-armor"
+  },
+  {
+    "classes": [],
+    "index": "ring-mail",
+    "name": "Кольцевая почта",
+    "races": [],
+    "reference": {
+      "index": "ring-mail",
+      "name": "Кольцевая почта",
+      "url": "/api/equipment/ring-mail"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/ring-mail"
+  },
+  {
+    "classes": [],
+    "index": "chain-mail",
+    "name": "Кольчуга",
+    "races": [],
+    "reference": {
+      "index": "chain-mail",
+      "name": "Кольчуга",
+      "url": "/api/equipment/chain-mail"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/chain-mail"
+  },
+  {
+    "classes": [],
+    "index": "splint-armor",
+    "name": "Шинная броня",
+    "races": [],
+    "reference": {
+      "index": "splint-armor",
+      "name": "Шинная броня",
+      "url": "/api/equipment/splint-armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/splint-armor"
+  },
+  {
+    "classes": [],
+    "index": "plate-armor",
+    "name": "Латный доспех",
+    "races": [],
+    "reference": {
+      "index": "plate-armor",
+      "name": "Латный доспех",
+      "url": "/api/equipment/plate-armor"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/plate-armor"
+  },
+  {
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Варвар",
+        "url": "/api/classes/barbarian"
+      },
+      {
+        "index": "cleric",
+        "name": "Священник",
+        "url": "/api/classes/cleric"
+      },
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      },
+      {
+        "index": "fighter",
+        "name": "боец",
+        "url": "/api/classes/fighter"
+      },
+      {
+        "index": "paladin",
+        "name": "Паладин",
+        "url": "/api/classes/paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "Рейнджер",
+        "url": "/api/classes/ranger"
+      }
+    ],
+    "index": "shields",
+    "name": "Щиты",
+    "races": [],
+    "reference": {
+      "index": "shield",
+      "name": "Щит",
+      "url": "/api/equipment/shield"
+    },
+    "type": "Броня",
+    "url": "/api/proficiencies/shields"
+  },
+  {
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Варвар",
+        "url": "/api/classes/barbarian"
+      },
+      {
+        "index": "bard",
+        "name": "Бард",
+        "url": "/api/classes/bard"
+      },
+      {
+        "index": "cleric",
+        "name": "Священник",
+        "url": "/api/classes/cleric"
+      },
+      {
+        "index": "fighter",
+        "name": "боец",
+        "url": "/api/classes/fighter"
+      },
+      {
+        "index": "monk",
+        "name": "Монах",
+        "url": "/api/classes/monk"
+      },
+      {
+        "index": "paladin",
+        "name": "Паладин",
+        "url": "/api/classes/paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "Рейнджер",
+        "url": "/api/classes/ranger"
+      },
+      {
+        "index": "rogue",
+        "name": "Негодяй",
+        "url": "/api/classes/rogue"
+      },
+      {
+        "index": "warlock",
+        "name": "Чернокнижник",
+        "url": "/api/classes/warlock"
+      }
+    ],
+    "index": "simple-weapons",
+    "name": "Простое оружие",
+    "races": [],
+    "reference": {
+      "index": "simple-weapons",
+      "name": "Простое оружие",
+      "url": "/api/equipment-categories/simple-weapons"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/simple-weapons"
+  },
+  {
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Варвар",
+        "url": "/api/classes/barbarian"
+      },
+      {
+        "index": "fighter",
+        "name": "боец",
+        "url": "/api/classes/fighter"
+      },
+      {
+        "index": "paladin",
+        "name": "Паладин",
+        "url": "/api/classes/paladin"
+      },
+      {
+        "index": "ranger",
+        "name": "Рейнджер",
+        "url": "/api/classes/ranger"
+      }
+    ],
+    "index": "martial-weapons",
+    "name": "Боевое оружие",
+    "races": [],
+    "reference": {
+      "index": "martial-weapons",
+      "name": "Боевое оружие",
+      "url": "/api/equipment-categories/martial-weapons"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/martial-weapons"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      }
+    ],
+    "index": "clubs",
+    "name": "Клубы",
+    "races": [],
+    "reference": {
+      "index": "club",
+      "name": "Клуб",
+      "url": "/api/equipment/club"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/clubs"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Колдун",
+        "url": "/api/classes/sorcerer"
+      },
+      {
+        "index": "wizard",
+        "name": "Волшебник",
+        "url": "/api/classes/wizard"
+      }
+    ],
+    "index": "daggers",
+    "name": "Кинжалы",
+    "races": [],
+    "reference": {
+      "index": "dagger",
+      "name": "Кинжал",
+      "url": "/api/equipment/dagger"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/daggers"
+  },
+  {
+    "classes": [],
+    "index": "greatclubs",
+    "name": "Отличныеклубы",
+    "races": [],
+    "reference": {
+      "index": "greatclub",
+      "name": "Отличный клуб",
+      "url": "/api/equipment/greatclub"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/greatclubs"
+  },
+  {
+    "classes": [],
+    "index": "handaxes",
+    "name": "Ручные топоры",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Карлик",
+        "url": "/api/races/dwarf"
+      }
+    ],
+    "reference": {
+      "index": "handaxe",
+      "name": "Ручной топор",
+      "url": "/api/equipment/handaxe"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/handaxes"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      }
+    ],
+    "index": "javelins",
+    "name": "Джавелины",
+    "races": [],
+    "reference": {
+      "index": "javelin",
+      "name": "Копье",
+      "url": "/api/equipment/javelin"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/javelins"
+  },
+  {
+    "classes": [],
+    "index": "light-hammers",
+    "name": "Легкие молотки",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Карлик",
+        "url": "/api/races/dwarf"
+      }
+    ],
+    "reference": {
+      "index": "light-hammer",
+      "name": "Легкий молоток",
+      "url": "/api/equipment/light-hammer"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/light-hammers"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      }
+    ],
+    "index": "maces",
+    "name": "Булавы",
+    "races": [],
+    "reference": {
+      "index": "mace",
+      "name": "Мейс",
+      "url": "/api/equipment/mace"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/maces"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Колдун",
+        "url": "/api/classes/sorcerer"
+      },
+      {
+        "index": "wizard",
+        "name": "Волшебник",
+        "url": "/api/classes/wizard"
+      }
+    ],
+    "index": "quarterstaffs",
+    "name": "Посохи",
+    "races": [],
+    "reference": {
+      "index": "quarterstaff",
+      "name": "Посох",
+      "url": "/api/equipment/quarterstaff"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/quarterstaffs"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      }
+    ],
+    "index": "sickles",
+    "name": "Серпы",
+    "races": [],
+    "reference": {
+      "index": "sickle",
+      "name": "Серп",
+      "url": "/api/equipment/sickle"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/sickles"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      }
+    ],
+    "index": "spears",
+    "name": "Спирс",
+    "races": [],
+    "reference": {
+      "index": "spear",
+      "name": "Копье",
+      "url": "/api/equipment/spear"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/spears"
+  },
+  {
+    "classes": [
+      {
+        "index": "sorcerer",
+        "name": "Колдун",
+        "url": "/api/classes/sorcerer"
+      },
+      {
+        "index": "wizard",
+        "name": "Волшебник",
+        "url": "/api/classes/wizard"
+      }
+    ],
+    "index": "crossbows-light",
+    "name": "Арбалеты легкие",
+    "races": [],
+    "reference": {
+      "index": "crossbow-light",
+      "name": "Арбалет, легкий",
+      "url": "/api/equipment/crossbow-light"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/crossbows-light"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Колдун",
+        "url": "/api/classes/sorcerer"
+      },
+      {
+        "index": "wizard",
+        "name": "Волшебник",
+        "url": "/api/classes/wizard"
+      }
+    ],
+    "index": "darts",
+    "name": "Дартс",
+    "races": [],
+    "reference": {
+      "index": "dart",
+      "name": "Дарт",
+      "url": "/api/equipment/dart"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/darts"
+  },
+  {
+    "classes": [],
+    "index": "shortbows",
+    "name": "Короткие луки",
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "Высший Эльф",
+        "url": "/api/subraces/high-elf"
+      }
+    ],
+    "reference": {
+      "index": "shortbow",
+      "name": "Короткий лук",
+      "url": "/api/equipment/shortbow"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/shortbows"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Колдун",
+        "url": "/api/classes/sorcerer"
+      },
+      {
+        "index": "wizard",
+        "name": "Волшебник",
+        "url": "/api/classes/wizard"
+      }
+    ],
+    "index": "slings",
+    "name": "Стропы",
+    "races": [],
+    "reference": {
+      "index": "sling",
+      "name": "Слинг",
+      "url": "/api/equipment/sling"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/slings"
+  },
+  {
+    "classes": [],
+    "index": "battleaxes",
+    "name": "Боевые топоры",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Карлик",
+        "url": "/api/races/dwarf"
+      }
+    ],
+    "reference": {
+      "index": "battleaxe",
+      "name": "Боевой топор",
+      "url": "/api/equipment/battleaxe"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/battleaxes"
+  },
+  {
+    "classes": [],
+    "index": "flails",
+    "name": "Цепы",
+    "races": [],
+    "reference": {
+      "index": "flail",
+      "name": "Цеп",
+      "url": "/api/equipment/flail"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/flails"
+  },
+  {
+    "classes": [],
+    "index": "glaives",
+    "name": "Глефы",
+    "races": [],
+    "reference": {
+      "index": "glaive",
+      "name": "Глефа",
+      "url": "/api/equipment/glaive"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/glaives"
+  },
+  {
+    "classes": [],
+    "index": "greataxes",
+    "name": "Большие топоры",
+    "races": [],
+    "reference": {
+      "index": "greataxe",
+      "name": "Большой топор",
+      "url": "/api/equipment/greataxe"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/greataxes"
+  },
+  {
+    "classes": [],
+    "index": "greatswords",
+    "name": "Большие мечи",
+    "races": [],
+    "reference": {
+      "index": "greatsword",
+      "name": "Большой меч",
+      "url": "/api/equipment/greatsword"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/greatswords"
+  },
+  {
+    "classes": [],
+    "index": "halberds",
+    "name": "Алебарды",
+    "races": [],
+    "reference": {
+      "index": "halberd",
+      "name": "Алебарда",
+      "url": "/api/equipment/halberd"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/halberds"
+  },
+  {
+    "classes": [],
+    "index": "lances",
+    "name": "Копья",
+    "races": [],
+    "reference": {
+      "index": "lance",
+      "name": "Лэнс",
+      "url": "/api/equipment/lance"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/lances"
+  },
+  {
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Бард",
+        "url": "/api/classes/bard"
+      },
+      {
+        "index": "rogue",
+        "name": "Негодяй",
+        "url": "/api/classes/rogue"
+      }
+    ],
+    "index": "longswords",
+    "name": "Длинные мечи",
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "Высший Эльф",
+        "url": "/api/subraces/high-elf"
+      }
+    ],
+    "reference": {
+      "index": "longsword",
+      "name": "Длинный меч",
+      "url": "/api/equipment/longsword"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/longswords"
+  },
+  {
+    "classes": [],
+    "index": "mauls",
+    "name": "Молы",
+    "races": [],
+    "reference": {
+      "index": "maul",
+      "name": "Мол",
+      "url": "/api/equipment/maul"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/mauls"
+  },
+  {
+    "classes": [],
+    "index": "morningstars",
+    "name": "Морнингстарс",
+    "races": [],
+    "reference": {
+      "index": "morningstar",
+      "name": "Утренняя звезда",
+      "url": "/api/equipment/morningstar"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/morningstars"
+  },
+  {
+    "classes": [],
+    "index": "pikes",
+    "name": "Щуки",
+    "races": [],
+    "reference": {
+      "index": "pike",
+      "name": "Щука",
+      "url": "/api/equipment/pike"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/pikes"
+  },
+  {
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Бард",
+        "url": "/api/classes/bard"
+      },
+      {
+        "index": "rogue",
+        "name": "Негодяй",
+        "url": "/api/classes/rogue"
+      }
+    ],
+    "index": "rapiers",
+    "name": "Рапиры",
+    "races": [],
+    "reference": {
+      "index": "rapier",
+      "name": "Рапира",
+      "url": "/api/equipment/rapier"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/rapiers"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      }
+    ],
+    "index": "scimitars",
+    "name": "Ятаганы",
+    "races": [],
+    "reference": {
+      "index": "scimitar",
+      "name": "Ятаган",
+      "url": "/api/equipment/scimitar"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/scimitars"
+  },
+  {
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Бард",
+        "url": "/api/classes/bard"
+      },
+      {
+        "index": "monk",
+        "name": "Монах",
+        "url": "/api/classes/monk"
+      },
+      {
+        "index": "rogue",
+        "name": "Негодяй",
+        "url": "/api/classes/rogue"
+      }
+    ],
+    "index": "shortswords",
+    "name": "Короткие мечи",
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "Высший Эльф",
+        "url": "/api/subraces/high-elf"
+      }
+    ],
+    "reference": {
+      "index": "shortsword",
+      "name": "Короткий меч",
+      "url": "/api/equipment/shortsword"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/shortswords"
+  },
+  {
+    "classes": [],
+    "index": "tridents",
+    "name": "Трезубцы",
+    "races": [],
+    "reference": {
+      "index": "trident",
+      "name": "Трезубец",
+      "url": "/api/equipment/trident"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/tridents"
+  },
+  {
+    "classes": [],
+    "index": "war-picks",
+    "name": "Выбор войны",
+    "races": [],
+    "reference": {
+      "index": "war-pick",
+      "name": "Военный выбор",
+      "url": "/api/equipment/war-pick"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/war-picks"
+  },
+  {
+    "classes": [],
+    "index": "warhammers",
+    "name": "Боевые молоты",
+    "races": [
+      {
+        "index": "dwarf",
+        "name": "Карлик",
+        "url": "/api/races/dwarf"
+      }
+    ],
+    "reference": {
+      "index": "warhammer",
+      "name": "Вархаммер",
+      "url": "/api/equipment/warhammer"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/warhammers"
+  },
+  {
+    "classes": [],
+    "index": "whips",
+    "name": "Кнуты",
+    "races": [],
+    "reference": {
+      "index": "whip",
+      "name": "Хлыст",
+      "url": "/api/equipment/whip"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/whips"
+  },
+  {
+    "classes": [],
+    "index": "blowguns",
+    "name": "духовые пистолеты",
+    "races": [],
+    "reference": {
+      "index": "blowgun",
+      "name": "духовой пистолет",
+      "url": "/api/equipment/blowgun"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/blowguns"
+  },
+  {
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Бард",
+        "url": "/api/classes/bard"
+      },
+      {
+        "index": "rogue",
+        "name": "Негодяй",
+        "url": "/api/classes/rogue"
+      }
+    ],
+    "index": "hand-crossbows",
+    "name": "Ручные арбалеты",
+    "races": [],
+    "reference": {
+      "index": "crossbow-hand",
+      "name": "Арбалет, рука",
+      "url": "/api/equipment/crossbow-hand"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/hand-crossbows"
+  },
+  {
+    "classes": [],
+    "index": "crossbows-heavy",
+    "name": "Арбалеты, тяжелые",
+    "races": [],
+    "reference": {
+      "index": "crossbow-heavy",
+      "name": "Арбалет, тяжелый",
+      "url": "/api/equipment/crossbow-heavy"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/crossbows-heavy"
+  },
+  {
+    "classes": [],
+    "index": "longbows",
+    "name": "Длинные луки",
+    "races": [
+      {
+        "index": "high-elf",
+        "name": "Высший Эльф",
+        "url": "/api/subraces/high-elf"
+      }
+    ],
+    "reference": {
+      "index": "longbow",
+      "name": "Длинный лук",
+      "url": "/api/equipment/longbow"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/longbows"
+  },
+  {
+    "classes": [],
+    "index": "nets",
+    "name": "Сети",
+    "races": [],
+    "reference": {
+      "index": "net",
+      "name": "Сеть",
+      "url": "/api/equipment/net"
+    },
+    "type": "Оружие",
+    "url": "/api/proficiencies/nets"
+  },
+  {
+    "classes": [],
+    "index": "alchemists-supplies",
+    "name": "Принадлежности алхимика",
+    "races": [],
+    "reference": {
+      "index": "alchemists-supplies",
+      "name": "Принадлежности алхимика",
+      "url": "/api/equipment/alchemists-supplies"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/alchemists-supplies"
+  },
+  {
+    "classes": [],
+    "index": "brewers-supplies",
+    "name": "Принадлежности для пивовара",
+    "races": [],
+    "reference": {
+      "index": "brewers-supplies",
+      "name": "Принадлежности для пивовара",
+      "url": "/api/equipment/brewers-supplies"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/brewers-supplies"
+  },
+  {
+    "classes": [],
+    "index": "calligraphers-supplies",
+    "name": "Товары для каллиграфа",
+    "races": [],
+    "reference": {
+      "index": "calligraphers-supplies",
+      "name": "Товары для каллиграфа",
+      "url": "/api/equipment/calligraphers-supplies"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/calligraphers-supplies"
+  },
+  {
+    "classes": [],
+    "index": "carpenters-tools",
+    "name": "Инструменты плотника",
+    "races": [],
+    "reference": {
+      "index": "carpenters-tools",
+      "name": "Инструменты плотника",
+      "url": "/api/equipment/carpenters-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/carpenters-tools"
+  },
+  {
+    "classes": [],
+    "index": "cartographers-tools",
+    "name": "Инструменты картографа",
+    "races": [],
+    "reference": {
+      "index": "cartographers-tools",
+      "name": "Инструменты картографа",
+      "url": "/api/equipment/cartographers-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/cartographers-tools"
+  },
+  {
+    "classes": [],
+    "index": "cobblers-tools",
+    "name": "Инструменты сапожника",
+    "races": [],
+    "reference": {
+      "index": "cobblers-tools",
+      "name": "Инструменты сапожника",
+      "url": "/api/equipment/cobblers-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/cobblers-tools"
+  },
+  {
+    "classes": [],
+    "index": "cooks-utensils",
+    "name": "Поварская посуда",
+    "races": [],
+    "reference": {
+      "index": "cooks-utensils",
+      "name": "Поварская посуда",
+      "url": "/api/equipment/cooks-utensils"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/cooks-utensils"
+  },
+  {
+    "classes": [],
+    "index": "glassblowers-tools",
+    "name": "Инструменты стеклодува",
+    "races": [],
+    "reference": {
+      "index": "glassblowers-tools",
+      "name": "Инструменты стеклодува",
+      "url": "/api/equipment/glassblowers-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/glassblowers-tools"
+  },
+  {
+    "classes": [],
+    "index": "jewelers-tools",
+    "name": "Ювелирные инструменты",
+    "races": [],
+    "reference": {
+      "index": "jewelers-tools",
+      "name": "Ювелирные инструменты",
+      "url": "/api/equipment/jewelers-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/jewelers-tools"
+  },
+  {
+    "classes": [],
+    "index": "leatherworkers-tools",
+    "name": "Инструменты кожевника",
+    "races": [],
+    "reference": {
+      "index": "leatherworkers-tools",
+      "name": "Инструменты кожевника",
+      "url": "/api/equipment/leatherworkers-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/leatherworkers-tools"
+  },
+  {
+    "classes": [],
+    "index": "masons-tools",
+    "name": "Инструменты Мейсона",
+    "races": [],
+    "reference": {
+      "index": "masons-tools",
+      "name": "Инструменты Мейсона",
+      "url": "/api/equipment/masons-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/masons-tools"
+  },
+  {
+    "classes": [],
+    "index": "painters-supplies",
+    "name": "Товары художника",
+    "races": [],
+    "reference": {
+      "index": "painters-supplies",
+      "name": "Товары художника",
+      "url": "/api/equipment/painters-supplies"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/painters-supplies"
+  },
+  {
+    "classes": [],
+    "index": "potters-tools",
+    "name": "Инструменты гончара",
+    "races": [],
+    "reference": {
+      "index": "potters-tools",
+      "name": "Инструменты гончара",
+      "url": "/api/equipment/potters-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/potters-tools"
+  },
+  {
+    "classes": [],
+    "index": "smiths-tools",
+    "name": "Инструменты Смита",
+    "races": [],
+    "reference": {
+      "index": "smiths-tools",
+      "name": "Инструменты Смита",
+      "url": "/api/equipment/smiths-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/smiths-tools"
+  },
+  {
+    "classes": [],
+    "index": "tinkers-tools",
+    "name": "Инструменты Тинкера",
+    "races": [],
+    "reference": {
+      "index": "tinkers-tools",
+      "name": "Инструменты Тинкера",
+      "url": "/api/equipment/tinkers-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/tinkers-tools"
+  },
+  {
+    "classes": [],
+    "index": "weavers-tools",
+    "name": "Инструменты ткача",
+    "races": [],
+    "reference": {
+      "index": "weavers-tools",
+      "name": "Инструменты ткача",
+      "url": "/api/equipment/weavers-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/weavers-tools"
+  },
+  {
+    "classes": [],
+    "index": "woodcarvers-tools",
+    "name": "Инструменты резчика по дереву",
+    "races": [],
+    "reference": {
+      "index": "woodcarvers-tools",
+      "name": "Инструменты резчика по дереву",
+      "url": "/api/equipment/woodcarvers-tools"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/woodcarvers-tools"
+  },
+  {
+    "classes": [],
+    "index": "disguise-kit",
+    "name": "Маскировочный комплект",
+    "races": [],
+    "reference": {
+      "index": "disguise-kit",
+      "name": "Маскировочный комплект",
+      "url": "/api/equipment/disguise-kit"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/disguise-kit"
+  },
+  {
+    "classes": [],
+    "index": "forgery-kit",
+    "name": "Подделочный комплект",
+    "races": [],
+    "reference": {
+      "index": "forgery-kit",
+      "name": "Подделочный комплект",
+      "url": "/api/equipment/forgery-kit"
+    },
+    "type": "Инструменты ремесленника",
+    "url": "/api/proficiencies/forgery-kit"
+  },
+  {
+    "classes": [],
+    "index": "dice-set",
+    "name": "Набор кубиков",
+    "races": [],
+    "reference": {
+      "index": "dice-set",
+      "name": "Набор кубиков",
+      "url": "/api/equipment/dice-set"
+    },
+    "type": "Игровые наборы",
+    "url": "/api/proficiencies/dice-set"
+  },
+  {
+    "classes": [],
+    "index": "playing-card-set",
+    "name": "Набор игральных карт",
+    "races": [],
+    "reference": {
+      "index": "playing-card-set",
+      "name": "Набор игральных карт",
+      "url": "/api/equipment/playing-card-set"
+    },
+    "type": "Игровые наборы",
+    "url": "/api/proficiencies/playing-card-set"
+  },
+  {
+    "classes": [],
+    "index": "bagpipes",
+    "name": "Волынки",
+    "races": [],
+    "reference": {
+      "index": "bagpipes",
+      "name": "Волынки",
+      "url": "/api/equipment/bagpipes"
+    },
+    "type": "Музыкальные инструменты",
+    "url": "/api/proficiencies/bagpipes"
+  },
+  {
+    "classes": [],
+    "index": "drum",
+    "name": "Барабан",
+    "races": [],
+    "reference": {
+      "index": "drum",
+      "name": "Барабан",
+      "url": "/api/equipment/drum"
+    },
+    "type": "Музыкальные инструменты",
+    "url": "/api/proficiencies/drum"
+  },
+  {
+    "classes": [],
+    "index": "dulcimer",
+    "name": "Цимбалы",
+    "races": [],
+    "reference": {
+      "index": "dulcimer",
+      "name": "Цимбалы",
+      "url": "/api/equipment/dulcimer"
+    },
+    "type": "Музыкальные инструменты",
+    "url": "/api/proficiencies/dulcimer"
+  },
+  {
+    "classes": [],
+    "index": "flute",
+    "name": "Флейта",
+    "races": [],
+    "reference": {
+      "index": "flute",
+      "name": "Флейта",
+      "url": "/api/equipment/flute"
+    },
+    "type": "Музыкальные инструменты",
+    "url": "/api/proficiencies/flute"
+  },
+  {
+    "classes": [],
+    "index": "lute",
+    "name": "Лютня",
+    "races": [],
+    "reference": {
+      "index": "lute",
+      "name": "Лютня",
+      "url": "/api/equipment/lute"
+    },
+    "type": "Музыкальные инструменты",
+    "url": "/api/proficiencies/lute"
+  },
+  {
+    "classes": [],
+    "index": "lyre",
+    "name": "Лира",
+    "races": [],
+    "reference": {
+      "index": "lyre",
+      "name": "Лира",
+      "url": "/api/equipment/lyre"
+    },
+    "type": "Музыкальные инструменты",
+    "url": "/api/proficiencies/lyre"
+  },
+  {
+    "classes": [],
+    "index": "horn",
+    "name": "Рог",
+    "races": [],
+    "reference": {
+      "index": "horn",
+      "name": "Рог",
+      "url": "/api/equipment/horn"
+    },
+    "type": "Музыкальные инструменты",
+    "url": "/api/proficiencies/horn"
+  },
+  {
+    "classes": [],
+    "index": "pan-flute",
+    "name": "Флейта Пана",
+    "races": [],
+    "reference": {
+      "index": "pan-flute",
+      "name": "Флейта Пана",
+      "url": "/api/equipment/pan-flute"
+    },
+    "type": "Музыкальные инструменты",
+    "url": "/api/proficiencies/pan-flute"
+  },
+  {
+    "classes": [],
+    "index": "shawm",
+    "name": "Шаум",
+    "races": [],
+    "reference": {
+      "index": "shawm",
+      "name": "Шаум",
+      "url": "/api/equipment/shawm"
+    },
+    "type": "Музыкальные инструменты",
+    "url": "/api/proficiencies/shawm"
+  },
+  {
+    "classes": [],
+    "index": "viol",
+    "name": "Виола",
+    "races": [],
+    "reference": {
+      "index": "viol",
+      "name": "Виола",
+      "url": "/api/equipment/viol"
+    },
+    "type": "Музыкальные инструменты",
+    "url": "/api/proficiencies/viol"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      }
+    ],
+    "index": "herbalism-kit",
+    "name": "Набор для траволечения",
+    "races": [],
+    "reference": {
+      "index": "herbalism-kit",
+      "name": "Набор для траволечения",
+      "url": "/api/equipment/herbalism-kit"
+    },
+    "type": "Другой",
+    "url": "/api/proficiencies/herbalism-kit"
+  },
+  {
+    "classes": [],
+    "index": "navigators-tools",
+    "name": "Инструменты навигатора",
+    "races": [],
+    "reference": {
+      "index": "navigators-tools",
+      "name": "Инструменты навигатора",
+      "url": "/api/equipment/navigators-tools"
+    },
+    "type": "Другой",
+    "url": "/api/proficiencies/navigators-tools"
+  },
+  {
+    "classes": [],
+    "index": "poisoners-kit",
+    "name": "Набор отравителя",
+    "races": [],
+    "reference": {
+      "index": "poisoners-kit",
+      "name": "Набор отравителя",
+      "url": "/api/equipment/poisoners-kit"
+    },
+    "type": "Другой",
+    "url": "/api/proficiencies/poisoners-kit"
+  },
+  {
+    "classes": [
+      {
+        "index": "rogue",
+        "name": "Негодяй",
+        "url": "/api/classes/rogue"
+      }
+    ],
+    "index": "thieves-tools",
+    "name": "Воровские инструменты",
+    "races": [],
+    "reference": {
+      "index": "thieves-tools",
+      "name": "Воровские инструменты",
+      "url": "/api/equipment/thieves-tools"
+    },
+    "type": "Другой",
+    "url": "/api/proficiencies/thieves-tools"
+  },
+  {
+    "classes": [],
+    "index": "land-vehicles",
+    "name": "Наземные транспортные средства",
+    "races": [],
+    "reference": {
+      "index": "land-vehicles",
+      "name": "Наземные транспортные средства",
+      "url": "/api/equipment-categories/land-vehicles"
+    },
+    "type": "Транспортные средства",
+    "url": "/api/proficiencies/land-vehicles"
+  },
+  {
+    "classes": [],
+    "index": "water-vehicles",
+    "name": "Водный транспорт",
+    "races": [],
+    "reference": {
+      "index": "waterborne-vehicles",
+      "name": "Водный транспорт",
+      "url": "/api/equipment-categories/waterborne-vehicles"
+    },
+    "type": "Транспортные средства",
+    "url": "/api/proficiencies/water-vehicles"
+  },
+  {
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Варвар",
+        "url": "/api/classes/barbarian"
+      },
+      {
+        "index": "fighter",
+        "name": "боец",
+        "url": "/api/classes/fighter"
+      },
+      {
+        "index": "monk",
+        "name": "Монах",
+        "url": "/api/classes/monk"
+      },
+      {
+        "index": "ranger",
+        "name": "Рейнджер",
+        "url": "/api/classes/ranger"
+      }
+    ],
+    "index": "saving-throw-str",
+    "name": "Спасительный бросок: СИЛ",
+    "races": [],
+    "reference": {
+      "index": "str",
+      "name": "СТР",
+      "url": "/api/ability-scores/str"
+    },
+    "type": "Спасительные броски",
+    "url": "/api/proficiencies/saving-throw-str"
+  },
+  {
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Бард",
+        "url": "/api/classes/bard"
+      },
+      {
+        "index": "monk",
+        "name": "Монах",
+        "url": "/api/classes/monk"
+      },
+      {
+        "index": "ranger",
+        "name": "Рейнджер",
+        "url": "/api/classes/ranger"
+      },
+      {
+        "index": "rogue",
+        "name": "Негодяй",
+        "url": "/api/classes/rogue"
+      }
+    ],
+    "index": "saving-throw-dex",
+    "name": "Спасительный бросок: DEX",
+    "races": [],
+    "reference": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/ability-scores/dex"
+    },
+    "type": "Спасительные броски",
+    "url": "/api/proficiencies/saving-throw-dex"
+  },
+  {
+    "classes": [
+      {
+        "index": "barbarian",
+        "name": "Варвар",
+        "url": "/api/classes/barbarian"
+      },
+      {
+        "index": "fighter",
+        "name": "боец",
+        "url": "/api/classes/fighter"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Колдун",
+        "url": "/api/classes/sorcerer"
+      }
+    ],
+    "index": "saving-throw-con",
+    "name": "Спасительный бросок: ВЫН",
+    "races": [],
+    "reference": {
+      "index": "con",
+      "name": "ПРОТИВ",
+      "url": "/api/ability-scores/con"
+    },
+    "type": "Спасительные броски",
+    "url": "/api/proficiencies/saving-throw-con"
+  },
+  {
+    "classes": [
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      },
+      {
+        "index": "rogue",
+        "name": "Негодяй",
+        "url": "/api/classes/rogue"
+      },
+      {
+        "index": "wizard",
+        "name": "Волшебник",
+        "url": "/api/classes/wizard"
+      }
+    ],
+    "index": "saving-throw-int",
+    "name": "Спасительный бросок: INT",
+    "races": [],
+    "reference": {
+      "index": "int",
+      "name": "ИНТ.",
+      "url": "/api/ability-scores/int"
+    },
+    "type": "Спасительные броски",
+    "url": "/api/proficiencies/saving-throw-int"
+  },
+  {
+    "classes": [
+      {
+        "index": "cleric",
+        "name": "Священник",
+        "url": "/api/classes/cleric"
+      },
+      {
+        "index": "druid",
+        "name": "Друид",
+        "url": "/api/classes/druid"
+      },
+      {
+        "index": "paladin",
+        "name": "Паладин",
+        "url": "/api/classes/paladin"
+      },
+      {
+        "index": "warlock",
+        "name": "Чернокнижник",
+        "url": "/api/classes/warlock"
+      },
+      {
+        "index": "wizard",
+        "name": "Волшебник",
+        "url": "/api/classes/wizard"
+      }
+    ],
+    "index": "saving-throw-wis",
+    "name": "Спасительный бросок: WIS",
+    "races": [],
+    "reference": {
+      "index": "wis",
+      "name": "ИСВ",
+      "url": "/api/ability-scores/wis"
+    },
+    "type": "Спасительные броски",
+    "url": "/api/proficiencies/saving-throw-wis"
+  },
+  {
+    "classes": [
+      {
+        "index": "bard",
+        "name": "Бард",
+        "url": "/api/classes/bard"
+      },
+      {
+        "index": "cleric",
+        "name": "Священник",
+        "url": "/api/classes/cleric"
+      },
+      {
+        "index": "paladin",
+        "name": "Паладин",
+        "url": "/api/classes/paladin"
+      },
+      {
+        "index": "sorcerer",
+        "name": "Колдун",
+        "url": "/api/classes/sorcerer"
+      },
+      {
+        "index": "warlock",
+        "name": "Чернокнижник",
+        "url": "/api/classes/warlock"
+      }
+    ],
+    "index": "saving-throw-cha",
+    "name": "Спасительный бросок: CHA",
+    "races": [],
+    "reference": {
+      "index": "cha",
+      "name": "ЦДХ",
+      "url": "/api/ability-scores/cha"
+    },
+    "type": "Спасительные броски",
+    "url": "/api/proficiencies/saving-throw-cha"
+  },
+  {
+    "classes": [],
+    "index": "skill-acrobatics",
+    "name": "Навык: Акробатика",
+    "races": [],
+    "reference": {
+      "index": "acrobatics",
+      "name": "Акробатика",
+      "url": "/api/skills/acrobatics"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-acrobatics"
+  },
+  {
+    "classes": [],
+    "index": "skill-animal-handling",
+    "name": "Навык: Обращение с животными",
+    "races": [],
+    "reference": {
+      "index": "animal-handling",
+      "name": "Обращение с животными",
+      "url": "/api/skills/animal-handling"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-animal-handling"
+  },
+  {
+    "classes": [],
+    "index": "skill-arcana",
+    "name": "Навык: Аркана",
+    "races": [],
+    "reference": {
+      "index": "arcana",
+      "name": "Арканы",
+      "url": "/api/skills/arcana"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-arcana"
+  },
+  {
+    "classes": [],
+    "index": "skill-athletics",
+    "name": "Навык: легкая атлетика",
+    "races": [],
+    "reference": {
+      "index": "athletics",
+      "name": "легкая атлетика",
+      "url": "/api/skills/athletics"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-athletics"
+  },
+  {
+    "classes": [],
+    "index": "skill-deception",
+    "name": "Навык: Обман",
+    "races": [],
+    "reference": {
+      "index": "deception",
+      "name": "Обман",
+      "url": "/api/skills/deception"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-deception"
+  },
+  {
+    "classes": [],
+    "index": "skill-history",
+    "name": "Навык: История",
+    "races": [],
+    "reference": {
+      "index": "history",
+      "name": "История",
+      "url": "/api/skills/history"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-history"
+  },
+  {
+    "classes": [],
+    "index": "skill-insight",
+    "name": "Навык: Проницательность",
+    "races": [],
+    "reference": {
+      "index": "insight",
+      "name": "Понимание",
+      "url": "/api/skills/insight"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-insight"
+  },
+  {
+    "classes": [],
+    "index": "skill-intimidation",
+    "name": "Навык: Запугивание",
+    "races": [],
+    "reference": {
+      "index": "intimidation",
+      "name": "Запугивание",
+      "url": "/api/skills/intimidation"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-intimidation"
+  },
+  {
+    "classes": [],
+    "index": "skill-investigation",
+    "name": "Навык: Расследование",
+    "races": [],
+    "reference": {
+      "index": "investigation",
+      "name": "Расследование",
+      "url": "/api/skills/investigation"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-investigation"
+  },
+  {
+    "classes": [],
+    "index": "skill-medicine",
+    "name": "Навык: Медицина",
+    "races": [],
+    "reference": {
+      "index": "medicine",
+      "name": "Лекарство",
+      "url": "/api/skills/medicine"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-medicine"
+  },
+  {
+    "classes": [],
+    "index": "skill-nature",
+    "name": "Навык: Природа",
+    "races": [],
+    "reference": {
+      "index": "nature",
+      "name": "Природа",
+      "url": "/api/skills/nature"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-nature"
+  },
+  {
+    "classes": [],
+    "index": "skill-perception",
+    "name": "Навык: Восприятие",
+    "races": [
+      {
+        "index": "elf",
+        "name": "Эльф",
+        "url": "/api/races/elf"
+      }
+    ],
+    "reference": {
+      "index": "perception",
+      "name": "Восприятие",
+      "url": "/api/skills/perception"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-perception"
+  },
+  {
+    "classes": [],
+    "index": "skill-performance",
+    "name": "Навык: Производительность",
+    "races": [],
+    "reference": {
+      "index": "performance",
+      "name": "Производительность",
+      "url": "/api/skills/performance"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-performance"
+  },
+  {
+    "classes": [],
+    "index": "skill-persuasion",
+    "name": "Навык: Убеждение",
+    "races": [],
+    "reference": {
+      "index": "persuasion",
+      "name": "Убеждение",
+      "url": "/api/skills/persuasion"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-persuasion"
+  },
+  {
+    "classes": [],
+    "index": "skill-religion",
+    "name": "Навык: Религия",
+    "races": [],
+    "reference": {
+      "index": "religion",
+      "name": "Религия",
+      "url": "/api/skills/religion"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-religion"
+  },
+  {
+    "classes": [],
+    "index": "skill-sleight-of-hand",
+    "name": "Навык: Ловкость рук",
+    "races": [],
+    "reference": {
+      "index": "sleight-of-hand",
+      "name": "Ловкость рук",
+      "url": "/api/skills/sleight-of-hand"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-sleight-of-hand"
+  },
+  {
+    "classes": [],
+    "index": "skill-stealth",
+    "name": "Навык: Скрытность",
+    "races": [],
+    "reference": {
+      "index": "stealth",
+      "name": "Скрытность",
+      "url": "/api/skills/stealth"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-stealth"
+  },
+  {
+    "classes": [],
+    "index": "skill-survival",
+    "name": "Навык: Выживание",
+    "races": [],
+    "reference": {
+      "index": "survival",
+      "name": "Выживание",
+      "url": "/api/skills/survival"
+    },
+    "type": "Навыки",
+    "url": "/api/proficiencies/skill-survival"
+  }
+]

@@ -1,0 +1,309 @@
+[
+  {
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "wis",
+          "name": "ИСВ",
+          "url": "/api/ability-scores/wis"
+        },
+        "bonus": 1
+      }
+    ],
+    "desc": "Будучи холмовым дварфом, вы обладаете острыми чувствами, глубокой интуицией и замечательной стойкостью.",
+    "index": "hill-dwarf",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "languages": [],
+    "name": "Холмовый гном",
+    "race": {
+      "index": "dwarf",
+      "name": "Карлик",
+      "url": "/api/races/dwarf"
+    },
+    "racial_traits": [
+      {
+        "index": "dwarven-toughness",
+        "name": "Гномья стойкость",
+        "url": "/api/traits/dwarven-toughness"
+      }
+    ],
+    "starting_proficiencies": [],
+    "url": "/api/subraces/hill-dwarf"
+  },
+  {
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "int",
+          "name": "ИНТ.",
+          "url": "/api/ability-scores/int"
+        },
+        "bonus": 1
+      }
+    ],
+    "desc": "Как высший эльф, вы обладаете острым умом и владеете, по крайней мере, основами магии. Во многих фэнтезийных игровых мирах есть два вида высших эльфов. Один тип — надменный и замкнутый, считающий себя выше не-эльфов и даже других эльфов. Другой тип более распространен и более дружелюбен и часто встречается среди людей и других рас.",
+    "index": "high-elf",
+    "language_options": {
+      "choose": 1,
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "item": {
+              "index": "dwarvish",
+              "name": "гномий",
+              "url": "/api/languages/dwarvish"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "giant",
+              "name": "Гигант",
+              "url": "/api/languages/giant"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "gnomish",
+              "name": "гномский",
+              "url": "/api/languages/gnomish"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "goblin",
+              "name": "Гоблин",
+              "url": "/api/languages/goblin"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "halfling",
+              "name": "Халфлинг",
+              "url": "/api/languages/halfling"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "orc",
+              "name": "орк",
+              "url": "/api/languages/orc"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "abyssal",
+              "name": "Бездна",
+              "url": "/api/languages/abyssal"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "celestial",
+              "name": "Небесный",
+              "url": "/api/languages/celestial"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "draconic",
+              "name": "Драконий",
+              "url": "/api/languages/draconic"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "deep-speech",
+              "name": "Глубокая речь",
+              "url": "/api/languages/deep-speech"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "infernal",
+              "name": "Адский",
+              "url": "/api/languages/infernal"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "primordial",
+              "name": "Первозданный",
+              "url": "/api/languages/primordial"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "sylvan",
+              "name": "Сильван",
+              "url": "/api/languages/sylvan"
+            },
+            "option_type": "reference"
+          },
+          {
+            "item": {
+              "index": "undercommon",
+              "name": "Необычный",
+              "url": "/api/languages/undercommon"
+            },
+            "option_type": "reference"
+          }
+        ]
+      },
+      "type": "language"
+    },
+    "languages": [],
+    "name": "Высший Эльф",
+    "race": {
+      "index": "elf",
+      "name": "Эльф",
+      "url": "/api/races/elf"
+    },
+    "racial_traits": [
+      {
+        "index": "elf-weapon-training",
+        "name": "Обучение владению оружием эльфа",
+        "url": "/api/traits/elf-weapon-training"
+      },
+      {
+        "index": "high-elf-cantrip",
+        "name": "Заговор высших эльфов",
+        "url": "/api/traits/high-elf-cantrip"
+      },
+      {
+        "index": "extra-language",
+        "name": "Дополнительный язык",
+        "url": "/api/traits/extra-language"
+      }
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "longswords",
+        "name": "Длинные мечи",
+        "url": "/api/proficiencies/longswords"
+      },
+      {
+        "index": "shortswords",
+        "name": "Короткие мечи",
+        "url": "/api/proficiencies/shortswords"
+      },
+      {
+        "index": "shortbows",
+        "name": "Короткие луки",
+        "url": "/api/proficiencies/shortbows"
+      },
+      {
+        "index": "longbows",
+        "name": "Длинные луки",
+        "url": "/api/proficiencies/longbows"
+      }
+    ],
+    "url": "/api/subraces/high-elf"
+  },
+  {
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "cha",
+          "name": "ЦДХ",
+          "url": "/api/ability-scores/cha"
+        },
+        "bonus": 1
+      }
+    ],
+    "desc": "Будучи легконогим халфлингом, вы можете легко скрыться от внимания, даже используя других людей в качестве прикрытия. Вы склонны быть приветливыми и хорошо ладите с другими. Легконогие более склонны к странствиям, чем другие халфлинги, и часто живут рядом с другими расами или ведут кочевой образ жизни.",
+    "index": "lightfoot-halfling",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "languages": [],
+    "name": "Легконогий халфлинг",
+    "race": {
+      "index": "halfling",
+      "name": "Халфлинг",
+      "url": "/api/races/halfling"
+    },
+    "racial_traits": [
+      {
+        "index": "naturally-stealthy",
+        "name": "Естественно скрытный",
+        "url": "/api/traits/naturally-stealthy"
+      }
+    ],
+    "starting_proficiencies": [],
+    "url": "/api/subraces/lightfoot-halfling"
+  },
+  {
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "con",
+          "name": "ПРОТИВ",
+          "url": "/api/ability-scores/con"
+        },
+        "bonus": 1
+      }
+    ],
+    "desc": "Будучи каменным гномом, вы обладаете природной изобретательностью и выносливостью, превосходящей других гномов.",
+    "index": "rock-gnome",
+    "language_options": {
+      "choose": 0,
+      "from": {
+        "option_set_type": "",
+        "options": null
+      },
+      "type": ""
+    },
+    "languages": [],
+    "name": "Каменный гном",
+    "race": {
+      "index": "gnome",
+      "name": "Гном",
+      "url": "/api/races/gnome"
+    },
+    "racial_traits": [
+      {
+        "index": "artificers-lore",
+        "name": "Знания ремесленника",
+        "url": "/api/traits/artificers-lore"
+      },
+      {
+        "index": "tinker",
+        "name": "Тинкер",
+        "url": "/api/traits/tinker"
+      }
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "tinkers-tools",
+        "name": "Инструменты Тинкера",
+        "url": "/api/proficiencies/tinkers-tools"
+      }
+    ],
+    "url": "/api/subraces/rock-gnome"
+  }
+]
